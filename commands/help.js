@@ -1,0 +1,8 @@
+exports.run = (client, message, args, Discord) => {
+
+  var embed = new Discord.RichEmbed();
+  let guildinfo = client.getGuild.get(message.guild.id);
+  var reply = "__User Commands:__\n\nBehemoth Information:\n`!Behemoth Info` - General information about a specific behemoth\n*Example:* `!Shockjaw Info` or `!Behemoth Shockjaw`\n`!Behemoth Armour BodyPart` - Specific information about armour from a behemoth\n*Example:* `!Shockjaw Armour Chestplate` or `!behemoth shockjaw Armour Chestplate`\n`!Behemoth Weapon Type` - Specific information about weapons from a behemoth\n*Example:* `!Shockjaw Weapon Axe` or `!behemoth shockjaw Weapon Axe`\n`!Behemoth Lantern` - Specific information about lantern from a behemoth\n*Example:* `!Drask lantern` or `!lantern Shrike`\n\nCell information:\n`!Cell CellName` - Specific information about a specific cell\n*Example:* `!Cell Medic`\n\nExotic information:\n`!Exotic ExoticName` - General information about a specific exotic\n*Example:* `!exotic The Hunger`\n`!recipe ExoticName Level` - Shows the recipe cost for a specific exotic on a specific level\n*Example:* `!recipe The Hunger total` or `!recipe The Hunger +8`\nIsland information:\n`!Island IslandName` - Specific information about a specific island\n*Example:* `!Island Amber-22`\n`!Rotation` - Specific information about the behemoths currently available in the Maelstrom & which behemoths are coming next.\n\n\n__Admin Commands:__\n`!Prefix` - Change the bots prefix\n`@bot prefix` - Reset the bots prefix to `!`";
+  message.channel.send("Sent you a private message with information about the commands!");
+  message.author.send(reply);
+}
