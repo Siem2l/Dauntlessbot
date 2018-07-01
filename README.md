@@ -1,7 +1,7 @@
 # Dauntless bot
 Discord bot for getting information about the game Dauntless from Phoenix Labs.
 ## Invite the bot to your server
-[Invte the bot to your server](https://discordapp.com/api/oauth2/authorize?client_id=458254594674393101&permissions=388160&scope=bot)
+[Invite the bot to your server](https://discordapp.com/api/oauth2/authorize?client_id=458254594674393101&permissions=388160&scope=bot)
 ## Features
 * Behemoth Information
 * Armour & Weapon Information
