@@ -4,54 +4,59 @@ Discord bot for getting information about the game Dauntless from Phoenix Labs.
 [Invte the bot to your server](https://discordapp.com/api/oauth2/authorize?client_id=458254594674393101&permissions=388160&scope=bot)
 ## Features
 * Behemoth Information
-* Armour and Weapon Information
-* Lantern information
-* Island infromation
-* Automatically updating Maelstrom rotation command
-* Exotic information 
-* Recipe information of every Exotic from base to total
-* Guild specific prefixes (Default is : "!")
-
+* Armour & Weapon Information
+* Lantern Information
+* Island Information
+* Auto-Updating Maelstrom Island Rotation
+* Exotic information (Inc. Crafting Materials)
+ 
 ## Command examples
 Behemoth information:
 ```
-!behemoth ragetail gnasher
-!ragetail info
-!behemoth drask
+!Behemoth <Behemoth Name>
+Example: !Behemoth Drask
+!<Behemoth Name> Info
+Example: !Drask Info
+ 
 ```
 Armour and Weapon information:
 ```
-!ragetail armour helmet
-!ragetail weapon chainblades
-!weapon ragetail gnasher warpike
-!armour ragetail gnasher chestplate
+!<Behemoth Name> Armour <BodyPart>
+Example: !Drask Armour Chest
+!<Behemoth Name> Weapon <WeaponType>
+Example: !Drask Weapon Warpike
 ```
 Lantern Infromation:
 ```
-!drask lantern
-!lantern shrike
+!<Behemoth> Lantern
+Example: !Drask Lantern
+!Lantern <Behemoth>
+Example: !Lantern Drask
 ```
 Island information:
 ```
-!island Amber-6
-!island Burning Rose
+!Island <Island Name>
+Example: !Island Burning Rose
 ```
 Rotation maelstrom:
 ```
-!rotation
+!Rotation
 ```
-Exotic information & Recipe for exotics:
+Exotic information & Recipes
 ```
-!exotic the hunger
-!recipe the hunger +8
-!recipe the hunger base
-!recipe the hunger total
+!Exotic <Exotic Name>
+Example: !Exotic The Hunger
+!Recipe <Exotic Name> <Level>
+Example: !Recipe The Hunger +3
+!Recipe <Exotic Name> Base
+Example: !Recipe The Hunger Base
+!Recipe <Exotic Name> Total
+Example: !Recipe The Hunger Total
 ```
-Guild specific prefix:
+Server Admin Commands:
 ```
-!prefix ~
-@dauntlessBot prefix (will reset the prefix to !)
+!Prefix <New Prefix>
+Example: !Prefix $
+@Dauntless Prefix
+Resets the prefix back to !
 ```
-
-
-
