@@ -47,7 +47,8 @@ exports.run = (client, message, args, Discord) => {
           message.channel.send({embed});
         } catch (err)  {
         console.log(err);
-            let reply = "Please use ``!island <island name>`` with a island from below:\n``amber-6, aulrics refuge, burning rose, cerulean-22, cobalt-4, coldrunner key, dyadic drift, frostmarch, iron falls, relevation rock, rooks isle, sandrians stone, underwald, vermillion-18, viridian-12``"
+        let guildinfo = client.getGuild.get(message.guild.id);
+            let reply = `Please use \`\`${guildinfo.guildprefix}island <island name>\`\` with a island from below:\n\`\`amber-6, aulrics refuge, burning rose, cerulean-22, cobalt-4, coldrunner key, dyadic drift, frostmarch, iron falls, relevation rock, rooks isle, sandrians stone, underwald, vermillion-18, viridian-12\`\``
             message.channel.send(reply);
         }
 }

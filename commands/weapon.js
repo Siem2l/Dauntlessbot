@@ -78,8 +78,8 @@ exports.run = (client, message, args, Discord) => {
 
 
   } catch (err){
-
-    let reply = "Please use ``!weapon <behemoth name> <weapon name>`` with a behemoth name from below:\n``Gnasher, Shrike, Quillshot, Skarn, Charrogg, Embermane, Skraev, Drask, Nayzaga, Pangar, Hellion, Stormclaw, Kharabak, Ragetail Gnasher, Firebrand Charrogg, Shockjaw Nayzaga, Razorwing Kharabak, Frostback Pangar, Deadeye Quillshot, Bloodfire Embermane, Moonreaver Shrike, Rezakiri, Shrowd``\n With a weapon from this list:\n ``axe, chainblades, hammer, sword, warpike``"
+let guildinfo = client.getGuild.get(message.guild.id);
+    let reply = `Please use \`\`${guildinfo.guildprefix}weapon <behemoth name> <weapon name>\`\` with a behemoth name from below:\n\`\`Gnasher, Shrike, Quillshot, Skarn, Charrogg, Embermane, Skraev, Drask, Nayzaga, Pangar, Hellion, Stormclaw, Kharabak, Ragetail Gnasher, Firebrand Charrogg, Shockjaw Nayzaga, Razorwing Kharabak, Frostback Pangar, Deadeye Quillshot, Bloodfire Embermane, Moonreaver Shrike, Rezakiri, Shrowd\`\`\n With a weapon from this list:\n \`\`axe, chainblades, hammer, sword, warpike\`\``
 console.log(err);
   message.channel.send(reply);
   }

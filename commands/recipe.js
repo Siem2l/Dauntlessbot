@@ -36,11 +36,12 @@ exports.run = (client, message, args, Discord) => {
         message.channel.send({embed});
     } catch (err)  {
         console.log(err);
-        {
-          let reply = "Please use ``!recipe <exotic name> (level)`` with a exotic name from below:\n``prismatic grace, the godhand, the hunger, tragic echo``\n also choose a level from below: (Default is total) \n``base, +1, +2, +3, +4, +5, +6, +7, +8, +9, +10 and total``"
+
+          let guildinfo = client.getGuild.get(message.guild.id);
+          let reply = `Please use \`\`${guildinfo.prefix}recipe <exotic name> (level)\`\` with a exotic name from below:\n\`\`prismatic grace, the godhand, the hunger, tragic echo\`\`\n also choose a level from below: (Default is total) \n\`\`base, +1, +2, +3, +4, +5, +6, +7, +8, +9, +10 and total\`\``
             message.channel.send(reply);
 
-        }
+
 
         }
 }

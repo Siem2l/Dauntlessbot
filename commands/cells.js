@@ -3,14 +3,15 @@ exports.run = (client, message, args, Discord) => {
   const FileSync = require('lowdb/adapters/FileSync');
   const adapter = new FileSync('./data/dauntlessdata.json');
   const db = low(adapter);
-    try{
+    try{am
       if (args.length == 2){
         var cellfile = db.get("cells").find({namedb: `${args[0]} ${args[1]}`}).value();
       }
       else{
       var cellfile = db.get("cells").find({namedb: args[0]}).value();
-    }
 
+    }
+    console.log(`https://nireon.me/cellslots/${cellfile.type.toLowerCase()}.png`);
         const embed = {
             "description": cellfile.description,
             "color": 13937765,
@@ -35,7 +36,8 @@ exports.run = (client, message, args, Discord) => {
           };
           message.channel.send({ embed });
     } catch(err){
-          let reply = " Please use ``!cells <cell name>`` with a cell name from below:\n ``acidic, aetherborne, aetherhunter, aetheric attunement, aetheric frenzy, agility, assassins vigor, barbed, bladestorm, bloodless, conditioning, cunning, deconstruction, endurance, energized, evasion, evasive fury, fireproof, fleet footed, fortress, insulated, knockout king, medic, merciless, nimble, nine lives, overpower, pacifier, rage, ragehunter, savagery, sharpened, shellshock resist, stunning vigour, sturdy, swift, tough, vampiric, warmth, weighted strikes, wild frenzy``"
+          let guildinfo = client.getGuild.get(message.guild.id);
+          let reply = ` Please use \`\`${guildinfo.guildprefix}cells <cell name>\`\` with a cell name from below:\n \`\`acidic, aetherborne, aetherhunter, aetheric attunement, aetheric frenzy, agility, assassins vigor, barbed, bladestorm, bloodless, conditioning, cunning, deconstruction, endurance, energized, evasion, evasive fury, fireproof, fleet footed, fortress, insulated, knockout king, medic, merciless, nimble, nine lives, overpower, pacifier, rage, ragehunter, savagery, sharpened, shellshock resist, stunning vigour, sturdy, swift, tough, vampiric, warmth, weighted strikes, wild frenzy\`\``
           message.channel.send(reply);
       }
 

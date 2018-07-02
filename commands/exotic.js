@@ -55,7 +55,7 @@ exports.run = (client, message, args, Discord) => {
         message.channel.send({embed});
     } catch (err)  {
       console.log(err)
-      let reply = "Please use !exotic <exotic name> with a exotic from below:\n``prismatic grace, the godhand, the hunger, tragic echo``";
+      let reply = `Please use \`\`${guildinfo.guildprefix}exotic <exotic name>\`\` with a exotic from below:\n\`\`prismatic grace, the godhand, the hunger, tragic echo\`\``;
       message.channel.send(reply);
         }
 }
