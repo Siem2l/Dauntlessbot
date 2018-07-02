@@ -58,7 +58,7 @@
     },
     {
       "name": "Quillshot",
-      "namedb": "quilshot",
+      "namedb": "quillshot",
       "islands": [
         "Aulric's refuge",
         "Iron Falls",
@@ -721,7 +721,7 @@
   "cells": [
     {
       "name": "Acidic",
-      "type": "Technique <:technique:459813422830190593>",
+      "type": "Technique",
       "description": "Increases Wound damage at the cost of Part damage.",
       "level01": "Converts 30% of Part Damage to Wound Damage",
       "level02": "Converts 40% of Part Damage to Wound Damage",
@@ -733,7 +733,7 @@
     },
     {
       "name": "Aetherborne",
-      "type": "Utility <:utility:459813423476113419>",
+      "type": "Utility",
       "description": "Increases the benefits of using aether vents.",
       "level01": "25% chance not to consume an Aether Vent charge on use.\n\t  25 additional Aether Vent healing.",
       "level02": "25% chance not to consume an Aether Vent charge on use.\n\t  50 additional Aether Vent healing.",
@@ -745,7 +745,7 @@
     },
     {
       "name": "Aetherhunter",
-      "type": "Power <:power:459813422796636171>",
+      "type": "Power",
       "description": "Increases damage against aether charged Behemoths.",
       "level01": "105% Damage vs Aether-charged Behemoths",
       "level02": "110% Damage vs Aether-charged Behemoths",
@@ -757,7 +757,7 @@
     },
     {
       "name": "Aetheric Attunement",
-      "type": "Utility <:utility:459813423476113419>",
+      "type": "Utility",
       "description": "Percent increase to Lantern Charge gained from attacks.",
       "level01": "+10% Lantern Charge",
       "level02": "+20% Lantern Charge",
@@ -769,7 +769,7 @@
     },
     {
       "name": "Aetheric Frenzy",
-      "type": "Utility <:utility:459813423476113419>",
+      "type": "Utility",
       "description": "Gains a flat amount of Lantern Charge on each weapon hit.",
       "level01": "+1 Lantern Charge on Hit",
       "level02": "+2 Lantern Charge on Hit",
@@ -781,7 +781,7 @@
     },
     {
       "name": "Agility",
-      "type": "Mobility <:mobility:459813422566211585>",
+      "type": "Mobility",
       "description": "Reduces the stamina cost of dodging.",
       "level01": "-10% Dodge Roll Stamina Cost",
       "level02": "-20% Dodge Roll Stamina Cost",
@@ -793,7 +793,7 @@
     },
     {
       "name": "Assassin`s Vigor",
-      "type": "Defence <:defence:459813422545108995>",
+      "type": "Defence",
       "description": "Grants Health after breaking a Behemoth part.",
       "level01": "Heal 50 when you break a part",
       "level02": "Heal 100 when you break a part",
@@ -805,7 +805,7 @@
     },
     {
       "name": "Barbed",
-      "type": "Technique <:technique:459813422830190593>",
+      "type": "Technique",
       "description": "Adds a flat amount of Wound damage on hit.",
       "level01": "+5 Wound Damage on Hit",
       "level02": "+10 Wound Damage on Hit",
@@ -817,7 +817,7 @@
     },
     {
       "name": "Bladestorm",
-      "type": "Technique <:technique:459813422830190593>",
+      "type": "Technique",
       "description": "Adds a flat amount of Part damage on hit.",
       "level01": "+5 Part Damage on Hit",
       "level02": "+10 Part Damage on Hit",
@@ -829,7 +829,7 @@
     },
     {
       "name": "Bloodless",
-      "type": "Defence <:defence:459813422545108995>",
+      "type": "Defence",
       "description": "Protects against Wounded and Crippling Wounds statuses.",
       "level01": "Reduces duration of Wounded status by 50%",
       "level02": "Reduces duration of Wounded status by 80%",
@@ -841,7 +841,7 @@
     },
     {
       "name": "Conditioning",
-      "type": "Mobility <:mobility:459813422566211585>",
+      "type": "Mobility",
       "description": "Increases Stamina Regen.",
       "level01": "+5 Stamina Regeneration",
       "level02": "+10 Stamina Regeneration",
@@ -853,7 +853,7 @@
     },
     {
       "name": "Cunning",
-      "type": "Technique <:technique:459813422830190593>",
+      "type": "Technique",
       "description": "Grants a chance to deal double damage.",
       "level01": "1% chance to deal double damage",
       "level02": "2% chance to deal double damage",
@@ -865,7 +865,7 @@
     },
     {
       "name": "Deconstruction",
-      "type": "Power <:power:459813422796636171>",
+      "type": "Power",
       "description": "Bonus damage against objects created by Behemoths.",
       "level01": "Deal 110% damage to objects created by Behemoths",
       "level02": "Deal 120% damage to objects created by Behemoths",
@@ -877,7 +877,7 @@
     },
     {
       "name": "Endurance",
-      "type": "Mobility <:mobility:459813422566211585>",
+      "type": "Mobility",
       "description": "Increases Max Stamina.",
       "level01": "Increases Max Stamina by 10",
       "level02": "Increases Max Stamina by 20",
@@ -889,7 +889,7 @@
     },
     {
       "name": "Energized",
-      "type": "Utility <:utility:459813423476113419>",
+      "type": "Utility",
       "description": "Increases weapon meter gain rate.",
       "level01": "+10% Weapon Charge rate",
       "level02": "+15% Weapon Charge rate",
@@ -901,7 +901,7 @@
     },
     {
       "name": "Evasion",
-      "type": "Mobility <:mobility:459813422566211585>",
+      "type": "Mobility",
       "description": "Increases the time you are invincible when dodging.",
       "level01": "Increases Dodge invulnerability windows by 7%",
       "level02": "Increases Dodge invulnerability windows by 14%",
@@ -913,7 +913,7 @@
     },
     {
       "name": "Evasive Fury",
-      "type": "Technique <:technique:459813422830190593>",
+      "type": "Technique",
       "description": "Temporarily increases attack speed when dodging through a Behemoth\"s attack.",
       "level01": "4% Attack Speed for 8 seconds after dodging through an attack",
       "level02": "8% Attack Speed for 8 seconds after dodging through an attack",
@@ -925,7 +925,7 @@
     },
     {
       "name": "Fireproof",
-      "type": "Defence <:defence:459813422545108995>",
+      "type": "Defence",
       "description": "Protects against being set on fire.",
       "level01": "Reduces duration of On Fire status by 10%",
       "level02": "Reduces duration of On Fire status by 20%",
@@ -937,7 +937,7 @@
     },
     {
       "name": "Fleet Footed",
-      "type": "Mobility <:mobility:459813422566211585>",
+      "type": "Mobility",
       "description": "Temporarily increases Movement Speed after a dodge.",
       "level01": "Following a Dodge, Movement Speed is increased by 10% for 3 seconds",
       "level02": "Following a Dodge, Movement Speed is increased by 15% for 3 seconds",
@@ -949,7 +949,7 @@
     },
     {
       "name": "Fortress",
-      "type": "Defence <:defence:459813422545108995>",
+      "type": "Defence",
       "description": "Grants a small shield after avoiding damage for a short time.",
       "level01": "Grants a 10 health shield after not getting hit for 10s",
       "level02": "Grants a 20 health shield after not getting hit for 10s",
@@ -961,7 +961,7 @@
     },
     {
       "name": "Insulated",
-      "type": "Defence <:defence:459813422545108995>",
+      "type": "Defence",
       "description": "Protects against Shocked status effect and allows you to attack electric shields.",
       "level01": "Reduces duration of Shocked status by 25%",
       "level02": "Reduces duration of Shocked status by 50%",
@@ -973,7 +973,7 @@
     },
     {
       "name": "Knockout King",
-      "type": "Power <:power:459813422796636171>",
+      "type": "Power",
       "description": "Percent increase to Stagger damage.",
       "level01": "5% Stagger Damage",
       "level02": "10% Stagger Damage",
@@ -985,7 +985,7 @@
     },
     {
       "name": "Medic",
-      "type": "Utility <:utility:459813423476113419>",
+      "type": "Utility",
       "description": "Improves your ability to revive allies.",
       "level01": "When reviving an ally, they are healed an additional 10%",
       "level02": "When reviving an ally, they are healed an additional 20%",
@@ -997,7 +997,7 @@
     },
     {
       "name": "Merciless",
-      "type": "Technique <:technique:459813422830190593>",
+      "type": "Technique",
       "description": "Increases Wound damage against staggered Behemoths.",
       "level01": "+25 Wound Damage vs Staggered Behemoths",
       "level02": "+40 Wound Damage vs Staggered Behemoths",
@@ -1009,7 +1009,7 @@
     },
     {
       "name": "Nimble",
-      "type": "Mobility <:mobility:459813422566211585>",
+      "type": "Mobility",
       "description": "Restores Stamina when dodging through behemoth attacks.",
       "level01": "Gain 10 Stamina after dodging through an attack",
       "level02": "Gain 15 Stamina after dodging through an attack",
@@ -1021,7 +1021,7 @@
     },
     {
       "name": "Nine Lives",
-      "type": "Defence <:defence:459813422545108995>",
+      "type": "Defence",
       "description": "Grants a chance to reduce damage, and later the ability to cheat death.",
       "level01": "+5% chance to halve incoming damage",
       "level02": "+8% chance to halve incoming damage",
@@ -1033,7 +1033,7 @@
     },
     {
       "name": "Overpower",
-      "type": "Power <:power:459813422796636171>",
+      "type": "Power",
       "description": "Increases damage against staggered Behemoths.",
       "level01": "110% Damage vs Staggered Behemoths",
       "level02": "115% Damage vs Staggered Behemoths",
@@ -1045,7 +1045,7 @@
     },
     {
       "name": "Pacifier",
-      "type": "Power <:power:459813422796636171>",
+      "type": "Power",
       "description": "Increases Stagger damage against enraged Behemoths.",
       "level01": "110% Stagger vs Enraged Behemoths",
       "level02": "120% Stagger vs Enraged Behemoths",
@@ -1057,7 +1057,7 @@
     },
     {
       "name": "Rage",
-      "type": "Power <:power:459813422796636171>",
+      "type": "Power",
       "description": "Increases your damage when your health is low.",
       "level01": "When under 30% health, deal 105% damage",
       "level02": "When under 30% health, deal 108% damage",
@@ -1069,7 +1069,7 @@
     },
     {
       "name": "Ragehunter",
-      "type": "Power <:power:459813422796636171>",
+      "type": "Power",
       "description": "Increases damage against enraged Behemoths.",
       "level01": "105% Damage vs Enraged Behemoths",
       "level02": "110% Damage vs Enraged Behemoths",
@@ -1081,7 +1081,7 @@
     },
     {
       "name": "Savagery",
-      "type": "Technique <:technique:459813422830190593>",
+      "type": "Technique",
       "description": "Increases damage against Wounded parts.",
       "level01": "120% Damage vs Wounded Parts",
       "level02": "130% Damage vs Wounded Parts",
@@ -1093,7 +1093,7 @@
     },
     {
       "name": "Sharpened",
-      "type": "Power <:power:459813422796636171>",
+      "type": "Power",
       "description": "Percent increase to part damage.",
       "level01": "+5% Part Damage",
       "level02": "+10% Part Damage",
@@ -1105,7 +1105,7 @@
     },
     {
       "name": "Shellshock Resist",
-      "type": "Defence <:defence:459813422545108995>",
+      "type": "Defence",
       "description": "Protects against the explosion damage and status effect Shellshock.",
       "level01": "Reduces Shell Shocked explosion damage and status effect duration by 10%",
       "level02": "Reduces Shell Shocked explosion damage and status effect duration by 20%",
@@ -1117,7 +1117,7 @@
     },
     {
       "name": "Stunning Vigour",
-      "type": "Utility <:utility:459813423476113419>",
+      "type": "Utility",
       "description": "Restores some health whenever a Behemoth is staggered.",
       "level01": "Heal for 50 whenever a Behemoth is Staggered",
       "level02": "Heal for 75 whenever a Behemoth is Staggered",
@@ -1129,7 +1129,7 @@
     },
     {
       "name": "Sturdy",
-      "type": "Defence <:defence:459813422545108995>",
+      "type": "Defence",
       "description": "Prevents being staggered on a cooldown.",
       "level01": "Prevents you from being staggered (120 second cooldown)",
       "level02": "Prevents you from being staggered (100 second cooldown)",
@@ -1141,7 +1141,7 @@
     },
     {
       "name": "Swift",
-      "type": "Mobility <:mobility:459813422566211585>",
+      "type": "Mobility",
       "description": "Increases Movement Speed when your weapon is sheathed.",
       "level01": "While sheathed, increases Movement Speed by 5%",
       "level02": "While sheathed, increases Movement Speed by 10%",
@@ -1153,7 +1153,7 @@
     },
     {
       "name": "Tough",
-      "type": "Defence <:defence:459813422545108995>",
+      "type": "Defence",
       "description": "Increases Max Health.",
       "level01": "Increases Max Health by 50",
       "level02": "Increases Max Health by 100",
@@ -1165,7 +1165,7 @@
     },
     {
       "name": "Vampiric",
-      "type": "Utility <:utility:459813423476113419>",
+      "type": "Utility",
       "description": "Restores some health whenever a Behemoth part is Wounded.",
       "level01": "Heal for 50 whenever a Behemoth is Wounded",
       "level02": "Heal for 75 whenever a Behemoth is Wounded",
@@ -1177,7 +1177,7 @@
     },
     {
       "name": "Warmth",
-      "type": "Defence <:defence:459813422545108995>",
+      "type": "Defence",
       "description": "Protects against Chilled and Frozen status effects.",
       "level01": "Reduces duration of Frozen status by 30%",
       "level02": "Reduces duration of Frozen status by 60%",
@@ -1189,7 +1189,7 @@
     },
     {
       "name": "Weighted Strikes",
-      "type": "Technique <:technique:459813422830190593>",
+      "type": "Technique",
       "description": "Adds a flat amount of Stagger damage on hit. At later ranks, allows more weapon attacks to interrupt.",
       "level01": "+5 Stagger Damage on Hit",
       "level02": "+10 Stagger Damage on Hit",
@@ -1201,7 +1201,7 @@
     },
     {
       "name": "Wild Frenzy",
-      "type": "Technique <:technique:459813422830190593>",
+      "type": "Technique",
       "description": "Increases Attack Speed when at low health.",
       "level01": "When under 30% health, increase attack speed by 5%",
       "level02": "When under 30% health, increase attack speed by 8%",
@@ -1219,7 +1219,7 @@
       "description": "The Hunger is a craftable Exotic weapon in Dauntless. It is crafted from Shrowd reagents.\n",
       "wiki_url": "https://dauntless.gamepedia.com/The_Hunger",
       "icon_url": "https://nireon.me/exotics/the_hunger.png",
-      "uniqueeffect": "• Up to 25% increase damage as your meter increases\n\n• Activate at max meter to enter a feast state,\n   dealing 75% increase damage for 15 seconds,\n   but taking damage after each hit.\n\n• Activate again during feast state to unleash an Umbral attack\n   to regain lost health\n",
+      "uniqueeffect": "• Up to 25% increased damage as your meter increases\n\n• Activate at max meter to enter a feast state,\n   dealing 75% increase damage for 15 seconds,\n   but taking damage after each hit.\n\n• Activate again during feast state to unleash an Umbral attack\n   to regain lost health\n",
       "cells": "Power Cell <:power:459813422796636171> & Utility Cell <:utility:459813423476113419>\n",
       "strength": "+40 Umbral <:umbral:459747214932049930>",
       "recipe_cost": {
@@ -1657,7 +1657,7 @@
   "islands": [
     {
       "name": "Rook's Isle",
-      "namedb": "rooksisle",
+      "namedb": "rooks isle",
       "description": "A small island of little note that's far from major shipping or settlements",
       "area": "The Sheltered Frontier",
       "wiki_url": "https://dauntless.gamepedia.com/The_Sheltered_Frontier",
@@ -1676,7 +1676,7 @@
     },
     {
       "name": "Aulric's Refuge",
-      "namedb": "aulricsrefuge",
+      "namedb": "aulric's refuge",
       "description": "A historic island used for Slayer camps during the construction of Ramsgate. named for the city's founder, famed explorer Aulric Maas.",
       "area": "The Monstrous Verge",
       "wiki_url": "https://dauntless.gamepedia.com/The_Monstrous_Verge",
@@ -1698,7 +1698,7 @@
     },
     {
       "name": "Iron Falls",
-      "namedb": "ironfalls",
+      "namedb": "iron falls",
       "description": "An ore-rich island that was once heavily mined, Iron Falls was the source of many raw materials during Ramsgate's early boom years.",
       "area": "The Monstrous Verge",
       "wiki_url": "https://dauntless.gamepedia.com/The_Monstrous_Verge",
@@ -1720,7 +1720,7 @@
     },
     {
       "name": "Burning Rose",
-      "namedb": "burningrose",
+      "namedb": "burning rose",
       "description": "A recent arrival in the Ram formation, the island of Burning Rose is a warm, dry island rich in blaze aether. It may have once been home to an Andari settlement.",
       "area": "The Yonder Keys",
       "icon_url": "http://nireon.me/islands/the_yonder_keys.png",
@@ -1742,7 +1742,7 @@
     },
     {
       "name": "Sandrian's Stone",
-      "namedb": "sandriansstone",
+      "namedb": "sandrian's stone",
       "description": "Behemoths have consumed much of this island's original archonite deposits, causing its elevation to drop precipitously.",
       "area": "The Yonder Keys",
       "icon_url": "http://nireon.me/islands/the_yonder_keys.png",
@@ -1764,7 +1764,7 @@
     },
     {
       "name": "Coldrunner Key",
-      "namedb": "coldrunnerkey",
+      "namedb": "coldrunner key",
       "description": "This frozen island has drifted into the Ram formation from the cold depths of the Sky Below.",
       "area": "The Yonder Keys",
       "icon_url": "http://nireon.me/islands/the_yonder_keys.png",
@@ -1805,7 +1805,7 @@
     },
     {
       "name": "Relevation Rock",
-      "namedb": "relevationrock",
+      "namedb": "relevation rock",
       "description": "A forested isle that servers as a vantage point from the charted skies into the swirling Maelstrom. The explorers who named it found the storm to be a revelatory experience.",
       "area": "The Maelstrom",
       "icon_url": "http://nireon.me/islands/the_maelstrom.png",
@@ -1855,7 +1855,7 @@
     },
     {
       "name": "Dyadic Drift",
-      "namedb": "dyadicdrift",
+      "namedb": "dyadic drift",
       "description": "An island suffused with alternating currents of corrosive umbral aether and blinding radiant energy, this bizarre interloper in the Shattered Isles is home to terrifying Behemoths few Slayers have ever seen - let alone survived.",
       "wiki_url": "https://dauntless.gamepedia.com/The_Maelstrom",
       "area": "The Maelstrom",
