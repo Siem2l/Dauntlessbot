@@ -13,6 +13,7 @@ exports.run = (client, message, args, Discord) => {
           if (!recipefile){
             message.channel.send("Behemoth is unknown try another behemoth")
             return;
+
           }
           var armorpiece;
           if(armorarray.indexOf(args[1])> -1){
@@ -23,6 +24,10 @@ exports.run = (client, message, args, Discord) => {
           }
           else{
             message.channel.send("Please choose an armor/weaponpiece from this list:\n ``'helmet','chestplate','gauntlets','greaves'``")
+            return;
+          }
+          if (recipefile[armorpiece]['recipe_cost'].startsWith("incomplete")){
+            message.channel.send("This Armor piece is still missing from the database Sorry for the inconvience it will be added soon!");
             return;
           }
           if (args[4] == "to"){

@@ -3464,7 +3464,7 @@
         "bonuses": {
           "Aetheric Frenzy": 1
         },
-        "recipe_cost": "Incomplete"
+        "recipe_cost": "incomplete"
       },
       "gauntlets": {
         "name": "Stormbracers",
@@ -5175,7 +5175,7 @@
           "Warmth": 2,
           "Fortress": 1
         },
-        "recipe_cost": "Incomplete"
+        "recipe_cost": "incomplete"
       }
     },
     {
