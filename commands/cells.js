@@ -3,7 +3,7 @@ exports.run = (client, message, args, Discord) => {
   const FileSync = require('lowdb/adapters/FileSync');
   const adapter = new FileSync('./data/dauntlessdata.json');
   const db = low(adapter);
-    try{am
+    try{
       if (args.length == 2){
         var cellfile = db.get("cells").find({namedb: `${args[0]} ${args[1]}`}).value();
       }

@@ -1223,14 +1223,14 @@
       "cells": "Power Cell <:power:459813422796636171> & Utility Cell <:utility:459813423476113419>\n",
       "strength": "+40 Umbral <:umbral:459747214932049930>",
       "recipe_cost": {
-        "base": {
+        "0": {
           "Notes": 2000,
           "Writhing Feather": 2,
           "Aetheric Crownplate": 2,
           "Elemental Clawgem": 4,
           "Corrupted Darktail": 1
         },
-        "+1": {
+        "1": {
           "Notes": 250,
           "Infused Weapon Archonite": 24,
           "Shrowd Feather": 4,
@@ -1238,14 +1238,14 @@
           "Raw Skullgem": 2,
           "Corrupted Bladefeather": 1
         },
-        "+2": {
+        "2": {
           "Notes": 260,
           "Infused Weapon Archonite": 24,
           "Writhing Feather": 1,
           "Elemental Clawgem": 2,
           "Corrupted Shadowtalon": 1
         },
-        "+3": {
+        "3": {
           "Notes": 270,
           "Infused Weapon Archonite": 24,
           "Shrowd Feather": 8,
@@ -1253,19 +1253,19 @@
           "Raw Skullgem": 2,
           "Corrupted Crownfeather": 1
         },
-        "+4": {
+        "4": {
           "Notes": 280,
           "Infused Weapon Archonite": 24,
           "Writhing Feather": 1,
           "Elemental Clawgem": 2
         },
-        "+5": {
+        "5": {
           "Notes": 290,
           "Infused Weapon Archonite": 32,
           "Shrowd Feather": 8,
           "Raw Furytail": 1
         },
-        "+6": {
+        "6": {
           "Notes": 300,
           "Charged Weapon Archonite": 16,
           "Pure Infused Weapon Archonite": 4,
@@ -1274,7 +1274,7 @@
           "Corrupted Bladefeather": 1,
           "Corrupted Shadowtalon": 1
         },
-        "+7": {
+        "7": {
           "Notes": 310,
           "Charged Weapon Archonite": 24,
           "Shrowd Feather": 8,
@@ -1282,21 +1282,21 @@
           "Raw Skullgem": 2,
           "Raw Furyplate": 2
         },
-        "+8": {
+        "8": {
           "Notes": 320,
           "Charged Weapon Archonite": 32,
           "Pure Infused Weapon Archonite": 8,
           "Elemental Clawgem": 6,
           "Corrupted Darktail": 1
         },
-        "+9": {
+        "9": {
           "Notes": 330,
           "Charged Weapon Archonite": 40,
           "Shrowd Feather": 8,
           "Raw Furyplate": 3,
           "Raw Furytail": 2
         },
-        "+10": {
+        "10": {
           "Notes": 340,
           "Charged Weapon Archonite": 40,
           "Pure Infused Weapon Archonite": 4,
@@ -1304,7 +1304,7 @@
           "Corrupted Bladefeather": 1,
           "Corrupted Crownfeather": 1
         },
-        "total": {
+        "Total": {
           "Notes": 4950,
           "Infused Weapon Archonite": 128,
           "Pure Infused Weapon Archonite": 16,
@@ -1333,14 +1333,14 @@
       "strength": "+ Radiant <:radiant:459747214923923486>",
       "cells": "Power Cell <:power:459813422796636171> & Technique Cell <:technique:459813422830190593>\n",
       "recipe_cost": {
-        "base": {
+        "0": {
           "Notes": 2000,
           "Luminescent Chitin": 2,
           "Raw Furytooth": 2,
           "Raw Clawgem": 4,
           "Radiant Aethergem": 1
         },
-        "+1": {
+        "1": {
           "Notes": 250,
           "Infused Weapon Archonite": 24,
           "Rezakiri Chitin": 4,
@@ -1348,14 +1348,14 @@
           "Aetheric Tail": 2,
           "Glimmering Clawplate": 1
         },
-        "+2": {
+        "2": {
           "Notes": 260,
           "Infused Weapon Archonite": 24,
           "Luminescent Chitin": 1,
           "Raw Clawgem": 2,
           "Brilliant Tailplate": 1
         },
-        "+3": {
+        "3": {
           "Notes": 270,
           "Infused Weapon Archonite": 24,
           "Rezakiri Chitin": 8,
@@ -1363,19 +1363,19 @@
           "Aetheric Tail": 2,
           "Radiant Biocrystal": 1
         },
-        "+4": {
+        "4": {
           "Notes": 280,
           "Infused Weapon Archonite": 24,
           "Luminescent Chitin": 1,
           "Raw Clawgem": 2
         },
-        "+5": {
+        "5": {
           "Notes": 290,
           "Infused Weapon Archonite": 32,
           "Rezakiri Chitin": 8,
           "Aetheric Skullgem": 1
         },
-        "+6": {
+        "6": {
           "Notes": 300,
           "Charged Weapon Archonite": 16,
           "Pure Infused Weapon Archonite": 4,
@@ -1383,7 +1383,7 @@
           "Glimmering Clawplate": 1,
           "Brilliant Tailplate": 1
         },
-        "+7": {
+        "7": {
           "Notes": 310,
           "Charged Weapon Archonite": 24,
           "Rezakiri Chitin": 8,
@@ -1391,21 +1391,21 @@
           "Aetheric Tail": 2,
           "Elemental Furyplate": 2
         },
-        "+8": {
+        "8": {
           "Notes": 320,
           "Charged Weapon Archonite": 32,
           "Pure Infused Weapon Archonite": 8,
           "Raw Clawgem": 6,
           "Radiant Aethergem": 1
         },
-        "+9": {
+        "9": {
           "Notes": 330,
           "Charged Weapon Archonite": 40,
           "Rezakiri Chitin": 8,
           "Elemental Furyplate": 3,
           "Aetheric Skullgem": 2
         },
-        "+10": {
+        "10": {
           "Notes": 340,
           "Charged Weapon Archonite": 40,
           "Pure Infused Weapon Archonite": 4,
@@ -1413,7 +1413,7 @@
           "Glimmering Clawplate": 1,
           "Radiant Biocrystal": 1
         },
-        "total": {
+        "Total": {
           "Notes": 4950,
           "Infused Weapon Archonite": 128,
           "Pure Infused Weapon Archonite": 16,
@@ -1442,14 +1442,14 @@
       "strength": "+10 Umbral <:umbral:459747214932049930>",
       "weakness": "-5 Radiant <:radiant:459747214923923486>",
       "recipe_cost": {
-        "base": {
+        "0": {
           "Notes": 1500,
           "Raw Furyplate": 2,
           "Raw Furytooth": 1,
           "Raw Furytail": 4,
           "Corrupted Darktail": 1
         },
-        "+1": {
+        "1": {
           "Notes": 125,
           "Infused Armour Archonite": 6,
           "Dark Bladefeather": 2,
@@ -1457,13 +1457,13 @@
           "Aetheric claw": 1,
           "Aetheric Skullgem": 1
         },
-        "+2": {
+        "2": {
           "Notes": 130,
           "Infused Armour Archonite": 6,
           "Shrowd Feather": 10,
           "Raw Furyplate": 4
         },
-        "+3": {
+        "3": {
           "Notes": 135,
           "Infused Armour Archonite": 6,
           "Midnight Tailfeather": 2,
@@ -1471,21 +1471,21 @@
           "Aetheric Claw": 2,
           "Aetheric Skullgem": 2
         },
-        "+4": {
+        "4": {
           "Notes": 140,
           "Infused Armour Archonite": 6,
           "Dark Bladefeather": 2,
           "Twisted Shadowspur": 2,
           "Raw Furyplate": 4
         },
-        "+5": {
+        "5": {
           "Notes": 145,
           "Infused Armour Archonite": 8,
           "Midnight Tailfeather": 1,
           "Darkbeak Shard": 1,
           "Raw Furytooth": 2
         },
-        "+6": {
+        "6": {
           "Notes": 150,
           "Charged Armour Archonite": 4,
           "Pure Infused Weapon Archonite": 1,
@@ -1493,14 +1493,14 @@
           "Aetheric Skullgem": 2,
           "Corrupted Darktail": 1
         },
-        "+7": {
+        "7": {
           "Notes": 155,
           "Charged Armour Archonite": 6,
           "Shrowd Feather": 10,
           "Dark Bladefeather": 3,
           "Midnight Tailfeather": 1
         },
-        "+8": {
+        "8": {
           "Notes": 160,
           "Charged Armour Archonite": 8,
           "Pure Infused Weapon Archonite": 2,
@@ -1509,14 +1509,14 @@
           "Raw Furyplate": 4,
           "Raw Furytail": 1
         },
-        "+9": {
+        "9": {
           "Notes": 165,
           "Charged Armour Archonite": 10,
           "Shrowd Feather": 8,
           "Aetheric Claw": 2,
           "Aetheric Skullgem": 2
         },
-        "+10": {
+        "10": {
           "Notes": 170,
           "Charged Armour Archonite": 10,
           "Pure Infused Weapon Archonite": 1,
@@ -1525,7 +1525,7 @@
           "Raw Furyplate": 4,
           "Raw Furytooth": 3
         },
-        "total": {
+        "Total": {
           "Notes": 2975,
           "Infused Armour Archonite": 32,
           "Pure Infused Armour Archonite": 4,
@@ -1553,14 +1553,14 @@
       "strength": "+10 Radiant <:radiant:459747214923923486>",
       "weakness": "-5 Umbral <:umbral:459747214932049930>",
       "recipe_cost": {
-        "base": {
+        "0": {
           "Notes": 1500,
           "Aetheric Claw": 2,
           "Aetheric Skullgem": 1,
           "Aetheric Tail": 1,
           "Radiant Biocrystal": 1
         },
-        "+1": {
+        "1": {
           "Notes": 125,
           "Infused Armour Archonite": 6,
           "Exoskeletal Plate": 2,
@@ -1568,13 +1568,13 @@
           "Raw Clawgem": 1,
           "Raw Tailgem": 1
         },
-        "+2": {
+        "2": {
           "Notes": 130,
           "Infused Armour Archonite": 6,
           "Rezakiri Chitin": 10,
           "Aetheric Claw": 4
         },
-        "+3": {
+        "3": {
           "Notes": 135,
           "Infused Armour Archonite": 6,
           "Cracked Biocrystal": 2,
@@ -1582,21 +1582,21 @@
           "Raw Clawgem": 2,
           "Raw Tailgem": 2
         },
-        "+4": {
+        "4": {
           "Notes": 140,
           "Infused Armour Archonite": 6,
           "Exoskeletal Plate": 2,
           "Lustrous Tailplate": 1,
           "Aetheric Claw": 4
         },
-        "+5": {
+        "5": {
           "Notes": 145,
           "Infused Armour Archonite": 8,
           "Cracked Biocrystal": 1,
           "Clear Powergem": 1,
           "Aetheric Skullgem": 2
         },
-        "+6": {
+        "6": {
           "Notes": 150,
           "Charged Armour Archonite": 4,
           "Pure Infused Weapon Archonite": 1,
@@ -1604,30 +1604,30 @@
           "Raw Clawgem": 2,
           "Raw Tailgem": 2
         },
-        "+7": {
+        "7": {
           "Notes": 155,
           "Charged Armour Archonite": 6,
           "Rezakiri Chitin": 10,
           "Exoskeletal Plate": 3,
           "Cracked Biocrystal": 1
         },
-        "+8": {
+        "8": {
           "Notes": 160,
           "Charged Armour Archonite": 8,
           "Pure Infused Weapon Archonite": 2,
           "Lustrous Tailplate": 1,
           "Clear Powergem": 1,
           "Aetheric Claw": 4,
-          "Aetheric tail": 1
+          "Aetheric Tail": 1
         },
-        "+9": {
+        "9": {
           "Notes": 165,
           "Charged Armour Archonite": 10,
           "Rezakiri Chitin": 8,
           "Raw Clawgem": 2,
           "Raw Tailgem": 2
         },
-        "+10": {
+        "10": {
           "Notes": 170,
           "Charged Armour Archonite": 10,
           "Pure Infused Weapon Archonite": 1,
@@ -1636,7 +1636,7 @@
           "Aetheric Claw": 4,
           "Aetheric Skullgem": 3
         },
-        "total": {
+        "Total": {
           "Notes": 2975,
           "Infused Armour Archonite": 32,
           "Pure Infused Armour Archonite": 4,
@@ -1649,7 +1649,7 @@
           "Aetheric Skullgem": 6,
           "Raw Tailgem": 7,
           "Raw Clawgem": 7,
-          "Aetheric tail": 2
+          "Aetheric Tail": 2
         }
       }
     }
@@ -2064,6 +2064,21 @@
         "weakness": "None",
         "bonuses": {
           "Tough": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Gnasher Hide": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 1
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 1,
+            "Gnasher Hide": 1
+          }
         }
       },
       "chestplate": {
@@ -2073,6 +2088,21 @@
         "weakness": "None",
         "bonuses": {
           "Tough": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Gnasher Hide": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 1
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 1,
+            "Gnasher Hide": 1
+          }
         }
       },
       "gauntlets": {
@@ -2082,6 +2112,21 @@
         "weakness": "None",
         "bonuses": {
           "Ragehunter": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Gnasher Hide": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 1
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 1,
+            "Gnasher Hide": 1
+          }
         }
       },
       "greaves": {
@@ -2091,6 +2136,21 @@
         "weakness": "None",
         "bonuses": {
           "Ragehunter": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Gnasher Hide": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 1
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 1,
+            "Gnasher Hide": 1
+          }
         }
       }
     },
@@ -2103,6 +2163,21 @@
         "weakness": "None",
         "bonuses": {
           "Evasion": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Shrike Feather": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 1
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 1,
+            "Shrike Feather": 1
+          }
         }
       },
       "chestplate": {
@@ -2112,6 +2187,21 @@
         "weakness": "None",
         "bonuses": {
           "Conditioning": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Shrike Feather": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 1
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 1,
+            "Shrike Feather": 1
+          }
         }
       },
       "gauntlets": {
@@ -2121,6 +2211,21 @@
         "weakness": "None",
         "bonuses": {
           "Conditioning": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Shrike Feather": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 1
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 1,
+            "Shrike Feather": 1
+          }
         }
       },
       "greaves": {
@@ -2130,6 +2235,21 @@
         "weakness": "None",
         "bonuses": {
           "Evasion": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Shrike Feather": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 1
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 1,
+            "Shrike Feather": 1
+          }
         }
       }
     },
@@ -2142,6 +2262,21 @@
         "weakness": "None",
         "bonuses": {
           "Bladestorm": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Shrike Feather": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 1
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 1,
+            "Shrike Feather": 1
+          }
         }
       },
       "chestplate": {
@@ -2151,6 +2286,21 @@
         "weakness": "None",
         "bonuses": {
           "Sharpened": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Quillshot Hide": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 1
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 1,
+            "Quillshot Hide": 1
+          }
         }
       },
       "gauntlets": {
@@ -2160,6 +2310,21 @@
         "weakness": "None",
         "bonuses": {
           "Bladestorm": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Quillshot Hide": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 1
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 1,
+            "Quillshot Hide": 1
+          }
         }
       },
       "greaves": {
@@ -2169,6 +2334,21 @@
         "weakness": "None",
         "bonuses": {
           "Sharpened": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Quillshot Hide": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 1
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 1,
+            "Quillshot Hide": 1
+          }
         }
       }
     },
@@ -2181,6 +2361,25 @@
         "weakness": "None",
         "bonuses": {
           "Tough": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Skarn Hide": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 2
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 2,
+            "Skarn Hide": 1
+          },
+          "3": {
+            "Notes": 15,
+            "Armour Archonite": 2
+          }
         }
       },
       "chestplate": {
@@ -2190,6 +2389,25 @@
         "weakness": "None",
         "bonuses": {
           "Tough": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Skarn Hide": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 2
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 2,
+            "Skarn Hide": 1
+          },
+          "3": {
+            "Notes": 15,
+            "Armour Archonite": 2
+          }
         }
       },
       "gauntlets": {
@@ -2199,6 +2417,25 @@
         "weakness": "None",
         "bonuses": {
           "Sturdy": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Skarn Hide": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 2
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 2,
+            "Skarn Hide": 1
+          },
+          "3": {
+            "Notes": 15,
+            "Armour Archonite": 2
+          }
         }
       },
       "greaves": {
@@ -2208,6 +2445,25 @@
         "weakness": "None",
         "bonuses": {
           "Sturdy": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 15,
+            "Skarn Hide": 1
+          },
+          "1": {
+            "Notes": 15,
+            "Armour Archonite": 2
+          },
+          "2": {
+            "Notes": 15,
+            "Armour Archonite": 2,
+            "Skarn Hide": 1
+          },
+          "3": {
+            "Notes": 15,
+            "Armour Archonite": 2
+          }
         }
       }
     },
@@ -2220,6 +2476,25 @@
         "weakness": "-5 Frost <:frost:459747214277869579>",
         "bonuses": {
           "Energized": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Charrogg Hide": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 4
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 4,
+            "Charrogg Hide": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 4
+          }
         }
       },
       "chestplate": {
@@ -2229,6 +2504,25 @@
         "weakness": "-5 Frost <:frost:459747214277869579>",
         "bonuses": {
           "Energized": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Charrogg Hide": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 4
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 4,
+            "Charrogg Hide": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 4
+          }
         }
       },
       "gauntlets": {
@@ -2238,6 +2532,25 @@
         "weakness": "-5 Frost <:frost:459747214277869579>",
         "bonuses": {
           "Tough": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Charrogg Hide": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 4
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 4,
+            "Charrogg Hide": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 4
+          }
         }
       },
       "greaves": {
@@ -2247,6 +2560,25 @@
         "weakness": "-5 Frost <:frost:459747214277869579>",
         "bonuses": {
           "Tough": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Charrogg Hide": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 4
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 4,
+            "Charrogg Hide": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 4
+          }
         }
       }
     },
@@ -2259,6 +2591,27 @@
         "weakness": "-5 Shock <:shock:459747215318188032>",
         "bonuses": {
           "Evasive Fury": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Emberhorn": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 5
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Embermane Hide": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Embermane Hide": 1,
+            "Emberhorn": 1
+          }
         }
       },
       "chestplate": {
@@ -2268,15 +2621,57 @@
         "weakness": "-5 Shock <:shock:459747215318188032>",
         "bonuses": {
           "Evasion": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Smoked Dewclaw": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 5
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Embermane Hide": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Embermane Hide": 1,
+            "Smoked Dewclaw": 1
+          }
         }
       },
       "gauntlets": {
-        "name": "Embergauntlets",
+        "name": "Embergloves",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
         "weakness": "-5 Shock <:shock:459747215318188032>",
         "bonuses": {
           "Evasive Fury": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Smoked Dewclaw": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 5
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Embermane Hide": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Embermane Hide": 1,
+            "Smoked Dewclaw": 1
+          }
         }
       },
       "greaves": {
@@ -2286,6 +2681,27 @@
         "weakness": "-5 Shock <:shock:459747215318188032>",
         "bonuses": {
           "Evasive Fury": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Smoked Dewclaw": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 5
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Embermane Hide": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Embermane Hide": 1,
+            "Smoked Dewclaw": 1
+          }
         }
       }
     },
@@ -2298,6 +2714,27 @@
         "weakness": "-5 Shock <:shock:459747215318188032>",
         "bonuses": {
           "Agility": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Shattered Beak": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 5
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Skraev Feather": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Skraev Feather": 1,
+            "Shattered Beak": 1
+          }
         }
       },
       "chestplate": {
@@ -2307,6 +2744,27 @@
         "weakness": "-5 Shock <:shock:459747215318188032>",
         "bonuses": {
           "Agility": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Sharp Frostfeather": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 5
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Skraev Feather": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Skraev Feather": 1,
+            "Sharp Frostfeather": 1
+          }
         }
       },
       "gauntlets": {
@@ -2316,6 +2774,27 @@
         "weakness": "-5 Shock <:shock:459747215318188032>",
         "bonuses": {
           "Evasion": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Sharp Frostfeather": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 5
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Skraev Feather": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Skraev Feather": 1,
+            "Sharp Frostfeather": 1
+          }
         }
       },
       "greaves": {
@@ -2325,6 +2804,27 @@
         "weakness": "-5 Shock <:shock:459747215318188032>",
         "bonuses": {
           "Evasion": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Sharp Frostfeather": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 5
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Skraev Feather": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Skraev Feather": 1,
+            "Sharp Frostfeather": 1
+          }
         }
       }
     },
@@ -2337,6 +2837,27 @@
         "weakness": "None",
         "bonuses": {
           "Aetheric Attunement": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Fractal Eyetooth": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 5
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Drask Hide": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Drask Hide": 1,
+            "Fractal Eyetooth": 1
+          }
         }
       },
       "chestplate": {
@@ -2346,6 +2867,27 @@
         "weakness": "None",
         "bonuses": {
           "Sharpened": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Jagged Sparkscale": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 5
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Drask Hide": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Drask Hide": 1,
+            "Jagged Sparkscale": 1
+          }
         }
       },
       "gauntlets": {
@@ -2355,6 +2897,27 @@
         "weakness": "None",
         "bonuses": {
           "Sharpened": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Jagged Sparkscale": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 5
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Drask Hide": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Drask Hide": 1,
+            "Jagged Sparkscale": 1
+          }
         }
       },
       "greaves": {
@@ -2364,6 +2927,27 @@
         "weakness": "None",
         "bonuses": {
           "Aetheric Attunement": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 60,
+            "Jagged Sparkscale": 1
+          },
+          "1": {
+            "Notes": 60,
+            "Armour Archonite": 5
+          },
+          "2": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Drask Hide": 1
+          },
+          "3": {
+            "Notes": 60,
+            "Armour Archonite": 5,
+            "Drask Hide": 1,
+            "Jagged Sparkscale": 1
+          }
         }
       }
     },
@@ -2376,6 +2960,33 @@
         "weakness": "-5 Frost <:frost:459747214277869579>",
         "bonuses": {
           "Medic": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 90,
+            "Nayzaga Chitin": 1,
+            "Shocktooth": 1
+          },
+          "1": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "2": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Nayzaga Chitin": 1,
+            "Sparkclaw Splinter": 1
+          },
+          "3": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "4": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Nayzaga Chitin": 1,
+            "Sparkclaw Splinter": 1
+          }
         }
       },
       "chestplate": {
@@ -2385,6 +2996,33 @@
         "weakness": "-5 Frost <:frost:459747214277869579>",
         "bonuses": {
           "Aetheric Attunement": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 90,
+            "Nayzaga Chitin": 1,
+            "Sparkclaw Splinter": 1
+          },
+          "1": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "2": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Nayzaga Chitin": 1,
+            "Shocktooth": 1
+          },
+          "3": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "4": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Nayzaga Chitin": 1,
+            "Shocktooth": 1
+          }
         }
       },
       "gauntlets": {
@@ -2394,6 +3032,33 @@
         "weakness": "-5 Frost <:frost:459747214277869579>",
         "bonuses": {
           "Aetheric Attunement": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 90,
+            "Nayzaga Chitin": 1,
+            "Sparkclaw Splinter": 1
+          },
+          "1": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "2": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Nayzaga Chitin": 1,
+            "Shocktooth": 1
+          },
+          "3": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "4": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Nayzaga Chitin": 1,
+            "Shocktooth": 1
+          }
         }
       },
       "greaves": {
@@ -2403,6 +3068,33 @@
         "weakness": "-5 Frost <:frost:459747214277869579>",
         "bonuses": {
           "Medic": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 90,
+            "Nayzaga Chitin": 1,
+            "Sparkspine": 1
+          },
+          "1": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "2": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Nayzaga Chitin": 1,
+            "Sparkclaw Splinter": 1
+          },
+          "3": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "4": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Nayzaga Chitin": 1,
+            "Sparkclaw Splinter": 1
+          }
         }
       }
     },
@@ -2415,6 +3107,34 @@
         "weakness": "-5 Blaze <:blaze:459747214953283584>",
         "bonuses": {
           "Knockout King": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Pangar Hide": 1,
+            "Frosty Tooth": 1
+          },
+          "1": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "2": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Pangar Hide": 1,
+            "Severed Tailplate": 1
+          },
+          "3": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "4": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Pangar Hide": 1,
+            "Severed Tailplate": 1
+          }
         }
       },
       "chestplate": {
@@ -2424,6 +3144,34 @@
         "weakness": "-5 Blaze <:blaze:459747214953283584>",
         "bonuses": {
           "Endurance": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Pangar Hide": 1,
+            "Frostplate": 1
+          },
+          "1": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "2": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Pangar Hide": 1,
+            "Severed Tailplate": 1
+          },
+          "3": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "4": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Pangar Hide": 1,
+            "Severed Tailplate": 1
+          }
         }
       },
       "gauntlets": {
@@ -2433,6 +3181,33 @@
         "weakness": "-5 Blaze <:blaze:459747214953283584>",
         "bonuses": {
           "Knockout King": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Pangar Hide": 1
+          },
+          "1": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "2": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Pangar Hide": 1,
+            "Frostplate": 1
+          },
+          "3": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "4": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Pangar Hide": 1,
+            "Frostplate": 1
+          }
         }
       },
       "greaves": {
@@ -2442,6 +3217,34 @@
         "weakness": "-5 Blaze <:blaze:459747214953283584>",
         "bonuses": {
           "Endurance": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Pangar Hide": 1,
+            "Frostplate": 1
+          },
+          "1": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "2": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Pangar Hide": 1,
+            "Severed Tailplate": 1
+          },
+          "3": {
+            "Notes": 90,
+            "Armour Archonite": 8
+          },
+          "4": {
+            "Notes": 90,
+            "Armour Archonite": 8,
+            "Pangar Hide": 1,
+            "Severed Tailplate": 1
+          }
         }
       }
     },
@@ -2454,6 +3257,33 @@
         "weakness": "-5 Frost <:frost:459747214277869579>",
         "bonuses": {
           "Fortress": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Hellion Hide": 1,
+            "Burned Undertooth": 1
+          },
+          "1": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "2": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 1,
+            "Molten Tailplate": 1
+          },
+          "3": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "4": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 1,
+            "Molten Tailplate": 1
+          }
         }
       },
       "chestplate": {
@@ -2463,6 +3293,43 @@
         "weakness": "-5 Frost <:frost:459747214277869579>",
         "bonuses": {
           "Fortress": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 2,
+            "Scorched Claw": 1
+          },
+          "1": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "2": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 1,
+            "Molten Tailplate": 1
+          },
+          "3": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 2,
+            "Scorched Claw": 1
+          },
+          "4": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 2,
+            "Molten Tailplate": 1
+          },
+          "5": {
+            "Notes": 1250,
+            "Armour Archonite": 11,
+            "Hellion Hide": 2,
+            "Scorched Claw": 1,
+            "Igneous Hide": 1
+          }
         }
       },
       "gauntlets": {
@@ -2472,6 +3339,34 @@
         "weakness": "-5 Frost <:frost:459747214277869579>",
         "bonuses": {
           "Ragehunter": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 2,
+            "Molten Tailplate": 1
+          },
+          "1": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "2": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 1,
+            "Scorched Claw": 1
+          },
+          "3": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "4": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 1,
+            "Scorched Claw": 1
+          }
         }
       },
       "greaves": {
@@ -2481,6 +3376,45 @@
         "weakness": "-5 Frost <:frost:459747214277869579>",
         "bonuses": {
           "Ragehunter": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 1,
+            "Scorched Claw": 1
+          },
+          "1": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 2,
+            "Scorched Claw": 1
+          },
+          "2": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 1,
+            "Molten Tailplate": 1
+          },
+          "3": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 2,
+            "Scorched Claw": 1
+          },
+          "4": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 2,
+            "Molten Tailplate": 1
+          },
+          "5": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Hellion Hide": 2,
+            "Scorched Claw": 1,
+            "Igneous Hide": 1
+          }
         }
       }
     },
@@ -2493,6 +3427,33 @@
         "weakness": "-5 Blaze <:blaze:459747214953283584>",
         "bonuses": {
           "Energized": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Stormclaw Hide": 1,
+            "Magnetooth": 1
+          },
+          "1": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "2": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Stormclaw Hide": 1,
+            "Capacitail": 1
+          },
+          "3": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "4": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Stormclaw Hide": 1,
+            "Capacitail": 1
+          }
         }
       },
       "chestplate": {
@@ -2502,7 +3463,8 @@
         "weakness": "-5 Blaze <:blaze:459747214953283584>",
         "bonuses": {
           "Aetheric Frenzy": 1
-        }
+        },
+        "recipe_cost": "Incomplete"
       },
       "gauntlets": {
         "name": "Stormbracers",
@@ -2511,6 +3473,33 @@
         "weakness": "-5 Blaze <:blaze:459747214953283584>",
         "bonuses": {
           "Aetheric Frenzy": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Stormclaw Hide": 1,
+            "Static Hide": 1
+          },
+          "1": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "2": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Stormclaw Hide": 1,
+            "Static Shank": 1
+          },
+          "3": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "4": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Stormclaw Hide": 1,
+            "Static Shank": 1
+          }
         }
       },
       "greaves": {
@@ -2520,6 +3509,33 @@
         "weakness": "-5 Blaze <:blaze:459747214953283584>",
         "bonuses": {
           "Energized": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Stormclaw Hide": 1,
+            "Static Shank": 1
+          },
+          "1": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "2": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Stormclaw Hide": 1,
+            "Static Hide": 1
+          },
+          "3": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "4": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Stormclaw Hide": 1,
+            "Static Hide": 1
+          }
         }
       }
     },
@@ -2532,6 +3548,33 @@
         "weakness": "None",
         "bonuses": {
           "Endurance": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Kharabak Chitin": 1,
+            "Skullshell": 1
+          },
+          "1": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "2": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Kharabak Chitin": 1,
+            "Splintered Chitin": 1
+          },
+          "3": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "4": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Kharabak Chitin": 1,
+            "Splintered Chitin": 1
+          }
         }
       },
       "chestplate": {
@@ -2541,6 +3584,33 @@
         "weakness": "None",
         "bonuses": {
           "Bladestorm": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Kharabak Chitin": 1,
+            "Splintered Chitin": 1
+          },
+          "1": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "2": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Kharabak Chitin": 1,
+            "Vestigial Claw": 1
+          },
+          "3": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "4": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Kharabak Chitin": 1,
+            "Vestigial Claw": 1
+          }
         }
       },
       "gauntlets": {
@@ -2550,6 +3620,33 @@
         "weakness": "None",
         "bonuses": {
           "Bladestorm": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Kharabak Chitin": 1,
+            "Splintered Chitin": 1
+          },
+          "1": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "2": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Kharabak Chitin": 1,
+            "Vestigial Claw": 1
+          },
+          "3": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "4": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Kharabak Chitin": 1,
+            "Vestigial Claw": 1
+          }
         }
       },
       "greaves": {
@@ -2559,6 +3656,33 @@
         "weakness": "None",
         "bonuses": {
           "Bladestorm": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Kharabak Chitin": 1,
+            "Vestigial Claw": 1
+          },
+          "1": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "2": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Kharabak Chitin": 1,
+            "Splintered Chitin": 1
+          },
+          "3": {
+            "Notes": 120,
+            "Armour Archonite": 11
+          },
+          "4": {
+            "Notes": 120,
+            "Armour Archonite": 11,
+            "Kharabak Chitin": 1,
+            "Splintered Chitin": 1
+          }
         }
       }
     },
@@ -2576,6 +3700,69 @@
         "upgraded_bonus": {
           "Tough": 1,
           "Bloodless": 2
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Ragetail Hide": 1,
+            "Cracked Slapper": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Rageclaw": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Ragetail Hide": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Ragetail Shinplate": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Ragetail Hide": 1,
+            "Polished Ragetooth": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Ragetail Hide": 2,
+            "Cracked Ragetooth": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Ragetail Shinplate": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Ragetail Shinplate": 1,
+            "Cracked Ragetooth": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Cracked Slapper": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Ragetail Hide": 1,
+            "Perfect Ragetooth": 1
+          }
         }
       },
       "chestplate": {
@@ -2590,6 +3777,68 @@
         "upgraded_bonus": {
           "Tough": 2,
           "Bloodless": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Ragetail Hide": 1,
+            "Ragetail Shinplate": 1,
+            "Cracked Ragetooth": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Ragetail Hide": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Cracked Ragetooth": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Ragetail Hide": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Cracked Ragetooth": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Perfect Ragetooth": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Ragetail Hide": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Ragetail Hide": 1,
+            "Severed Ragetail": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Ragetail Hide": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Rageclaw": 1,
+            "Severed Ragetail": 1
+          }
         }
       },
       "gauntlets": {
@@ -2604,6 +3853,68 @@
         "upgraded_bonus": {
           "Ragehunter": 2,
           "Tough": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Ragetail Hide": 1,
+            "Polished Ragetooth": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Ragetail Hide": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Ragetail Hide": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Glistening Fur": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Ragetail Hide": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Ragetail Hide": 2,
+            "Cracked Slapper": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Cracked Ragetooth": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Ragetail Shinplate": 1,
+            "Polished Ragetooth": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Ragetail Shinplate": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Ragetail Hide": 1,
+            "Pristine Ragetail Shinplate": 1
+          }
         }
       },
       "greaves": {
@@ -2618,6 +3929,67 @@
         "upgraded_bonus": {
           "Ragehunter": 1,
           "Bloodless": 2
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Ragetail Hide": 1,
+            "Ragetail Shinplate": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Cracked Ragetooth": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Rageclaw": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Ragetail Hide": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Severed Ragetail": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Pristine Ragetail Shinplate": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Ragetail Hide": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Ragetail Hide": 1,
+            "Cracked Slapper": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Ragetail Hide": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Glistening Fur": 1,
+            "Polished Ragetooth": 1
+          }
         }
       }
     },
@@ -2635,6 +4007,72 @@
         "upgraded_bonus": {
           "Fireproof": 1,
           "Energized": 2
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Firebrand Scale": 1,
+            "Smoldering Tailspike": 1,
+            "Gillhide Scraps": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Heavy Rockhide": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Firebrand Scale": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Scorched Rockhide": 1,
+            "Burned Gillhide": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Firebrand Scale": 1,
+            "Sturdy Firebrand Horn": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Firebrand Scale": 2,
+            "Chipped Firebrand Horn": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Scorched Rockhide": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Scorched Rockhide": 1,
+            "Chipped Firebrand Horn": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Smoldering Tailspike": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Firebrand Scale": 1,
+            "Glowing Skullcrest": 1,
+            "Gillhide Scraps": 2
+          }
         }
       },
       "chestplate": {
@@ -2649,6 +4087,72 @@
         "upgraded_bonus": {
           "Fireproof": 2,
           "Energized": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Firebrand Scale": 1,
+            "Scorched Rockhide": 1,
+            "Chipped Firebrand Horn": 1,
+            "Gillhide Scraps": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Firebrand Scale": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Chipped Firebrand Horn": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Firebrand Scale": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Chipped Firebrand Horn": 1,
+            "Gillhide Scraps": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armor Archonite": 1,
+            "Glowing Skullcrest": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Firebrand Scale": 1,
+            "Gillhide Scraps": 2
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Firebrand Scale": 1,
+            "Fiery Thagomizer": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Firebrand Scale": 1,
+            "Burned Gillhide": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Heavy Rockhide": 1,
+            "Fiery Thagomizer": 1
+          }
         }
       },
       "gauntlets": {
@@ -2663,6 +4167,73 @@
         "upgraded_bonus": {
           "Rage": 2,
           "Energized": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Firebrand Scale": 1,
+            "Sturdy Firebrand Horn": 1,
+            "Gillhide Scraps": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Firebrand Scale": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Firebrand Scale": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Gillhide Scraps": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Smoldering Firebrand Scale": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite ": 8,
+            "Firebrand Scale ": 1,
+            "Gillhide Scraps ": 1
+          },
+          "6": {
+            "Notes ": 150,
+            "Charged Armour Archonite ": 4,
+            "Pure Infused Armor Archonite ": 1,
+            "Firebrand Scale ": 2,
+            "Smoldering Tailspike ": 1
+          },
+          "8": {
+            "Notes ": 160,
+            "Charged Armour Archonite ": 8,
+            "Scorched Rockhide ": 1,
+            "Sturdy Firebrand Horn ": 1
+          },
+          "7 ": {
+            "Notes ": 155,
+            "Charged Armour Archonite ": 6,
+            "Pure Infused Armor Archonite ": 1,
+            "Chipped Firebrand Horn ": 1
+          },
+          "9 ": {
+            "Notes ": 165,
+            "Charged Armour Archonite ": 10,
+            "Pure Infused Armor Archonite ": 2,
+            "Scorched Rockhide ": 1,
+            "Glowing Gillhide ": 1
+          },
+          "10 ": {
+            "Notes": 170,
+            "Charged Armour Archonite ": 10,
+            "Firebrand Scale ": 1,
+            "Glowing Rockhide ": 1,
+            "Gillhide Scraps ": 2
+          }
         }
       },
       "greaves": {
@@ -2677,6 +4248,72 @@
         "upgraded_bonus": {
           "Fireproof": 2,
           "Rage": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Firebrand Scale": 1,
+            "Scorched Rockhide": 1,
+            "Gillhide Scraps": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Chipped Firebrand Horn": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Heavy Rockhide": 1,
+            "Gillhide Scraps": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Firebrand Scale": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Fiery Thagomizer": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armor Archonite": 1,
+            "Glowing Rockhide": 1,
+            "Burned Gillhide": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armor Archonite": 1,
+            "Firebrand Scale": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Firebrand Scale": 1,
+            "Smoldering Tailspike": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armor Archonite": 2,
+            "Scorched Rockhide": 1,
+            "Glowing Rockhide": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Smoldering Firebrand Scale": 1,
+            "Sturdy Firebrand Horn": 1,
+            "Burned Gillhide": 1
+          }
         }
       }
     },
@@ -2694,6 +4331,68 @@
         "upgraded_bonus": {
           "Insulated": 2,
           "Medic": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Shockjaw Hide": 1,
+            "Charged Spine": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Shockjaw Hide": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour\nArchonite": 6,
+            "Shockjaw Hide": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Charged Shockjaw Hide": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Shockjaw Hide": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Shockjaw Hide": 2,
+            "Tailspike Fragment": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Dull Tooth Fragment": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Dull Sparkclaw": 1,
+            "Charged Spine": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Dull Sparkclaw": 1,
+            "Pure Infused Armour Archonite": 2
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Shockjaw Hide": 1,
+            "Sparking Claw": 1
+          }
         }
       },
       "chestplate": {
@@ -2708,6 +4407,67 @@
         "upgraded_bonus": {
           "Insulated": 2,
           "Aetheric Attunement": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Shockjaw Hide": 1,
+            "Dull Sparkclaw": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Dull Tooth Fragment": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused\nArmour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Greater Sparkclaw": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Shockjaw Hide": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Charged Tailspike": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Archonite": 1,
+            "Sparking Claw": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Archonite": 1,
+            "Shockjaw Hide": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Shockjaw\nHide": 1,
+            "Tailspike Fragment": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Shockjaw Hide": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Charged Shockjaw Hide": 1,
+            "Charged Spine": 1
+          }
         }
       },
       "gauntlets": {
@@ -2722,6 +4482,69 @@
         "upgraded_bonus": {
           "Aetheric Attunement": 2,
           "Medic": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Shockjaw Hide": 1,
+            "Tailspike Fragment": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Greater Sparkclaw": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Shockjaw Hide": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Dull Sparkclaw": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Shockjaw Hide": 1,
+            "Charged Spine": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Shockjaw Hide": 2,
+            "Dull Tooth Fragment": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Dull Sparkclaw": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Dull Sparkclaw": 1,
+            "Dull Tooth Fragment": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Tailspike Fragment": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Shockjaw Hide": 1,
+            "Sparking Spine": 1
+          }
         }
       },
       "greaves": {
@@ -2736,6 +4559,68 @@
         "upgraded_bonus": {
           "Medic": 2,
           "Insulated": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Shockjaw Hide": 1,
+            "Dull Sparkclaw": 1,
+            "Dull Tooth Fragment": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Shockjaw Hide": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Dull Tooth Fragment": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Shockjaw Hide": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Dull Tooth Fragment": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Sparking Spine": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Shockjaw Hide": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Shockjaw Hide": 1,
+            "Charged Tailspike": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Shockjaw Hide": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Greater Sparkclaw": 1,
+            "Charged Tailspike": 1
+          }
         }
       }
     },
@@ -2753,6 +4638,70 @@
         "upgraded_bonus": {
           "Endurance": 2,
           "Deconstruction": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Razorwing Chitin": 1,
+            "Claw Shell Fragment": 1,
+            "Skullshell Fragment": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Razorwing Chitin": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Skullshell Fragment": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Razorwing Chitin": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Skullshell Fragment": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Deadly Incisor": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Razorwing Chitin": [
+              1
+            ]
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Razorwing Chitin": 1,
+            "Sleek Tail Chitin": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Razorwing Chitin": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Sleek Bladeclaw": 1,
+            "Sleek Tail Chitin": 1
+          }
         }
       },
       "chestplate": {
@@ -2767,6 +4716,68 @@
         "upgraded_bonus": {
           "Bladestorm": 2,
           "Deconstruction": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Razorwing Chitin": 1,
+            "Sleek Skullshell": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Razorwing Chitin": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Razorwing Chitin": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Sleek Razorwing Chitin": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Razorwing Chitin": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Razorwing Chitin": 2,
+            "Ovipositor Fragment": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Skullshell Fragment": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Claw Shell Fragment": 1,
+            "Sleek Skullshell": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Claw Shell Fragment": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Razorwing Chitin": 1,
+            "Deadly Jagged Bladeclaw": 1
+          }
         }
       },
       "gauntlets": {
@@ -2781,6 +4792,67 @@
         "upgraded_bonus": {
           "Bladestorm": 2,
           "Endurance": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Razorwing Chitin": 1,
+            "Claw Shell Fragment": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Skullshell Fragment": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Sleek Bladeclaw": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Razorwing Chitin": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Sleek Tail Chitin": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Deadly Jagged Bladeclaw": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Razorwing Chitin": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Razorwing Chitin": 1,
+            "Ovipositor Fragment": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Razorwing Chitin": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Sleek Razorwing Chitin": 1,
+            "Sleek Skullshell": 1
+          }
         }
       },
       "greaves": {
@@ -2795,6 +4867,69 @@
         "upgraded_bonus": {
           "Deconstruction": 2,
           "Bladestorm": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Razorwing Chitin": 1,
+            "Ovipositor Fragment": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Sleek Bladeclaw": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Razorwing Chitin": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Claw Shell Fragment": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Razorwing Chitin": 1,
+            "Sleek Skullshell": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Razorwing Chitin": 2,
+            "Skullshell Fragment": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Claw Shell Fragment": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Claw Shell Fragment": 1,
+            "Skullshell Fragment": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Ovipositor Fragment": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Razorwing Chitin": 1,
+            "Deadly Incisor": 1
+          }
         }
       }
     },
@@ -2812,6 +4947,69 @@
         "upgraded_bonus": {
           "Warmth": 1,
           "Knockout King": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Frostback Scale": 1,
+            "Cracked Tailplate": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Icetalon": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Frostback Scale": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Cracked Frostplate": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Frostback Scale": 1,
+            "Frost Tooth": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armor Archonite": 1,
+            "Frostback Scale": 2,
+            "Icy Browplate": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armor Archonite": 1,
+            "Cracked Frostplate": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Cracked Frostplate": 1,
+            "Icy Browplate": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armor Archonite": 2,
+            "Cracked Tailplate": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Frostback Scale": 1,
+            "Polar Incisor": 1
+          }
         }
       },
       "chestplate": {
@@ -2826,11 +5024,71 @@
         "upgraded_bonus": {
           "Knockout King": 2,
           "Fortress": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Frostback Scale": 1,
+            "Icy Browplate": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Frostback Scale": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Icy Browplate": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Frostback Scale": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Icy Browplate": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armor Archonite": 1,
+            "Polar Incisor": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armor Archonite": 1,
+            "Frostback Scale": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Icy Tailplate": 1,
+            "Frostback Scale": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armor Archonite": 2,
+            "Frostback Scale": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Icetalon": 1,
+            "Icy Tailplate": 1
+          }
         }
       },
       "gauntlets": {
         "name": "Frostgrips",
-        "cellslot": "Defence <:defence:459813422545108995>",
         "element": "+10 Frost <:frost:459747214277869579>",
         "weakness": "-5 Blaze <:blaze:459747214953283584>",
         "bonuses": {
@@ -2840,6 +5098,68 @@
         "upgraded_bonus": {
           "Fortress": 2,
           "Warmth": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Frostback Scale": 1,
+            "Frost Tooth": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armor Archonite": 6,
+            "Frostback Scale": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armor Archonite": 6,
+            "Frostback Scale": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armor Archonite": 6
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armor Archonite": 6,
+            "Icy Frostback Scale": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armor Archonite": 8,
+            "Frostback Scale": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armor Archonite": 4,
+            "Pure Infused Armor Archonite": 1,
+            "Frostback Scale": 2,
+            "Cracked Tailplate": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armor Archonite": 6,
+            "Pure Infused Armor Archonite": 1,
+            "Icy Browplate": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armor Archonite": 8,
+            "Cracked Frostplate": 1,
+            "Frost Tooth": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armor Archonite": 10,
+            "Pure Infused Armor Archonite": 2,
+            "Cracked Frostplate": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armor Archonite": 10,
+            "Frostback Scale": 1,
+            "Frozen Hindplate": 1
+          }
         }
       },
       "greaves": {
@@ -2854,7 +5174,8 @@
         "upgraded_bonus": {
           "Warmth": 2,
           "Fortress": 1
-        }
+        },
+        "recipe_cost": "Incomplete"
       }
     },
     {
@@ -2871,6 +5192,72 @@
         "upgraded_bonus": {
           "Barbed": 1,
           "Shellshock Resist": 2
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Deadeye Hide": 1,
+            "Dewspine": 1,
+            "Deadeye Tusk": 1,
+            "Deadeye Quillshard": 2
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Deadeye Hide": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Deadeye Tusk": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Deadeye Hide": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Deadeye Tusk": 1,
+            "Deadeye Quillshard": 2
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armor Archonite": 1,
+            "Perfect Tusk": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armor Archonite": 1,
+            "Deadeye Hide": 1,
+            "Deadeye Quillshard": 4
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Deadeye Hide": 1,
+            "Heavy Tailspike": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armor Archonite": 2,
+            "Deadeye Hide": 1,
+            "Deadeye Quill": 2
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Spiked Shinplate": 1,
+            "Heavy Tailspike": 1
+          }
         }
       },
       "chestplate": {
@@ -2885,6 +5272,73 @@
         "upgraded_bonus": {
           "Shellshock Resist": 2,
           "Savagery": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Deadeye Hide": 1,
+            "Ferocious Snout": 1,
+            "Deadeye Quillshard": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Deadeye Hide": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Deadeye Hide": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Deadeye Quillshard": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Flawless Spinehide": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Deadeye Hide": 1,
+            "Deadeye Quillshard": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Deadeye Hide": 2,
+            "Jagged Tailspike": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Deadeye Tusk": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Dewspine": 1,
+            "Ferocious Snout": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Dewspine": 1,
+            "Deadeye Razorquill": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Deadeye Hide": 1,
+            "Perfect Dewspine": 1,
+            "Deadeye Quillshard": 2
+          }
         }
       },
       "gauntlets": {
@@ -2899,6 +5353,72 @@
         "upgraded_bonus": {
           "Barbed": 2,
           "Savagery": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Deadeye Hide": 1,
+            "Jagged Tailspike": 1,
+            "Deadeye Quillshard": 2
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Spiked Shinplate": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Deadeye Hide": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Dewspine": 1,
+            "Deadeye Quill": 2
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Deadeye Hide": 1,
+            "Ferocious Snout": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armor Archonite": 1,
+            "Deadeye Hide": 2,
+            "Deadeye Tusk": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armor Archonite": 1,
+            "Dewspine": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Dewspine": 1,
+            "Deadeye Tusk": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armor Archonite": 2,
+            "Jagged Tailspike": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Deadeye Hide": 1,
+            "Perfect Tusk": 1,
+            "Deadeye Quillshard": 4
+          }
         }
       },
       "greaves": {
@@ -2913,6 +5433,71 @@
         "upgraded_bonus": {
           "Savagery": 2,
           "Shellshock Resist": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Deadeye Hide": 1,
+            "Dewspine": 1,
+            "Deadeye Quillshard": 2
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Deadeye Tusk": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Spiked Shinplate": 1,
+            "Deadeye Quillshard": 2
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Deadeye Hide": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Heavy Tailspike": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armor Archonite": 1,
+            "Perfect Dewspine": 1,
+            "Deadeye Quill": 2
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armor Archonite": 1,
+            "Deadeye Hide": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Deadeye Hide": 1,
+            "Jagged Tailspike": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armor Archonite": 1,
+            "Deadeye Hide": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Flawless Spinehide": 1,
+            "Ferocious Snout": 1,
+            "Deadeye Quill": 2
+          }
         }
       }
     },
@@ -2930,6 +5515,68 @@
         "upgraded_bonus": {
           "Fireproof": 2,
           "Evasive Fury": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Wildfire Hide": 1,
+            "Fiery Hindscale": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Wildfire Hide": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Wildfire Hide": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Glowing Wildfire Hide": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Wildfire Hide": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Wildfire Hide": 2,
+            "Emberhorn Fragment": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Rough Hindscale": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Chipped Dewclaw": 1,
+            "Fiery Hindscale": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Chipped Dewclaw": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Wildfire Hide": 1,
+            "Fireforged Dewclaw": 1
+          }
         }
       },
       "chestplate": {
@@ -2944,6 +5591,67 @@
         "upgraded_bonus": {
           "Evasion": 2,
           "Fireproof": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Wildfire Hide": 1,
+            "Chipped Dewclaw": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Rough Hindscale": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Smoking Dewclaw": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Wildfire Hide": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Polished Emberhorn": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Fireforged Dewclaw": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Wildfire Hide": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Wildfire Hide": 1,
+            "Emberhorn Fragment": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Wildfire Hide": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Glowing Wildfire Hide": 1,
+            "Fiery Hindscale": 1
+          }
         }
       },
       "gauntlets": {
@@ -2958,6 +5666,69 @@
         "upgraded_bonus": {
           "Evasive Fury": 2,
           "Evasion": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Wildfire Hide": 1,
+            "Emberhorn Fragment": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Smoking Dewclaw": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Wildfire Hide": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Chipped Dewclaw": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Wildfire Hide": 1,
+            "Fiery Hindscale": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Wildfire Hide": 2,
+            "Rough Hindscale": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Chipped Dewclaw": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Chipped Dewclaw": 1,
+            "Rough Hindscale": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Emberhorn Fragment": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Wildfire Hide": 1,
+            "Blazing Hindscale": 1
+          }
         }
       },
       "greaves": {
@@ -2972,6 +5743,68 @@
         "upgraded_bonus": {
           "Fireproof": 2,
           "Evasive Fury": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Wildfire Hide": 1,
+            "Chipped Dewclaw": 1,
+            "Rough Hindscale": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Wildfire Hide": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Rough Hindscale": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Wildfire Hide": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Rough Hindscale": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Blazing Hindscale": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Wildfire Hide": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Wildfire Hide": 1,
+            "Polished Emberhorn": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Wildfire Hide": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Smoking Dewclaw": 1,
+            "Polished Emberhorn": 1
+          }
         }
       }
     },
@@ -2989,6 +5822,67 @@
         "upgraded_bonus": {
           "Evasion": 2,
           "Weighted Strikes": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Torn Moonfeather": 1,
+            "Moonmantle": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Reaverdown": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Pristine Moonmantle": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Torn Moonfeather": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Pristine Moonbeak": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Perfect Moonmantle": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Torn Moonfeather": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Torn Moonfeather": 1,
+            "Broken Moonbeak": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armuor Archonite": 2,
+            "Torn Moonfeather": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Pristine Moonfeather": 1,
+            "Pristine Reaverdown": 1
+          }
         }
       },
       "chestplate": {
@@ -3003,6 +5897,69 @@
         "upgraded_bonus": {
           "Conditioning": 2,
           "Weighted Strikes": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Torn Moonfeather": 1,
+            "Broken Moonbeak": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Pristine Moonbeak": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Torn Moonfeather": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Moonmantle": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Torn Moonfeather": 1,
+            "Pristine Reaverdown": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Torn Moonfeather": 2,
+            "Reaverdown": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Moonmantle": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Moonmantle": 1,
+            "Reaverdown": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Broken Moonbeak": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Torn Moonfeather": 1,
+            "Perfect Reaverdown": 1
+          }
         }
       },
       "gauntlets": {
@@ -3017,6 +5974,68 @@
         "upgraded_bonus": {
           "Conditioning": 2,
           "Evasion": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Torn Moonfeather": 1,
+            "Moonmantle": 1,
+            "Reaverdown": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Torn Moonfeather": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Reaverdown": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Torn Moonfeather": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Reaverdown": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Perfect Reaverdown": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Torn Moonfeather": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Torn Moonfeather": 1,
+            "Pristine Moonbeak": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Torn Moonfeather": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Pristine Moonfeather": 1,
+            "Pristine Moonbeak": 1
+          }
         }
       },
       "greaves": {
@@ -3031,6 +6050,68 @@
         "upgraded_bonus": {
           "Evasion": 2,
           "Weighted Strikes": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Torn Moonfeather": 1,
+            "Pristine Reaverdown": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Torn Moonfeather": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Torn Moonfeather": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Pristine Moonfeather": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Torn Moonfeather": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Torn Moonfeather": 2,
+            "Broken Moonbeak": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Reaverdown": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Moonmantle": 1,
+            "Pristine Reaverdown": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Moonmantle": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Torn Moonfeather": 1,
+            "Perfect Moonmantle": 1
+          }
         }
       }
     },
@@ -3048,6 +6129,70 @@
         "upgraded_bonus": {
           "Energized": 2,
           "Cunning": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Rezakiri Chitin": 1,
+            "Cracked Biocrystal": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Rezakiri Chitin": 1,
+            "Aethergem Fragment": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Rezakiri Chitin": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Luminescent Chitin": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Rezakiri Chitin": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Armour Archonite": 1,
+            "Rezakiri Chitin": 2,
+            "Shattered Tailplate": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Armour Archonite": 1,
+            "Fractured Mandible": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Chitin Fragment": 1,
+            "Cracked Biocrystal": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Armour Archonite": 2,
+            "Chitin Fragment": 1,
+            "Clear Powergem": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Rezakiri Chitin": 1,
+            "Glimmering Clawplate": 1
+          }
         }
       },
       "chestplate": {
@@ -3062,6 +6207,70 @@
         "upgraded_bonus": {
           "Energized": 2,
           "Agility": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Rezakiri Chitin": 1,
+            "Chitin Fragment": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Fractured Mandible": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Exoskeletal Plate": 1,
+            "Aethergem Fragment": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Rezakiri Chitin": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Lustrous Tailplate": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Glimmering Clawplate": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Rezakiri Chitin": 1,
+            "Aethergem Fragment": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Rezakiri Chitin": 1,
+            "Shattered Tailplate": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Rezakiri Chitin": 1,
+            "Aethergem Fragment": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Luminescent Chitin": 1,
+            "Cracked Biocrystal": 1
+          }
         }
       },
       "gauntlets": {
@@ -3076,6 +6285,71 @@
         "upgraded_bonus": {
           "Cunning": 2,
           "Agility": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Rezakiri Chitin": 1,
+            "Shattered Tailplate": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Exoskeletal Plate": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Rezakiri Chitin": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Chitin Fragment": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Rezakiri Chitin": 1,
+            "Cracked Biocrystal": 1,
+            "Aethergem Fragment": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Rezakiri Chitin": 2,
+            "Fractured Mandible": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Chitin Fragment": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Chitin Fragment": 1,
+            "Fractured Mandible": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Infused Armour Archonite": 10,
+            "Pure Infused Armor Archonite": 2,
+            "Shattered Tailplate": 1,
+            "Clear Powergem": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Infused Armour Archonite": 10,
+            "Rezakiri Chitin": 1,
+            "Radiant Biocrystal": 1
+          }
         }
       },
       "greaves": {
@@ -3090,6 +6364,71 @@
         "upgraded_bonus": {
           "Agility": 2,
           "Energized": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Rezakiri Chitin": 1,
+            "Chitin Fragment": 1,
+            "Fractured Mandible": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Aethergem Fragment": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Rezakiri Chitin": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Fractured Mandible": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Rezakiri Chitin": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Fractured Mandible": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Radiant Biocrystal": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Rezakiri Chitin": 1,
+            "Clear Powergem": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Rezakiri Chitin": 1,
+            "Lustrous Tailplate": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 1,
+            "Rezakiri Chitin": 1,
+            "Aethergem Fragment": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Exoskeletal Plate": 1,
+            "Lustrous Tailplate": 1
+          }
         }
       }
     },
@@ -3107,6 +6446,72 @@
         "upgraded_bonus": {
           "Medic": 2,
           "Rage": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Shrowd Feather": 1,
+            "Cracked Shadowtalon": 1,
+            "Darkbeak Fragment": 1,
+            "Torn Bladefeather": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Shrowd Feather": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Darkbeak Fragment": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Shrowd Feather": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Darkbeak Fragment": 1,
+            "Torn Bladefeather": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Corrupted Crownfeather": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Shrowd Feather": 1,
+            "Torn Bladefeather": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Shrowd Feather": 1,
+            "Midnight Tailfeather": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Shrowd Feather": 2,
+            "Dark Bladefeather": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Twisted Shadowspur": 1,
+            "Midnight Tailfeather": 1
+          }
         }
       },
       "chestplate": {
@@ -3121,6 +6526,71 @@
         "upgraded_bonus": {
           "Nine Lives": 2,
           "Rage": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Shrowd Feather": 1,
+            "Cracked Shadowtalon": 1,
+            "Torn Bladefeather": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Darkbeak Fragment": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Twisted Shadowspur": 1,
+            "Torn Bladefeather": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Shrowd Feather": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 8,
+            "Midnight Tailfeather": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Corrupted Shadowtalon": 1,
+            "Dark Bladefeather": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Shrowd Feather": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Shrowd Feather": 1,
+            "Dark Tailfeather": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Shrowd Feather": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Writhing Feather": 1,
+            "Darkbeak Shard": 1,
+            "Dark Bladefeather": 1
+          }
         }
       },
       "gauntlets": {
@@ -3135,6 +6605,73 @@
         "upgraded_bonus": {
           "Rage": 2,
           "Medic": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Shrowd Feather": 1,
+            "Darkbeak Shrowd": 1,
+            "Torn Bladefeather": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Shrowd Feather": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6,
+            "Shrowd Feather": 1
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Torn Bladefeather": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Writhing Feather": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour Archonite": 6,
+            "Shrowd Feather": 1,
+            "Torn Bladefeather": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Shrowd Feather": 1,
+            "Dark Tailfeather": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Darkbeak Fragment": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Cracked Shadowtalon": 1,
+            "Darkbeak Shard": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Cracked Shadowtalon": 1,
+            "Corrupted Bladefeather": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Shrowd Feather": 1,
+            "Corrupted Shadowtalon": 1,
+            "Torn Bladefeather": 1
+          }
         }
       },
       "greaves": {
@@ -3149,6 +6686,72 @@
         "upgraded_bonus": {
           "Medic": 2,
           "Nine Lives": 1
+        },
+        "recipe_cost": {
+          "0": {
+            "Notes": 120,
+            "Shrowd Feather": 1,
+            "Dark Tailfeather": 1,
+            "Torn Bladefeather": 1
+          },
+          "1": {
+            "Notes": 125,
+            "Infused Armour Archonite": 6,
+            "Twisted Shadowspur": 1
+          },
+          "2": {
+            "Notes": 130,
+            "Infused Armour Archonite": 6
+          },
+          "3": {
+            "Notes": 135,
+            "Infused Armour Archonite": 6,
+            "Shrowd Feather": 1
+          },
+          "4": {
+            "Notes": 140,
+            "Infused Armour Archonite": 6,
+            "Cracked Shadowtalon": 1,
+            "Dark Bladefeather": 1
+          },
+          "5": {
+            "Notes": 145,
+            "Infused Armour\nArchonite": 6,
+            "Shrowd Feather": 1,
+            "Darkbeak Shard": 1
+          },
+          "6": {
+            "Notes": 150,
+            "Charged Armour Archonite": 4,
+            "Pure Infused Armour Archonite": 1,
+            "Shrowd Feather": 2,
+            "Darkbeak Fragment": 1
+          },
+          "7": {
+            "Notes": 155,
+            "Charged Armour Archonite": 6,
+            "Pure Infused Armour Archonite": 1,
+            "Cracked Shadowtalon": 1
+          },
+          "8": {
+            "Notes": 160,
+            "Charged Armour Archonite": 8,
+            "Cracked Shadowtalon": 1,
+            "Darkbeak Fragment": 1
+          },
+          "9": {
+            "Notes": 165,
+            "Charged Armour Archonite": 10,
+            "Pure Infused Armour Archonite": 2,
+            "Dark Tailfeather": 1
+          },
+          "10": {
+            "Notes": 170,
+            "Charged Armour Archonite": 10,
+            "Shrowd Feather": 1,
+            "Corrupted Crownfeather": 1,
+            "Torn Bladefeather": 2
+          }
         }
       }
     }

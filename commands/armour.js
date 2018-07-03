@@ -34,13 +34,9 @@ exports.run = (client, message, args, Discord) => {
     }else if (args.length == 3){
       var behemothfile = db.get("behemoths").find({namedb:`${args[0]} ${args[1]}`}).value();
   }
-  behemothnoicon = ['skarn','skraev','drask',"nayzaga","shockjaw"]
-  if(behemothnoicon.includes(args[args.length-2])){
-    var pngurl = 'https://nireon.me/filler.png';
-  }
-  else{
+
   var pngurl = `https://nireon.me/armour/${args[args.length-1]}/${args[args.length-2]}.png`;
-  }
+
     var embed = new Discord.RichEmbed();
     embed.setTitle("__"+ behemothfile.name + " (" + args[args.length-1]+")__")
     .setThumbnail(pngurl)

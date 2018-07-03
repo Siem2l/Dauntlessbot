@@ -37,13 +37,9 @@ exports.run = (client, message, args, Discord) => {
   }
   weaponfile = weaponfile.items[weapontype];
 
-  behemothnoicon = ['skarn','skraev','drask']
-  if(behemothnoicon.includes(args[args.length-2])){
-    var pngurl = 'https://nireon.me/filler.png';
-  }
-  else{
+
   var pngurl = `https://nireon.me/weapons/${args[args.length-1]}/${args[args.length-2]}.png`;
-  }
+
         var embed = new Discord.RichEmbed();
     embed.setTitle("__"+ behemothfile.name + " (" + weaponfile.type +")__")
     .setThumbnail(pngurl)
