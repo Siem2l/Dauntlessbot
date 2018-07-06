@@ -1,15 +1,27 @@
 const Discord = require('discord.js');
+const Enmap = require("enmap");
 const client = new Discord.Client();
 const config = require("./config.json");
+
 const talkedRecently = new Set();
 const SQLite = require("better-sqlite3");
 const sql = new SQLite('./data/guildinfo.sqlite')
 const sqlrotation = new SQLite('./data/rotation.sqlite')
 const fs = require("fs")
 const low = require("lowdb");
-const FileSync = require('lowdb/adapters/FileSync');
+const FileSync =   require('lowdb/adapters/FileSync');
 const adapter = new FileSync('./data/dauntlessdata.json');
 const db = low(adapter);
+
+const DBL = require("dblapi.js");
+const dbl = new DBL(config.dbltoken, client);
+dbl.on('posted', () => {
+  console.log('Server count posted!');
+})
+
+dbl.on('error', e => {
+ console.log(`Oops! ${e}`);
+})
 //------------------------------------------Ready-------------------------------------------------
 client.on('ready', () => {
   client.user.setActivity(`on ${client.guilds.size} servers`);
@@ -34,8 +46,29 @@ client.on('ready', () => {
   client.getIsland = sqlrotation.prepare("SELECT * FROM rotation WHERE islandname = ?");
   client.setIsland = sqlrotation.prepare("INSERT OR REPLACE INTO rotation (islandname, time) VALUES (@islandname, @time);");
   client.removeIsland = sqlrotation.prepare("DELETE FROM rotation WHERE islandname = ?;");
+
+  /// discordbots.org server count
+  setInterval(() => {
+        dbl.postStats(client.guilds.size);
+    }, 1800000);
 });
 //-------------------------------------------------------------------------------------------------
+client.commands = new Enmap();
+client.aliases = new Enmap();
+fs.readdir("./commands/", (err, files) => {
+  if (err) return console.error(err);
+  files.forEach(file => {
+    if (!file.endsWith(".js")) return;
+    let props = require(`./commands/${file}`);
+    let commandName = file.split(".")[0];
+    console.log(`Attempting to load command ${commandName}`);
+    client.commands.set(commandName, props);
+    console.log(props)
+    props.conf.aliases.forEach(alias => {
+      client.aliases.set(alias, props.conf.name);
+    });
+  });
+});
 //-----------------------------------------------Guildcreate---------------------------------------
 client.on("guildCreate", guild => {
   client.user.setActivity(`on ${client.guilds.size} servers`);
@@ -87,12 +120,25 @@ client.on('message', message => {
           message.channel.send("Wait 3 seconds before sending a new command - " + message.author);
        }
        else {
+         if(message.author.id !=94907924828127232){
          talkedRecently.add(message.author.id);
          setTimeout(() => {
             talkedRecently.delete(message.author.id);
           }  , 3000);
-          var  args = message.content.toLowerCase().slice(guildinfo.guildprefix.length).trim().split(/ +/g);
+        }
+    //--------------------------------------------dauntlessbuilder-------------------------------
+          var  args = message.content.slice(guildinfo.guildprefix.length).trim().split(/ +/g);
           var command = args.shift().toLowerCase();
+/*
+          if (command == "dbuilds"){
+            var commandFile = require(`./commands/dbuilds.js`);
+            commandFile.run(client, message, args, Discord);
+            return;
+          }
+          */
+          args = args.join('|').toLowerCase().split('|');
+
+
 
     //---------------------------------------------------------------------------------------------
     //---------------------------------------------Check if it's a behemoth name command-----------
@@ -100,7 +146,11 @@ client.on('message', message => {
       var regex = new RegExp( command+".*", 'i');
       let bm = db.get('behemoths').find(behemoth => regex.test(behemoth.namedb)).value();;
       if (bm){
+        if (bm.namedb.indexOf(args[0])>-1){
+          args.splice(0,1);
+        }
         var commandbm;
+        var argcheck = true;
         switch(args[0]){
           case "info":
             commandbm = "behemoth";
@@ -118,14 +168,29 @@ client.on('message', message => {
             commandbm = "lantern";
             break;
         }
-        if (args == null){
-          args[0] = "behemoth";
+        let armorarray=['helmet','chestplate','gauntlets','greaves'];
+        let weaponarray= ['axe','sword','chainblades','warpike','hammer']
+        if (armorarray.indexOf(args[0]) > -1){
+          commandbm = "armour";
+          argcheck = false
+        }
+        if (weaponarray.indexOf(args[0]) > -1){
+          commandbm = "weapon";
+          argcheck = false
+        }
+        else{
+          commandbm = "behemoth";
         }
         args.unshift(command.toLowerCase());
+        if (argcheck){
         args.splice(1,1);
+      }
         command = commandbm;
         if (!command){
-          message.channel.send("Please choose a valid behemoth and then one of these 4 options `info`, `armour`, `weapon`, `lantern`")
+          let guildinfo = client.getGuild.get(message.guild.id);
+          let reply =`Please use one of the following commands:\n\`${guildinfo.guildprefix}Behemoth Info\` - General information about a specific behemoth\n\`${guildinfo.guildprefix}Behemoth Armour <BodyPart>\` - Specific information about armour from a behemoth\n• Replace <BodyPart> with \`Helmet\`, \`Chestplate\`, \`Legs\`, or \`Greaves\`\n\`${guildinfo.guildprefix}Behemoth <WeaponType>\` - Specific information about weapons from a behemoth\n• Replace <WeaponType> with \`Sword\`, \`Hammer\`, \`Chain Blades\`, \`Axe\`, or \`Warpike\`\n\`${guildinfo.guildprefix}Behemoth Lantern\` - Specific information about lantern from a behemoth\nTo see a list of Behemoth Names, type \`${guildinfo.guildprefix}Behemoth List\`\n`;
+
+          message.channel.send(reply);
           return;
         }
         else{
@@ -134,15 +199,24 @@ client.on('message', message => {
 
       }
       else {
-      var commandFile = require(`./commands/${command}.js`);
+        if (client.commands.has(command)) {
+            commandFile = client.commands.get(command);
+        } else if (client.aliases.has(command)) {
+            commandFile = client.commands.get(client.aliases.get(command));
+          }
     }
 
     //---------------------Running the command------------------------------------------
+      if(!commandFile){
+        message.channel.send(`Please choose a valid command or a valid behemoth you can find a list of all the commands at \`${guildinfo.guildprefix}help\` and a list of all the behemoths if you type \`${guildinfo.guildprefix}behemoth\`\'`)
+        return;
+      }
       commandFile.run(client, message, args, Discord);
     }
     catch (err)  {
       console.log(err);
       message.channel.send(`Please choose a valid command or a valid behemoth you can find a list of all the commands at \`${guildinfo.guildprefix}help\` and a list of all the behemoths if you type \`${guildinfo.guildprefix}behemoth\`\'`)
+      return;
     }
 }
 });
@@ -150,7 +224,8 @@ client.on('message', message => {
 //-------------------------------------------------------------------------------------------------
 //-----------------------------------------------Rotation updating---------------------------------
 setInterval(function() {let rotation = client.getIslands.all();
-  if (rotation[1]["time"]+ 597600000*2 < Date.now()){
+  if (rotation[0]["time"]+ 597600000*2 < Date.now()){
+    console.log(rotation[0]["islandname"]);
   client.removeIsland.run(rotation[0]["islandname"]);
 }},30000);
 client.login(config.token);
