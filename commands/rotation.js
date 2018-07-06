@@ -45,3 +45,7 @@ exports.run = (client, message, args, Discord) => {
     };//597600000
     message.channel.send({embed})
 }
+exports.conf = {
+  name:"rotation",
+  aliases: ['rot']
+};

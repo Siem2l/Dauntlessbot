@@ -37,14 +37,12 @@ exports.run = (client, message, args, Discord) => {
   }
   weaponfile = weaponfile.items[weapontype];
 
-
-  var pngurl = `https://nireon.me/weapons/${args[args.length-1]}/${args[args.length-2]}.png`;
+  console.log(weaponfile.icon_url)
 
         var embed = new Discord.RichEmbed();
     embed.setTitle("__"+ behemothfile.name + " (" + weaponfile.type +")__")
-    .setThumbnail(pngurl)
-    .setAuthor(weaponfile.name)
-    .setThumbnail(pngurl)
+    .setThumbnail(weaponfile.icon_url)
+    .setAuthor(weaponfile.name,"",weaponfile.wiki_url)
     .addField("Cellslots",weaponfile.cellslot01 + " & " + weaponfile.cellslot02,true)
     .addField("Element", weaponfile.element, true)
     if (weaponfile.bonuses != "None"){
@@ -79,7 +77,8 @@ let guildinfo = client.getGuild.get(message.guild.id);
 console.log(err);
   message.channel.send(reply);
   }
-
-
-
 }
+exports.conf = {
+  name:"weapon",
+  aliases: ["weapons"]
+};

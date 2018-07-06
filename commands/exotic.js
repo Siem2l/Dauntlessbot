@@ -5,6 +5,19 @@ exports.run = (client, message, args, Discord) => {
   const db = low(adapter);
 
     try {
+      if (args[0]=='list'){
+        stringlist = ''
+        var behemoth = db.get('exotics').value();
+        for (key in behemoth){
+          if ((key % 2 == 1)){
+            stringlist += `• ${behemoth[key]['name']},`.padEnd(25)+"\n"
+          }
+          else{
+          stringlist += `• ${behemoth[key]['name']},`.padEnd(25)
+        }
+      }
+        return message.channel.send(`Exotic list:\n\`\`\`${stringlist}\`\`\``)
+      }
         let exoticfile = db.get("exotics").find({namedb: `${args[0]}${args[1]}`}).value();
 
         var embed = {
@@ -55,7 +68,12 @@ exports.run = (client, message, args, Discord) => {
         message.channel.send({embed});
     } catch (err)  {
       console.log(err)
-      let reply = `Please use \`\`${guildinfo.guildprefix}exotic <exotic name>\`\` with a exotic from below:\n\`\`prismatic grace, the godhand, the hunger, tragic echo\`\``;
+      let guildinfo = client.getGuild.get(message.guild.id);
+      let reply = `Please use one of the following commands:\n\`${guildinfo.guildprefix}Exotic <ExoticName>\` - General information about a specific exotic\nTo see a list of Exotic Names, type \`${guildinfo.guildprefix}Exotic List\`\n`
       message.channel.send(reply);
         }
 }
+exports.conf = {
+  name:"exotic",
+  aliases: []
+};

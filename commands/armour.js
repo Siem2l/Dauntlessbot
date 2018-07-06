@@ -35,12 +35,11 @@ exports.run = (client, message, args, Discord) => {
       var behemothfile = db.get("behemoths").find({namedb:`${args[0]} ${args[1]}`}).value();
   }
 
-  var pngurl = `https://nireon.me/armour/${args[args.length-1]}/${args[args.length-2]}.png`;
 
     var embed = new Discord.RichEmbed();
     embed.setTitle("__"+ behemothfile.name + " (" + args[args.length-1]+")__")
-    .setThumbnail(pngurl)
-    .setAuthor(armourfile.name)
+    .setThumbnail(armourfile.icon_url)
+    .setAuthor(armourfile.name,armourfile.wiki_url)
     .addField("Cellslot",armourfile.cellslot)
     .addField("Element", armourfile.element, true)
     .addField("Weakness",armourfile.weakness,true);
@@ -74,3 +73,7 @@ exports.run = (client, message, args, Discord) => {
 
 
 }
+exports.conf = {
+  name:"armour",
+  aliases: ["armor"]
+};

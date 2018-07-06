@@ -4,6 +4,20 @@ exports.run = (client, message, args, Discord) => {
   const adapter = new FileSync('./data/dauntlessdata.json');
   const db = low(adapter);
     try{
+      if (args[0]=='list'){
+        stringlist = ''
+        var behemoth = db.get('cells').value();
+        for (key in behemoth){
+          console.log(behemoth[key])
+          if ((key % 2 == 1)){
+            stringlist += `• ${behemoth[key]['name']},`.padEnd(25)+"\n"
+          }
+          else{
+          stringlist += `• ${behemoth[key]['name']},`.padEnd(25)
+        }
+      }
+        return message.channel.send(`Island list:\n\`\`\`${stringlist}\`\`\``)
+      }
       if (args.length == 2){
         var cellfile = db.get("cells").find({namedb: `${args[0]} ${args[1]}`}).value();
       }
@@ -11,7 +25,6 @@ exports.run = (client, message, args, Discord) => {
       var cellfile = db.get("cells").find({namedb: args[0]}).value();
 
     }
-    console.log(`https://nireon.me/cellslots/${cellfile.type.toLowerCase()}.png`);
         const embed = {
             "description": cellfile.description,
             "color": 13937765,
@@ -37,9 +50,13 @@ exports.run = (client, message, args, Discord) => {
           message.channel.send({ embed });
     } catch(err){
           let guildinfo = client.getGuild.get(message.guild.id);
-          let reply = ` Please use \`\`${guildinfo.guildprefix}cells <cell name>\`\` with a cell name from below:\n \`\`acidic, aetherborne, aetherhunter, aetheric attunement, aetheric frenzy, agility, assassins vigor, barbed, bladestorm, bloodless, conditioning, cunning, deconstruction, endurance, energized, evasion, evasive fury, fireproof, fleet footed, fortress, insulated, knockout king, medic, merciless, nimble, nine lives, overpower, pacifier, rage, ragehunter, savagery, sharpened, shellshock resist, stunning vigour, sturdy, swift, tough, vampiric, warmth, weighted strikes, wild frenzy\`\``
+          let reply = `Please use one of the following commands:\n\`${guildinfo.guildprefix}Cell <CellName>\` - Specific information about a specific cell\nTo see a list of Cell Names, type \`${guildinfo.guildprefix}Cell List\`\n`;
           message.channel.send(reply);
       }
 
 
+    };
+    exports.conf = {
+      name:"cells",
+      aliases: ["cell"]
     };

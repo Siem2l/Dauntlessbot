@@ -231,109 +231,18 @@ else if(exoticarray.indexOf(args[0]) >-1){
     message.channel.send({embed});
     return;
 }
+let guildinfo = client.getGuild.get(message.guild.id);
+var reply = `Please use one of the following commands:\n\`${guildinfo.guildprefix}Recipe <ItemName> Base\` – Specific information about the materials required to craft an item for the first time\n\`${guildinfo.guildprefix}Recipe <ItemName> Total\` – Specific information about the materials required to craft an item & upgrade it fully\n\`${guildinfo.guildprefix}Recipe <ItemName> <Lower> <Upper>\` – Specific information about the materials required to upgrade an item\n• Replace <ItemName> with the name of the item from the game you are crafting\nTo see more information on using <Lower> & <Upper> type \`${guildinfo.guildprefix}Help\`\n`;
+return message.channel.send(reply)
 }
 catch(err){
   console.log(err);
+  let guildinfo = client.getGuild.get(message.guild.id);
+  var reply = `Please use one of the following commands:\n\`${guildinfo.guildprefix}Recipe <ItemName> Base\` – Specific information about the materials required to craft an item for the first time\n\`${guildinfo.guildprefix}Recipe <ItemName> Total\` – Specific information about the materials required to craft an item & upgrade it fully\n\`${guildinfo.guildprefix}Recipe <ItemName> <Lower> <Upper>\` – Specific information about the materials required to upgrade an item\n• Replace <ItemName> with the name of the item from the game you are crafting\nTo see more information on using <Lower> & <Upper> type \`${guildinfo.guildprefix}Help\`\n`;
+  return message.channel.send(reply)
 }
-/*}catch(err){
-  message.channel.send(`${recipefile['name']} Does not Have that Level Tier highest tier is: \`\`` + highesttier +'``')
-  return;
 }
-
-    }else{
-        let recipefile = db.get("exotics").find({namedb: `${args[0]}${args[1]}`}).value();
-        if (args[3] == "to"){
-          args.splice(3,1);
-        }
-        var highesttier = -1;
-        for (let k in recipefile['recipe_cost']){
-          highesttier++
-        }
-        if (!args[2] || args[2] == 'total'){
-            args[2] = '0';
-            args[3] = '10';
-        }
-        else if (args[2] == 'base'){
-          args[2] = '0'
-        }
-        if (args[2].startsWith("+")){
-        args[2] =args[2].substring(1);
-        }
-         if (args.length == 4 && args[3].startsWith("+")){
-        args[3] = args[3].substring(1);
-        }
-        if (args[args.length-1] > 10){
-          args[args.length-1] = 10;
-        }
-        if (args.length == 4){
-          var recipecalculation = [];
-          for (let i = parseInt(args[2]); i <= parseInt(args[3]);i++){
-            for(var item in recipefile['recipe_cost'][`${i}`]){
-            for(let j in recipecalculation){
-              var found = false;
-              if (recipecalculation[j]["name"] == item){
-                recipecalculation[j]["amount"] += recipefile['recipe_cost'][`${i}`][item];
-                found = true;
-                break;
-              }
-            }
-            if (found != true){
-                var jsonarray = {
-                  name:item,
-                  amount:recipefile['recipe_cost'][i][item]
-                }
-                recipecalculation.push(jsonarray);
-              }
-            }
-            }
-            var recipestring = "";
-            recipecalculation.sort(function(a,b) {return (a.amount<b.amount) ? 1 : ((b.amount < a.amount) ? -1 : 0);})
-            for(var items in recipecalculation){
-              recipestring += `•  ${recipecalculation[items]["name"]}: ${recipecalculation[items]["amount"]} \n`;
-          }
-        } else {
-            var recipestring = "";
-            for(var items in recipefile['recipe_cost'][args[2]]){
-               recipestring += `•  ${items}: ${recipefile['recipe_cost'][args[2]][items]} \n`;
-            }
-          }
-          console.log(highesttier);
-        var  embed = new Discord.RichEmbed();
-        embed.setDescription(recipefile.description)
-             .setThumbnail(recipefile.icon_url)
-             .setAuthor(recipefile.name,"", recipefile.wiki_url)
-             .setColor("#0033cc");
-        if (args[2] == '0' && args[3] == '10'){
-               embed.addField(`Recipe cost for Total`,recipestring)
-        }
-        else if (args[2] == '0' && args.length == 4 ){
-          embed.addField(`Recipe cost for base to +${args[3]}`,recipestring)
-        }
-        else if (args[2]== '0'){
-          embed.addField(`Recipe cost for Base`,recipestring)
-        }
-        else if (args.length == 4 && args[3] <= highesttier){
-          embed.addField(`Recipe cost for +${args[2]} to +${args[3]}`,recipestring)
-        }
-        else if (args.length ==  4 && args[3] >= highesttier){
-          embed.addField(`Recipe cost for +${args[2]} to +${highesttier}`,recipestring)
-        }
-        else{
-          embed.addField(`Recipe cost for +${args[2]}`,recipestring)
-
-        }
-
-        message.channel.send({embed});
-        return;
-      }
-    } catch (err)  {
-      console.log(err);
-          let guildinfo = client.getGuild.get(message.guild.id);
-          let reply = `Please use \`\`${guildinfo.guildprefix}recipe <Behemothname/ExoticName> <statistic if armour> (lower level) (higher level)\`\` with an exotic from below:\n\`\`prismatic grace, the godhand, the hunger, tragic echo\`\`\n for armor choose a statistic : \`\`Helmet, Chestplate, Gauntlets, Greaves \`\`also you can choose one or two level(s) from below: (Default is total) \n\`\`base, +1, +2, +3, +4, +5, +6, +7, +8, +9, +10 and total\`\``
-          message.channel.send(reply);
-
-
-
-        }
-*/
-}
+exports.conf = {
+  name:"recipe",
+  aliases: []
+};

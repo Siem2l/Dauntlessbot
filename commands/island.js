@@ -3,9 +3,21 @@ exports.run = (client, message, args, Discord) => {
   const FileSync = require('lowdb/adapters/FileSync');
   const adapter = new FileSync('./data/dauntlessdata.json');
   const db = low(adapter);
-
-
     try {
+      if (args[0]=='list'){
+        stringlist = ''
+        var behemoth = db.get('islands').value();
+        for (key in behemoth){
+          console.log(behemoth[key])
+          if ((key % 2 == 1)){
+            stringlist += `• ${behemoth[key]['name']},`.padEnd(25)+"\n"
+          }
+          else{
+          stringlist += `• ${behemoth[key]['name']},`.padEnd(25)
+        }
+      }
+        return message.channel.send(`Cell list:\n\`\`\`${stringlist}\`\`\``)
+      }
       if (args.length == 2){
         var islandfile= db.get("islands").find({namedb: `${args[0]} ${args[1]}`}).value();
       }
@@ -48,7 +60,11 @@ exports.run = (client, message, args, Discord) => {
         } catch (err)  {
         console.log(err);
         let guildinfo = client.getGuild.get(message.guild.id);
-            let reply = `Please use \`\`${guildinfo.guildprefix}island <island name>\`\` with a island from below:\n\`\`amber-6, aulrics refuge, burning rose, cerulean-22, cobalt-4, coldrunner key, dyadic drift, frostmarch, iron falls, relevation rock, rooks isle, sandrians stone, underwald, vermillion-18, viridian-12\`\``
+            let reply = `Please use one of the following commands:\n\`${guildinfo.guildprefix}Island <IslandName>\` - Specific information about an island or location\n\`${guildinfo.guildprefix}Rotation\` - Displays the behemoths currently available in the Maelstrom & which behemoths are coming next\nTo see a list of Island Names, type \`${guildinfo.guildprefix}Island List\`\n`;
             message.channel.send(reply);
         }
 }
+exports.conf = {
+  name:"island",
+  aliases: ["islands"]
+};

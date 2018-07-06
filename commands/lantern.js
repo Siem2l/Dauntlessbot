@@ -21,3 +21,7 @@ try {
 }
 
 }
+exports.conf = {
+  name:"lantern",
+  aliases: ["lanterns"]
+};

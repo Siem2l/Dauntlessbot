@@ -4,28 +4,32 @@ exports.run = (client, message, args, Discord) => {
   const adapter = new FileSync('./data/dauntlessdata.json');
   const db = low(adapter);
 try{
-  console.log(args);
-  if (args.length == 2){
-    var behemoth = db.get("behemoths").find({namedb: `${args[0]} ${args[1]}`}).value();
+  if (args[0]=='list'){
+    let stringlist = ""
+    var behemoth = db.get('behemoths').value();
+    for (key in behemoth){
+      if ((key % 2 == 1)){
+        stringlist += `• ${behemoth[key]['name']},`.padEnd(25)+"\n"
+      }
+      else{
+      stringlist += `• ${behemoth[key]['name']},`.padEnd(25)
+    }
+    }
+    return message.channel.send('Behemoth list:\n\`\`\`'+stringlist+'\`\`\`')
   }
-  else{
   var regex = new RegExp( args[0]+".*", 'i');
   var behemoth = db.get("behemoths").find(behemoth => regex.test(behemoth.namedb)).value();;
-}
       var droptablestring = ``;
       for (let key in behemoth.droptable){
               droptablestring += `**${key}**\n${behemoth.droptable[key]}\n\n`;
       }
-      if (args.length == 2){
-        var icon_url = `${args[0]}_${args[1]}`;
-      }
-      else{var icon_url = args[0]}
+
 
       const embed = {
           "description": behemoth.description,
           "color": 10029881,
           "thumbnail": {
-            "url": `https://nireon.me/behemoths/${icon_url}.png`
+            "url": behemoth.icon_url
           },
           "author": {
             "name": behemoth.name,
@@ -56,8 +60,12 @@ try{
     } catch (err)  {
         console.log(err);
         let guildinfo = client.getGuild.get(message.guild.id);
-        let reply =`Please use \`\`${guildinfo.guildprefix}behemoth <behemoth name>\`\` or \`\`${guildinfo.guildprefix}<behemoth first name> <statistic>\`\` with a behemoth name from below:\n \`Gnasher\`, \`Shrike\`, \`Quillshot\`, \`Skarn\`, \`Charrogg\`, \`Embermane\`, \`Skraev\`, \`Drask\`, \`Nayzaga\`, \`Pangar\`, \`Hellion\`, \`Stormclaw\`, \`Kharabak\`, \`Ragetail Gnasher\`, \`Firebrand Charrogg\`, \`Shockjaw Nayzaga\`, \`Razorwing Kharabak\`, \`Frostback Pangar\`, \`Deadeye Quillshot\`, \`Bloodfire Embermane\`, \`Moonreaver Shrike\`, \`Rezakiri\`, \`Shrowd\``
+        let reply =`Please use one of the following commands:\n\`${guildinfo.guildprefix}BehemothName Info\` - General information about a specific behemoth\n\`${guildinfo.guildprefix}BehemothName <BodyPart>\` - Specific information about armour from a behemoth\n• Replace <BodyPart> with \`Helmet\`, \`Chestplate\`, \`Legs\`, or \`Greaves\`\n\`${guildinfo.guildprefix}BehemothName <WeaponType>\` - Specific information about weapons from a behemoth\n• Replace <WeaponType> with \`Sword\`, \`Hammer\`, \`Chain Blades\`, \`Axe\`, or \`Warpike\`\n\`${guildinfo.guildprefix}BehemothName Lantern\` - Specific information about lantern from a behemoth\nTo see a list of Behemoth Names, type \`${guildinfo.guildprefix}Behemoth List\`\n`;
 
         message.channel.send(reply);
     }
+  };
+  exports.conf = {
+    name:"behemoth",
+    aliases: ["bm","behe",'behemoths']
   };

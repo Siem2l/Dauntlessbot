@@ -21,3 +21,7 @@ else{
   message.channel.send("You need the admin permission to set the prefix, Current prefix is:\`\` "+ guildinfo["guildprefix"]+" \`\`");
 }
 }
+exports.conf = {
+  name:"prefix",
+  aliases: []
+};
