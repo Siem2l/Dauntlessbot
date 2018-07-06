@@ -8,7 +8,6 @@ exports.run = (client, message, args, Discord) => {
         stringlist = ''
         var behemoth = db.get('cells').value();
         for (key in behemoth){
-          console.log(behemoth[key])
           if ((key % 2 == 1)){
             stringlist += `• ${behemoth[key]['name']},`.padEnd(25)+"\n"
           }

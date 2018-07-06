@@ -37,7 +37,6 @@ exports.run = (client, message, args, Discord) => {
   }
   weaponfile = weaponfile.items[weapontype];
 
-  console.log(weaponfile.icon_url)
 
         var embed = new Discord.RichEmbed();
     embed.setTitle("__"+ behemothfile.name + " (" + weaponfile.type +")__")
