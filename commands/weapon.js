@@ -30,11 +30,8 @@ exports.run = (client, message, args, Discord) => {
     }else if (args.length == 3){
       var behemothfile = db.get("behemoths").find({namedb:`${args[0]} ${args[1]}`}).value();
   }
-  if (args.length == 2){
-    var weaponfile = db.get("weapons").find(weapon => regex.test(weapon.name)).value();;
-  } else{
-    var weaponfile = db.get("weapons").find(weapon => regex.test(weapon.name)).value();;
-  }
+    var weaponfile = db.get("weapons").find(weapon => regex.test(weapon.name)).value();
+
   weaponfile = weaponfile.items[weapontype];
 
 

@@ -39,7 +39,7 @@ exports.run = (client, message, args, Discord) => {
     var embed = new Discord.RichEmbed();
     embed.setTitle("__"+ behemothfile.name + " (" + args[args.length-1]+")__")
     .setThumbnail(armourfile.icon_url)
-    .setAuthor(armourfile.name,armourfile.wiki_url)
+    .setAuthor(armourfile.name,"",armourfile.wiki_url)
     .addField("Cellslot",armourfile.cellslot)
     .addField("Element", armourfile.element, true)
     .addField("Weakness",armourfile.weakness,true);

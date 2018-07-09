@@ -17,12 +17,10 @@ exports.run = (client, message, args, Discord) => {
       }
         return message.channel.send(`Cell list:\n\`\`\`${stringlist}\`\`\``)
       }
-      if (args.length == 2){
-        var islandfile= db.get("islands").find({namedb: `${args[0]} ${args[1]}`}).value();
-      }
-      else{
-      var islandfile = db.get("islands").find({namedb: args[0]}).value();
-    }
+    var regex = new RegExp( args[0]+".*", 'i');
+    console.log(regex)
+    var islandfile= db.get("islands").find(island => regex.test(island.namedb)).value();;
+    console.log(islandfile)
     var behemothlistfile = db.get("behemoths").value().filter(item => item.islands.includes(islandfile.name));
 
     let behemothlist="";
@@ -34,27 +32,16 @@ exports.run = (client, message, args, Discord) => {
         gatherablelist +=  "• " + islandfile.gatherables[gatherable]["name"] + "\n";
       }
 
-        const embed = {
-            "description": islandfile.description,
-            "color": 9324,
-            "thumbnail": {
-              "url": islandfile.icon_url
-            },
-            "author": {
-              "name":  islandfile.name,
-              "url": islandfile.wiki_url
-            },
-            "fields": [
-              {
-                "name": "Behemoths",
-                "value": behemothlist
-              },
-              {
-                "name": "Gatherables",
-                "value": gatherablelist
-              }
-            ]
-          };
+        const embed = new Discord.RichEmbed();
+        embed.setDescription(islandfile.description)
+             .setThumbnail(islandfile.icon_url)
+             .setAuthor(islandfile.name,"",islandfile.wiki_url)
+             if(behemothlist != ""){
+               embed.addField(Behemoths,behemothlist)
+           }
+            if(gatherablelist!= ""){
+             embed.addField("Gatherables",gatherablelist);
+           }
           message.channel.send({embed});
         } catch (err)  {
         console.log(err);
