@@ -24,7 +24,46 @@ exports.run = (client, message, args, Discord) => {
         break;
     }
 
-  var regex = new RegExp( args[0]+".*", 'i');
+    let regex = new RegExp( args[0]+" "+ args[1], 'i');
+    var weaponfile = db.get("weapons").find(function(o) {for (i in o["itemnames"]){if (regex.test(o['itemnames'][i])){return true;}}return false}).value();
+    if(weaponfile){
+      weaponpiece = weaponfile.itemnames.findIndex(function (o){return regex.test(o)})
+      let regexbm = new RegExp(weaponfile.name,'i')
+       behemothfile = db.get('behemoths').find(behemoth => regexbm.test(behemoth.namedb)).value();
+       weaponfile = weaponfile["items"][weaponpiece];
+               var embed = new Discord.RichEmbed();
+       embed.setTitle("__"+ behemothfile.name + "__")
+       .setThumbnail(weaponfile.icon_url)
+       .setAuthor(weaponfile.name,"",weaponfile.wiki_url)
+       .addField("Cellslots",weaponfile.cellslot01 + " & " + weaponfile.cellslot02,true)
+       .addField("Element", weaponfile.element, true)
+       if (weaponfile.bonuses != "None"){
+       var bonuslist = ""
+       for (let key in weaponfile.bonuses){
+         bonuslist += `**+${weaponfile.bonuses[key]}** ` + key + "\n";
+         }
+       }else{
+         var bonuslist = "None"
+       }
+       embed.addField ("Bonus(es)",bonuslist,true);
+       if(weaponfile.upgraded_bonus != null){
+       var upgbonuslist = ""
+         for (let key in weaponfile.upgraded_bonus ){
+           upgbonuslist += `**+${weaponfile.upgraded_bonus[key]}** ` + key + "\n";
+         }
+         embed.addField ("Upgraded Bonus(es)",upgbonuslist,true)
+       }
+       if(weaponfile.specials != "None"){
+       var uniqueeffectstring = "";
+         for (let key in weaponfile.specials){
+           uniqueeffectstring += " • " + weaponfile.specials[key]
+       }
+       embed.addField("Unique Effect(s)",uniqueeffectstring)
+       }
+       message.channel.send({embed});
+       return;
+   }
+   regex = new RegExp( args[0]+".*", 'i');
     if (args.length == 2){
       var behemothfile = db.get("behemoths").find(behemoth => regex.test(behemoth.namedb)).value();;
     }else if (args.length == 3){
@@ -32,11 +71,10 @@ exports.run = (client, message, args, Discord) => {
   }
     var weaponfile = db.get("weapons").find(weapon => regex.test(weapon.name)).value();
 
+if (weaponfile){
   weaponfile = weaponfile.items[weapontype];
-
-
         var embed = new Discord.RichEmbed();
-    embed.setTitle("__"+ behemothfile.name + " (" + weaponfile.type +")__")
+    embed.setTitle("__"+ behemothfile.name + "__")
     .setThumbnail(weaponfile.icon_url)
     .setAuthor(weaponfile.name,"",weaponfile.wiki_url)
     .addField("Cellslots",weaponfile.cellslot01 + " & " + weaponfile.cellslot02,true)
@@ -65,7 +103,50 @@ exports.run = (client, message, args, Discord) => {
     embed.addField("Unique Effect(s)",uniqueeffectstring)
     }
     message.channel.send({embed});
+    return;
+}
 
+ regex = new RegExp( args[0], 'i');
+ weaponfile = db.get("weapons").find(function(o) {for (i in o["itemnames"]){if (regex.test(o['itemnames'][i])){return true;}}return false}).value();
+if(weaponfile){
+  weaponpiece = weaponfile.itemnames.findIndex(function (o){return regex.test(o)})
+  let regexbm = new RegExp(weaponfile.name,'i')
+  console.log(regexbm)
+   behemothfile = db.get('behemoths').find(behemoth => regexbm.test(behemoth.namedb)).value();
+   console.log(weaponfile)
+   weaponfile = weaponfile["items"][weaponpiece];
+        var embed = new Discord.RichEmbed();
+   embed.setTitle("__"+ behemothfile.name + "__")
+   .setThumbnail(weaponfile.icon_url)
+   .setAuthor(weaponfile.name,"",weaponfile.wiki_url)
+   .addField("Cellslots",weaponfile.cellslot01 + " & " + weaponfile.cellslot02,true)
+   .addField("Element", weaponfile.element, true)
+   if (weaponfile.bonuses != "None"){
+   var bonuslist = ""
+   for (let key in weaponfile.bonuses){
+     bonuslist += `**+${weaponfile.bonuses[key]}** ` + key + "\n";
+     }
+   }else{
+     var bonuslist = "None"
+   }
+   embed.addField ("Bonus(es)",bonuslist,true);
+   if(weaponfile.upgraded_bonus != null){
+   var upgbonuslist = ""
+     for (let key in weaponfile.upgraded_bonus ){
+       upgbonuslist += `**+${weaponfile.upgraded_bonus[key]}** ` + key + "\n";
+     }
+     embed.addField ("Upgraded Bonus(es)",upgbonuslist,true)
+   }
+   if(weaponfile.specials != "None"){
+   var uniqueeffectstring = "";
+     for (let key in weaponfile.specials){
+       uniqueeffectstring += " • " + weaponfile.specials[key]
+   }
+   embed.addField("Unique Effect(s)",uniqueeffectstring)
+   }
+   message.channel.send({embed});
+   return;
+}
 
   } catch (err){
 let guildinfo = client.getGuild.get(message.guild.id);

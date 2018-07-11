@@ -103,7 +103,7 @@ client.on('message', message => {
       message.channel.send("Prefix has been set to`` ! ``");
   }
   //---------------------------------------------------------------------------------------------
-  //---------------------------------------------Getting guild prefix------------------------
+  //----------- ----------------------------------Getting guild prefix------------------------
   var guildinfo = client.getGuild.get(message.guild.id);
   if(!guildinfo){
     guildinfo =
@@ -129,13 +129,11 @@ client.on('message', message => {
     //--------------------------------------------dauntlessbuilder-------------------------------
           var  args = message.content.slice(guildinfo.guildprefix.length).trim().split(/ +/g);
           var command = args.shift().toLowerCase();
-/*
-          if (command == "dbuilds"){
+          if (command == "dbuilds"|| command == "db" || command == "build" || command == "dbuild"){
             var commandFile = require(`./commands/dbuilds.js`);
             commandFile.run(client, message, args, Discord);
             return;
           }
-          */
           args = args.join('|').toLowerCase().split('|');
 
 
@@ -171,14 +169,13 @@ client.on('message', message => {
         let armorarray=['helmet','chestplate','gauntlets','greaves'];
         let weaponarray= ['axe','sword','chainblades','warpike','hammer']
         if (armorarray.indexOf(args[0]) > -1){
+          console.log('t')
           commandbm = "armour";
-          argcheck = false
         }
         if (weaponarray.indexOf(args[0]) > -1){
           commandbm = "weapon";
-          argcheck = false
         }
-        else{
+        if(!args[0]) {
           commandbm = "behemoth";
         }
         args.unshift(command.toLowerCase());
@@ -208,14 +205,14 @@ client.on('message', message => {
 
     //---------------------Running the command------------------------------------------
       if(!commandFile){
-        message.channel.send(`Please choose a valid command or a valid behemoth you can find a list of all the commands at \`${guildinfo.guildprefix}help\` and a list of all the behemoths if you type \`${guildinfo.guildprefix}behemoth\`\'`)
+        message.channel.send(`Please choose a valid command or a valid behemoth you can find a list of all the commands at \`${guildinfo.guildprefix}help\` and a list of all the behemoths if you type \`${guildinfo.guildprefix}behemoth list\``)
         return;
       }
       commandFile.run(client, message, args, Discord);
     }
     catch (err)  {
       console.log(err);
-      message.channel.send(`Please choose a valid command or a valid behemoth you can find a list of all the commands at \`${guildinfo.guildprefix}help\` and a list of all the behemoths if you type \`${guildinfo.guildprefix}behemoth\`\'`)
+      message.channel.send(`Please choose a valid command or a valid behemoth you can find a list of all the commands at \`${guildinfo.guildprefix}help\` and a list of all the behemoths if you type \`${guildinfo.guildprefix}behemoth list\``)
       return;
     }
 }
@@ -227,5 +224,5 @@ setInterval(function() {let rotation = client.getIslands.all();
   if (rotation[0]["time"]+ 597600000*2 < Date.now()){
     console.log(rotation[0]["islandname"]);
   client.removeIsland.run(rotation[0]["islandname"]);
-}},30000);
+}},150000);
 client.login(config.token);

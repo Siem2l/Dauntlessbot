@@ -18,6 +18,7 @@ try{
     return message.channel.send('Behemoth list:\n\`\`\`'+stringlist+'\`\`\`')
   }
   var regex = new RegExp( args[0]+".*", 'i');
+  console.log(regex)
   var behemoth = db.get("behemoths").find(behemoth => regex.test(behemoth.namedb)).value();;
       var droptablestring = ``;
       for (let key in behemoth.droptable){

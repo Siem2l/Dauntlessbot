@@ -122,7 +122,7 @@
     },
     {
       "name": "Charrogg",
-      "namedb": "charogg",
+      "namedb": "charrogg",
       "islands": [
         "Burning Rose",
         "Sandrian's Stone"
@@ -2703,7 +2703,8 @@
   "armour": [
     {
       "boss": "gnasher",
-      "helmet": {
+      "itemnames":["Gnasher Touque","Gnasher Cloak","Gnasher Gloves","Gnasher Boots"],
+      "items": [{
         "name": "Gnasher Touque",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "None",
@@ -2749,8 +2750,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Gnasher_Touque",
         "icon_url": "https://www.nireon.me/armour/helmet/gnasher.png"
-      },
-      "chestplate": {
+      },{
         "name": "Gnasher Cloak",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "None",
@@ -2796,8 +2796,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Gnasher_Cloak",
         "icon_url": "https://www.nireon.me/armour/chestplate/gnasher.png"
-      },
-      "gauntlets": {
+      },{
         "name": "Gnasher Gloves",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "None",
@@ -2843,8 +2842,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Gnasher_Gloves",
         "icon_url": "https://www.nireon.me/armour/gauntlets/gnasher.png"
-      },
-      "greaves": {
+      },{
         "name": "Gnasher Boots",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "None",
@@ -2891,10 +2889,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Gnasher_Boots",
         "icon_url": "https://www.nireon.me/armour/greaves/gnasher.png"
       }
+    ]
     },
     {
       "boss": "shrike",
-      "helmet": {
+      "itemnames":["Shrike Helm","Shrike Plate","Shrike Gauntlets","Shrike Greaves"],
+      "items": [{
         "name": "Shrike Helm",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "None",
@@ -2940,8 +2940,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Shrike_Helm",
         "icon_url": "https://www.nireon.me/armour/helmet/shrike.png"
-      },
-      "chestplate": {
+      },{
         "name": "Shrike Plate",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "None",
@@ -2987,8 +2986,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Shrike_Plate",
         "icon_url": "https://www.nireon.me/armour/chestplate/shrike.png"
-      },
-      "gauntlets": {
+      },{
         "name": "Shrike Gauntlets",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "None",
@@ -3034,8 +3032,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Shrike_Gauntlets",
         "icon_url": "https://www.nireon.me/armour/gauntlets/shrike.png"
-      },
-      "greaves": {
+      },{
         "name": "Shrike Greaves",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "None",
@@ -3081,11 +3078,12 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Shrike_Greaves",
         "icon_url": "https://www.nireon.me/armour/greaves/shrike.png"
-      }
+      }]
     },
     {
       "boss": "quillshot",
-      "helmet": {
+      "itemnames":["Quillmask","Quillspike Jacket","Quillspike Grips","Quillboots"],
+      "items": [{
         "name": "Quillmask",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "None",
@@ -3131,8 +3129,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Quillmask",
         "icon_url": "https://www.nireon.me/armour/helmet/quillshot.png"
-      },
-      "chestplate": {
+      },{
         "name": "Quillspike Jacket",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "None",
@@ -3178,8 +3175,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Quillspike_Jacket",
         "icon_url": "https://www.nireon.me/armour/chestplate/quillshot.png"
-      },
-      "gauntlets": {
+      },{
         "name": "Quillspike Grips",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "None",
@@ -3225,8 +3221,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Quillspike_Grips",
         "icon_url": "https://www.nireon.me/armour/gauntlets/quillshot.png"
-      },
-      "greaves": {
+      },{
         "name": "Quillboots",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "None",
@@ -3273,10 +3268,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Quillboots",
         "icon_url": "https://www.nireon.me/armour/greaves/quillshot.png"
       }
+    ]
     },
     {
       "boss": "skarn",
-      "helmet": {
+      "itemnames":["Skarn Helm","Skarn Plate","Skarn Bracers","Skarn Boots"],
+      "items": [{
         "name": "Skarn Helm",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "None",
@@ -3332,8 +3329,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Skarn_Helm",
         "icon_url": "https://www.nireon.me/armour/helmet/skarn.png"
-      },
-      "chestplate": {
+      }, {
         "name": "Skarn Plate",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "None",
@@ -3389,8 +3385,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Skarn_Plate",
         "icon_url": "https://www.nireon.me/armour/chestplate/skarn.png"
-      },
-      "gauntlets": {
+      }, {
         "name": "Skarn Bracers",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "None",
@@ -3446,8 +3441,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Skarn_Bracers",
         "icon_url": "https://www.nireon.me/armour/gauntlets/skarn.png"
-      },
-      "greaves": {
+      },{
         "name": "Skarn Boots",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "None",
@@ -3504,10 +3498,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Skarn_Boots",
         "icon_url": "https://www.nireon.me/armour/greaves/skarn.png"
       }
+    ]
     },
     {
       "boss": "charrogg",
-      "helmet": {
+      "itemnames":["Charrhelm","Charrplate","Charrogg Gauntlets","Charrogg Greaves"],
+      "items": [{
         "name": "Charrhelm",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -3564,7 +3560,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Charrhelm",
         "icon_url": "https://www.nireon.me/armour/helmet/charrogg.png"
       },
-      "chestplate": {
+       {
         "name": "Charrplate",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -3620,8 +3616,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Charrplate",
         "icon_url": "https://www.nireon.me/armour/chestplate/charrogg.png"
-      },
-      "gauntlets": {
+      },{
         "name": "Charrogg Gauntlets",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -3677,8 +3672,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Charrogg_Gauntlets",
         "icon_url": "https://www.nireon.me/armour/gauntlets/charrogg.png"
-      },
-      "greaves": {
+      },{
         "name": "Charrogg Greaves",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -3735,10 +3729,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Charrogg_Greaves",
         "icon_url": "https://www.nireon.me/armour/greaves/charrogg.png"
       }
+    ]
     },
     {
       "boss": "embermane",
-      "helmet": {
+      "itemnames":["Emberhelm","Emberplate","Embergloves","Embergreaves"],
+      "items": [{
         "name": "Emberhelm",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -3802,8 +3798,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Emberhelm",
         "icon_url": "https://www.nireon.me/armour/helmet/embermane.png"
-      },
-      "chestplate": {
+      }, {
         "name": "Emberplate",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -3867,8 +3862,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Emberplate",
         "icon_url": "https://www.nireon.me/armour/chestplate/embermane.png"
-      },
-      "gauntlets": {
+      }, {
         "name": "Embergloves",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -3932,8 +3926,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Embergloves",
         "icon_url": "https://www.nireon.me/armour/gauntlets/embermane.png"
-      },
-      "greaves": {
+      },{
         "name": "Embergreaves",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -3998,10 +3991,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Embergreaves",
         "icon_url": "https://www.nireon.me/armour/greaves/embermane.png"
       }
+    ]
     },
     {
       "boss": "skraev",
-      "helmet": {
+      "itemnames":["Skraev Helm","Skraev Plate","Skreav Gloves","Skraev Greaves"],
+      "items": [{
         "name": "Skraev Helm",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Frost <:frost:459747214277869579>",
@@ -4065,8 +4060,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Skraev_Helm",
         "icon_url": "https://www.nireon.me/armour/helmet/skraev.png"
-      },
-      "chestplate": {
+      }, {
         "name": "Skraev Plate",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Frost <:frost:459747214277869579>",
@@ -4130,8 +4124,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Skraev_Plate",
         "icon_url": "https://www.nireon.me/armour/chestplate/skraev.png"
-      },
-      "gauntlets": {
+      },{
         "name": "Skraev Gloves",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Frost <:frost:459747214277869579>",
@@ -4195,8 +4188,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Skraev_Gloves",
         "icon_url": "https://www.nireon.me/armour/gauntlets/skraev.png"
-      },
-      "greaves": {
+      }, {
         "name": "Skraev Greaves",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Frost <:frost:459747214277869579>",
@@ -4261,10 +4253,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Skraev_Greaves",
         "icon_url": "https://www.nireon.me/armour/greaves/skraev.png"
       }
+    ]
     },
     {
       "boss": "drask",
-      "helmet": {
+      "itemnames":["Draskscale Faceguard","Draskscale Plate","Draskscale Gauntlets","Draskscale Greaves"],
+      "items": [{
         "name": "Draskscale Faceguard",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -4328,8 +4322,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Draskscale_Faceguard",
         "icon_url": "https://www.nireon.me/armour/helmet/drask.png"
-      },
-      "chestplate": {
+      },{
         "name": "Draskscale Plate",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -4393,8 +4386,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Draskscale_Plate",
         "icon_url": "https://www.nireon.me/armour/chestplate/drask.png"
-      },
-      "gauntlets": {
+      }, {
         "name": "Draskscale Gauntlets",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -4458,8 +4450,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Draskscale_Gauntlets",
         "icon_url": "https://www.nireon.me/armour/gauntlets/drask.png"
-      },
-      "greaves": {
+      }, {
         "name": "Draskscale Greaves",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -4524,10 +4515,13 @@
         "wiki_url": "https://dauntless.gamepedia.com/Draskscale_Greaves",
         "icon_url": "https://www.nireon.me/armour/greaves/drask.png"
       }
+    ]
     },
     {
       "boss": "nayzaga",
-      "helmet": {
+      "itemnames":["Zaga Mask","Zaga Jacket","Zaga Bracers","Zaga Greaves"],
+      "items": [
+        {
         "name": "Zaga Mask",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -4609,8 +4603,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Zaga_Mask",
         "icon_url": "https://www.nireon.me/armour/helmet/nayzaga.png"
-      },
-      "chestplate": {
+      }, {
         "name": "Zaga Jacket",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -4692,8 +4685,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Zaga_Jacket",
         "icon_url": "https://www.nireon.me/armour/chestplate/nayzaga.png"
-      },
-      "gauntlets": {
+      },{
         "name": "Zaga Bracers",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -4775,8 +4767,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Zaga_Bracers",
         "icon_url": "https://www.nireon.me/armour/gauntlets/nayzaga.png"
-      },
-      "greaves": {
+      },{
         "name": "Zaga Greaves",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -4859,10 +4850,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Zaga_Greaves",
         "icon_url": "https://www.nireon.me/armour/greaves/nayzaga.png"
       }
+    ]
     },
     {
       "boss": "pangar",
-      "helmet": {
+      "itemnames":["Pangar Helm","Pangar Scaleplate","Pangar Grips","Pangar Boots"],
+      "items": [{
         "name": "Pangar Helm",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "+10 Frost <:frost:459747214277869579>",
@@ -4948,8 +4941,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Pangar_Helm",
         "icon_url": "https://www.nireon.me/armour/helmet/pangar.png"
-      },
-      "chestplate": {
+      },{
         "name": "Pangar Scaleplate",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "+10 Frost <:frost:459747214277869579>",
@@ -5035,8 +5027,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Pangar_Scaleplate",
         "icon_url": "https://www.nireon.me/armour/chestplate/pangar.png"
-      },
-      "gauntlets": {
+      }, {
         "name": "Pangar Grips",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Frost <:frost:459747214277869579>",
@@ -5118,8 +5109,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Pangar_Grips",
         "icon_url": "https://www.nireon.me/armour/gauntlets/pangar.png"
-      },
-      "greaves": {
+      }, {
         "name": "Pangar Boots",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "+10 Frost <:frost:459747214277869579>",
@@ -5206,10 +5196,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Pangar_Boots",
         "icon_url": "https://www.nireon.me/armour/greaves/pangar.png"
       }
+    ]
     },
     {
       "boss": "hellion",
-      "helmet": {
+      "itemnames":["Hellcasque","Hellplate","Hellbracers","Hellgreaves"],
+      "items": [{
         "name": "Hellcasque",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -5291,8 +5283,7 @@
         ],
         "wiki_url": "https://dauntless.gamepedia.com/Hellcasque",
         "icon_url": "https://www.nireon.me/armour/helmet/hellion.png"
-      },
-      "chestplate": {
+      },{
         "name": "Hellplate",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -5409,7 +5400,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Hellplate",
         "icon_url": "https://www.nireon.me/armour/chestplate/hellion.png"
       },
-      "gauntlets": {
+       {
         "name": "Hellbracers",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -5496,7 +5487,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Hellbracers",
         "icon_url": "https://www.nireon.me/armour/gauntlets/hellion.png"
       },
-      "greaves": {
+       {
         "name": "Hellgreaves",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -5621,10 +5612,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Hellgreaves",
         "icon_url": "https://www.nireon.me/armour/greaves/hellion.png"
       }
+    ]
     },
     {
       "boss": "stormclaw",
-      "helmet": {
+      "itemnames":["Stormhelm","Stormplate","Stormbracers","Stormboots"],
+      "items": [{
         "name": "Stormhelm",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -5707,7 +5700,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Stormhelm",
         "icon_url": "https://www.nireon.me/armour/helmet/stormclaw.png"
       },
-      "chestplate": {
+       {
         "name": "Stormplate",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -5790,7 +5783,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Stormplate",
         "icon_url": "https://www.nireon.me/armour/chestplate/stormclaw.png"
       },
-      "gauntlets": {
+       {
         "name": "Stormbracers",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -5873,7 +5866,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Stormbracers",
         "icon_url": "https://www.nireon.me/armour/gauntlets/stormclaw.png"
       },
-      "greaves": {
+       {
         "name": "Stormboots",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -5956,10 +5949,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Stormboots",
         "icon_url": "https://www.nireon.me/armour/greaves/stormclaw.png"
       }
+    ]
     },
     {
       "boss": "kharabak",
-      "helmet": {
+      "itemnames":["Kharabak Helm","Kharabak Plate","Kharabak Bracers","Kharabak Greaves"],
+      "items": [{
         "name": "Kharabak Helm",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "None",
@@ -6042,7 +6037,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Kharabak_Helm",
         "icon_url": "https://www.nireon.me/armour/helmet/kharabak.png"
       },
-      "chestplate": {
+       {
         "name": "Kharabak Plate",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "None",
@@ -6125,7 +6120,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Kharabak_Plate",
         "icon_url": "https://www.nireon.me/armour/chestplate/kharabak.png"
       },
-      "gauntlets": {
+       {
         "name": "Kharabak Bracers",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "None",
@@ -6208,7 +6203,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Kharabak_Bracers",
         "icon_url": "https://www.nireon.me/armour/gauntlets/kharabak.png"
       },
-      "greaves": {
+       {
         "name": "Kharabak Greaves",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "None",
@@ -6291,10 +6286,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Kharabak_Greaves",
         "icon_url": "https://www.nireon.me/armour/greaves/kharabak.png"
       }
+    ]
     },
     {
       "boss": "ragetail gnasher",
-      "helmet": {
+      "itemnames":["Ragetail Touque","Ragetail Clook","Ragetail Grips","Ragetail Treads"],
+      "items": [{
         "name": "Ragetail Touque",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "None",
@@ -6490,7 +6487,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Ragetail_Touque",
         "icon_url": "https://www.nireon.me/armour/helmet/ragetail.png"
       },
-      "chestplate": {
+       {
         "name": "Ragetail Cloak",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "None",
@@ -6682,7 +6679,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Ragetail_Cloak",
         "icon_url": "https://www.nireon.me/armour/chestplate/ragetail.png"
       },
-      "gauntlets": {
+       {
         "name": "Ragetail Grips",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "None",
@@ -6874,7 +6871,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Ragetail_Grips",
         "icon_url": "https://www.nireon.me/armour/gauntlets/ragetail.png"
       },
-      "greaves": {
+       {
         "name": "Ragetail Treads",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "None",
@@ -7062,10 +7059,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Ragetail_Treads",
         "icon_url": "https://www.nireon.me/armour/greaves/ragetail.png"
       }
+    ]
     },
     {
       "boss": "firebrand charrogg",
-      "helmet": {
+      "itemnames":["Firebrand Charrhelm","Firebrand Charrplate","Firebrand Gauntlets","Firebrand Greaves"],
+      "items": [{
         "name": "Firebrand Charrhelm",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -7273,7 +7272,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Firebrand_Charrhelm",
         "icon_url": "https://www.nireon.me/armour/helmet/firebrand.png"
       },
-      "chestplate": {
+       {
         "name": "Firebrand Charrplate",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -7481,7 +7480,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Firebrand_Charrplate",
         "icon_url": "https://www.nireon.me/armour/chestplate/firebrand.png"
       },
-      "gauntlets": {
+       {
         "name": "Firebrand Gauntlets",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -7693,7 +7692,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Firebrand_Gauntlets",
         "icon_url": "https://www.nireon.me/armour/gauntlets/firebrand.png"
       },
-      "greaves": {
+       {
         "name": "Firebrand Greaves",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -7901,10 +7900,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Firebrand_Greaves",
         "icon_url": "https://www.nireon.me/armour/greaves/firebrand.png"
       }
+    ]
     },
     {
       "boss": "shockjaw nayzaga",
-      "helmet": {
+      "itemnames":["Shockjaw Mask","Shockjaw Vest","Shockjaw Bracers","Shockjaw Greaves"],
+      "items": [{
         "name": "Shockjaw Mask",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -8096,7 +8097,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Shockjaw_Mask",
         "icon_url": "https://www.nireon.me/armour/helmet/shockjaw.png"
       },
-      "chestplate": {
+       {
         "name": "Shockjaw Vest",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -8284,7 +8285,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Shockjaw_Vest",
         "icon_url": "https://www.nireon.me/armour/chestplate/shockjaw.png"
       },
-      "gauntlets": {
+       {
         "name": "Shockjaw Bracers",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -8480,7 +8481,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Shockjaw_Bracers",
         "icon_url": "https://www.nireon.me/armour/gauntlets/shockjaw.png"
       },
-      "greaves": {
+       {
         "name": "Shockjaw Greaves",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "+10 Shock <:shock:459747215318188032>",
@@ -8672,10 +8673,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Shockjaw_Greaves",
         "icon_url": "https://www.nireon.me/armour/greaves/shockjaw.png"
       }
+    ]
     },
     {
       "boss": "razorwing kharabak",
-      "helmet": {
+      "itemnames":["Razorwing Helm","Razorwing Plate","Razorwing Bracers","Razorwing Boots"],
+      "items": [{
         "name": "Razorwing Helm",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "None",
@@ -8867,7 +8870,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Razorwing_Helm",
         "icon_url": "https://www.nireon.me/armour/helmet/razorwing.png"
       },
-      "chestplate": {
+       {
         "name": "Razorwing Plate",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "None",
@@ -9059,7 +9062,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Razorwing_Plate",
         "icon_url": "https://www.nireon.me/armour/chestplate/razorwing.png"
       },
-      "gauntlets": {
+       {
         "name": "Razorwing Bracers",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "None",
@@ -9247,7 +9250,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Razorwing_Bracers",
         "icon_url": "https://www.nireon.me/armour/gauntlets/razorwing.png"
       },
-      "greaves": {
+       {
         "name": "Razorwing Greaves",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "None",
@@ -9443,10 +9446,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Razorwing_Greaves",
         "icon_url": "https://www.nireon.me/armour/greaves/razorwing.png"
       }
+    ]
     },
     {
       "boss": "frostback pangar",
-      "helmet": {
+      "itemnames":["Frosthelm","Frostplate","Frostgrips","Frostboots"],
+      "items": [{
         "name": "Frosthelm",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "+10 Frost <:frost:459747214277869579>",
@@ -9642,7 +9647,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Frosthelm",
         "icon_url": "https://www.nireon.me/armour/helmet/frostback.png"
       },
-      "chestplate": {
+       {
         "name": "Frostplate",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "+10 Frost <:frost:459747214277869579>",
@@ -9830,7 +9835,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Frostplate",
         "icon_url": "https://www.nireon.me/armour/chestplate/frostback.png"
       },
-      "gauntlets": {
+       {
         "name": "Frostgrips",
         "element": "+10 Frost <:frost:459747214277869579>",
         "weakness": "-5 Blaze <:blaze:459747214953283584>",
@@ -10021,7 +10026,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Frostgrips",
         "icon_url": "https://www.nireon.me/armour/gauntlets/frostback.png"
       },
-      "greaves": {
+       {
         "name": "Frostboots",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "+10 Frost <:frost:459747214277869579>",
@@ -10038,10 +10043,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Frostboots",
         "icon_url": "https://www.nireon.me/armour/greaves/frostback.png"
       }
+    ]
     },
     {
       "boss": "deadeye quillshot",
-      "helmet": {
+      "itemnames":["Deadeye Mask","Deadeye Jacket","Deadeye Grips","Deadeye Boots"],
+      "items": [{
         "name": "Deadeye Mask",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "None",
@@ -10249,7 +10256,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Deadeye_Mask",
         "icon_url": "https://www.nireon.me/armour/helmet/deadeye.png"
       },
-      "chestplate": {
+       {
         "name": "Deadeye Jacket",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "None",
@@ -10461,7 +10468,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Deadeye_Jacket",
         "icon_url": "https://www.nireon.me/armour/chestplate/deadeye.png"
       },
-      "gauntlets": {
+       {
         "name": "Deadeye Grips",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "None",
@@ -10669,7 +10676,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Deadeye_Grips",
         "icon_url": "https://www.nireon.me/armour/gauntlets/deadeye.png"
       },
-      "greaves": {
+       {
         "name": "Deadeye Boots",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "None",
@@ -10873,10 +10880,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Deadeye_Boots",
         "icon_url": "https://www.nireon.me/armour/greaves/deadeye.png"
       }
+    ]
     },
     {
       "boss": "bloodfire embermane",
-      "helmet": {
+      "itemnames":["Bloodfire Helm","Bloodfire Plate","Bloodfire Gloves","Bloodfire Greaves"],
+      "items": [{
         "name": "Bloodfire Helm",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -11068,7 +11077,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Bloodfire_Helm",
         "icon_url": "https://www.nireon.me/armour/helmet/bloodfire.png"
       },
-      "chestplate": {
+       {
         "name": "Bloodfire Plate",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -11256,7 +11265,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Bloodfire_Plate",
         "icon_url": "https://www.nireon.me/armour/chestplate/bloodfire.png"
       },
-      "gauntlets": {
+       {
         "name": "Bloodfire Gloves",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -11452,7 +11461,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Bloodfire_Gloves",
         "icon_url": "https://www.nireon.me/armour/gauntlets/bloodfire.png"
       },
-      "greaves": {
+       {
         "name": "Bloodfire Greaves",
         "cellslot": "Defence <:defence:459813422545108995>",
         "element": "+10 Blaze <:blaze:459747214953283584>",
@@ -11644,10 +11653,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Bloodfire_Greaves",
         "icon_url": "https://www.nireon.me/armour/greaves/bloodfire.png"
       }
+    ]
     },
     {
       "boss": "moonreaver shrike",
-      "helmet": {
+      "itemnames":["Reaver Crest","Reaver Plate","Reaver Gauntlets","Reaver Boots"],
+      "items": [{
         "name": "Reaver Crest",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "None",
@@ -11835,7 +11846,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Reaver_Crest",
         "icon_url": "https://www.nireon.me/armour/helmet/moonreaver.png"
       },
-      "chestplate": {
+       {
         "name": "Reaver Plate",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "None",
@@ -12031,7 +12042,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Reaver_Plate",
         "icon_url": "https://www.nireon.me/armour/chestplate/moonreaver.png"
       },
-      "gauntlets": {
+       {
         "name": "Reaver Gauntlets",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "None",
@@ -12223,7 +12234,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Reaver_Gauntlets",
         "icon_url": "https://www.nireon.me/armour/gauntlets/moonreaver.png"
       },
-      "greaves": {
+       {
         "name": "Reaver Boots",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "None",
@@ -12415,10 +12426,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Reaver_Boots",
         "icon_url": "https://www.nireon.me/armour/greaves/moonreaver.png"
       }
+    ]
     },
     {
       "boss": "rezakiri",
-      "helmet": {
+      "itemnames":["Reza Helm","Reza Scales","Reza Grips","Reza Greaves"],
+      "items": [{
         "name": "Reza Helm",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "+10 Radiant <:radiant:459747214923923486>",
@@ -12618,7 +12631,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Reza_Helm",
         "icon_url": "https://www.nireon.me/armour/helmet/rezakiri.png"
       },
-      "chestplate": {
+       {
         "name": "Reza Scales",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Radiant <:radiant:459747214923923486>",
@@ -12818,7 +12831,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Reza_Scales",
         "icon_url": "https://www.nireon.me/armour/chestplate/rezakiri.png"
       },
-      "gauntlets": {
+       {
         "name": "Reza Grips",
         "cellslot": "Technique <:technique:459813422830190593>",
         "element": "+10 Radiant <:radiant:459747214923923486>",
@@ -13022,7 +13035,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Reza_Grips",
         "icon_url": "https://www.nireon.me/armour/gauntlets/rezakiri.png"
       },
-      "greaves": {
+       {
         "name": "Reza Greaves",
         "cellslot": "Mobility <:mobility:459813422566211585>",
         "element": "+10 Radiant <:radiant:459747214923923486>",
@@ -13226,10 +13239,12 @@
         "wiki_url": "https://dauntless.gamepedia.com/Reza_Greaves",
         "icon_url": "https://www.nireon.me/armour/greaves/rezakiri.png"
       }
+    ]
     },
     {
       "boss": "shrowd",
-      "helmet": {
+      "itemnames":["Shrowd Hood","Shrowd Cloak","Shrowd Bracers","Shrowd Boots"],
+      "items": [{
         "name": "Shrowd Hood",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "+10 Umbral <:umbral:459747214932049930>",
@@ -13437,7 +13452,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Shrowd_Hood",
         "icon_url": "https://www.nireon.me/armour/helmet/shrowd.png"
       },
-      "chestplate": {
+       {
         "name": "Shrowd Cloak",
         "cellslot": "Power <:power:459813422796636171>",
         "element": "+10 Umbral <:umbral:459747214932049930>",
@@ -13641,7 +13656,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Shrowd_Cloak",
         "icon_url": "https://www.nireon.me/armour/chestplate/shrowd.png"
       },
-      "gauntlets": {
+       {
         "name": "Shrowd Bracers",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Umbral <:umbral:459747214932049930>",
@@ -13853,7 +13868,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Shrowd_Bracers",
         "icon_url": "https://www.nireon.me/armour/gauntlets/shrowd.png"
       },
-      "greaves": {
+       {
         "name": "Shrowd Boots",
         "cellslot": "Utility <:utility:459813423476113419>",
         "element": "+10 Umbral <:umbral:459747214932049930>",
@@ -14061,6 +14076,7 @@
         "wiki_url": "https://dauntless.gamepedia.com/Shrowd_Boots",
         "icon_url": "https://www.nireon.me/armour/greaves/shrowd.png"
       }
+    ]
     }
   ],
   "weapons": [
