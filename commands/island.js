@@ -37,7 +37,7 @@ exports.run = (client, message, args, Discord) => {
              .setThumbnail(islandfile.icon_url)
              .setAuthor(islandfile.name,"",islandfile.wiki_url)
              if(behemothlist != ""){
-               embed.addField(Behemoths,behemothlist)
+               embed.addField('Behemoths',behemothlist)
            }
             if(gatherablelist!= ""){
              embed.addField("Gatherables",gatherablelist);

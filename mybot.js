@@ -22,6 +22,7 @@ dbl.on('posted', () => {
 dbl.on('error', e => {
  console.log(`Oops! ${e}`);
 })
+process.on('unhandledRejection', error => console.error(`Uncaught Promise Rejection:\n${error}`));
 //------------------------------------------Ready-------------------------------------------------
 client.on('ready', () => {
   client.user.setActivity(`on ${client.guilds.size} servers`);
@@ -171,9 +172,11 @@ client.on('message', message => {
         if (armorarray.indexOf(args[0]) > -1){
           console.log('t')
           commandbm = "armour";
+          argcheck = false;
         }
         if (weaponarray.indexOf(args[0]) > -1){
           commandbm = "weapon";
+          argcheck = false;
         }
         if(!args[0]) {
           commandbm = "behemoth";

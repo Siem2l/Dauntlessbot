@@ -15,7 +15,7 @@ exports.run = (client, message, args, Discord) => {
           stringlist += `• ${behemoth[key]['name']},`.padEnd(25)
         }
       }
-        return message.channel.send(`Island list:\n\`\`\`${stringlist}\`\`\``)
+        return message.channel.send(`Cell list:\n\`\`\`${stringlist}\`\`\``)
       }
       if (args.length == 2){
         var cellfile = db.get("cells").find({namedb: `${args[0]} ${args[1]}`}).value();

@@ -94,7 +94,6 @@ if (exoticsarray.indexOf(res.body[build[1]]) >-1){
   }
 else{
 var weaponfile = db.get("weapons").find({items:[{name:res.body[build[1]]}]}).value();
-console.log(res.body[build[1]])
 let weaponindex = weaponfile['items'].findIndex(obj => obj.name == res.body[build[1]])
 if(weaponfile['items'][weaponindex]["specials"]!= "None"){
   for (let key in weaponfile['items'][weaponindex]["specials"] ){
@@ -144,19 +143,17 @@ for (let key in weaponfile['items'][weaponindex]["upgraded_bonus"]){
             }
       }
       //--------------------------Upgraded bonuses loader----------------------
-      console.log(res.body[build[5]])
       if (exoticsarray.indexOf(res.body[build[5]])>-1){
         var armourfile = db.get("exotics").find({name:res.body[build[5]]}).value();
         specialfile.push(armourfile["uniqueeffect"])
         }
         else{
-      var armourfile = db.get("armour").find({helmet:{name:res.body[build[5]]}}).value();
-      console.log(res.body[build[5]])
-      for (let key in armourfile['helmet']["upgraded_bonus"]){
+      var armourfile = db.get("armour").find({items:[{name: res.body[build[5]]}]}).value();
+      for (let key in armourfile['items'][0]["upgraded_bonus"]){
         for (let j in perkfile){
             var found = false;
             if(perkfile[j]['name'] == key){
-              perkfile[j]["amount"] += armourfile['helmet']["upgraded_bonus"][key]
+              perkfile[j]["amount"] += armourfile['items'][0]["upgraded_bonus"][key]
               found = true;
               break;
             }
@@ -164,7 +161,7 @@ for (let key in weaponfile['items'][weaponindex]["upgraded_bonus"]){
         if (found != true){
             var jsonarray = {
               name:key,
-              amount:armourfile['helmet']["upgraded_bonus"][key]
+              amount:armourfile['items'][0]["upgraded_bonus"][key]
             }
             perkfile.push(jsonarray);
           }
@@ -196,12 +193,12 @@ for (let key in weaponfile['items'][weaponindex]["upgraded_bonus"]){
       }
       //--------------------------Upgraded bonuses loader----------------------
       var regex = new RegExp( res.body[build[8]]+".*", 'i');
-      var armourfile = db.get("armour").find({chestplate:{name:res.body[build[8]]}}).value();
-      for (let key in armourfile['chestplate']["upgraded_bonus"]){
+      var armourfile = db.get("armour").find({items:[{name:res.body[build[8]]}]}).value();
+      for (let key in armourfile['items'][1]["upgraded_bonus"]){
         for (let j in perkfile){
             var found = false;
             if(perkfile[j]['name'] == key){
-              perkfile[j]["amount"] += armourfile['chestplate']["upgraded_bonus"][key]
+              perkfile[j]["amount"] += armourfile['items'][1]["upgraded_bonus"][key]
               found = true;
               break;
             }
@@ -209,7 +206,7 @@ for (let key in weaponfile['items'][weaponindex]["upgraded_bonus"]){
         if (found != true){
             var jsonarray = {
               name:key,
-              amount:armourfile['chestplate']["upgraded_bonus"][key]
+              amount:armourfile['items'][1]["upgraded_bonus"][key]
             }
             perkfile.push(jsonarray);
           }
@@ -240,12 +237,12 @@ for (let key in weaponfile['items'][weaponindex]["upgraded_bonus"]){
       }
       //--------------------------Upgraded bonuses loader----------------------
       var regex = new RegExp( res.body[build[11]]+".*", 'i');
-      var armourfile = db.get("armour").find({gauntlets:{name:res.body[build[11]]}}).value();
-      for (let key in armourfile['gauntlets']["upgraded_bonus"]){
+      var armourfile = db.get("armour").find({items:[{name:res.body[build[11]]}]}).value();
+      for (let key in armourfile['items'][2]["upgraded_bonus"]){
         for (let j in perkfile){
             var found = false;
             if(perkfile[j]['name'] == key){
-              perkfile[j]["amount"] += armourfile['gauntlets']["upgraded_bonus"][key]
+              perkfile[j]["amount"] += armourfile['items'][2]["upgraded_bonus"][key]
               found = true;
               break;
             }
@@ -253,7 +250,7 @@ for (let key in weaponfile['items'][weaponindex]["upgraded_bonus"]){
         if (found != true){
             var jsonarray = {
               name:key,
-              amount:armourfile['gauntlets']["upgraded_bonus"][key]
+              amount:armourfile['items'][2]["upgraded_bonus"][key]
             }
             perkfile.push(jsonarray);
           }
@@ -284,12 +281,12 @@ for (let key in weaponfile['items'][weaponindex]["upgraded_bonus"]){
       }
       //--------------------------Upgraded bonuses loader----------------------
       var regex = new RegExp( res.body[build[14]]+".*", 'i');
-      var armourfile = db.get("armour").find({greaves:{name:res.body[build[14]]}}).value();
-      for (let key in armourfile['greaves']["upgraded_bonus"]){
+      var armourfile = db.get("armour").find({items:[{name:res.body[build[14]]}]}).value();
+      for (let key in armourfile['items'][3]["upgraded_bonus"]){
         for (let j in perkfile){
             var found = false;
             if(perkfile[j]['name'] == key){
-              perkfile[j]["amount"] += armourfile['greaves']["upgraded_bonus"][key]
+              perkfile[j]["amount"] += armourfile['items'][3]["upgraded_bonus"][key]
               found = true;
               break;
             }
@@ -297,7 +294,7 @@ for (let key in weaponfile['items'][weaponindex]["upgraded_bonus"]){
         if (found != true){
             var jsonarray = {
               name:key,
-              amount:armourfile['greaves']["upgraded_bonus"][key]
+              amount:armourfile['items'][3]["upgraded_bonus"][key]
             }
             perkfile.push(jsonarray);
           }

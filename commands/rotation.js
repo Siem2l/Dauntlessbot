@@ -51,6 +51,7 @@ exports.run = (client, message, args, Discord) => {
     var date1 = (new Date(rotation[0]["time"]+597600000*2)).getTime() - now;
     embed.addField("**In Rotation**",`\`\`${rotation[0]["islandname"]}\`\` - leaving in: ${Math.floor(date1 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date1 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths1[0]["name"]}\n • ${behemoths1[1]["name"]}`)
   }
+  embed.setFooter("This data has been provided through the Official Dauntless Wiki. Click on the Title to get linked to the wiki.")
     message.channel.send({embed})
 }
 exports.conf = {
