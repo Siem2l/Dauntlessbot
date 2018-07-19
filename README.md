@@ -1,4 +1,6 @@
 # Dauntless bot
+[![Discord Bots](https://discordbots.org/api/widget/status/458254594674393101.svg)](https://discordbots.org/bot/458254594674393101) [![Discord Bots](https://discordbots.org/api/widget/servers/458254594674393101.svg)](https://discordbots.org/bot/458254594674393101)
+
 Discord bot for getting information about the game Dauntless from Phoenix Labs.
 ## Invite the bot to your server
 [Invite the bot to your server](https://discordapp.com/api/oauth2/authorize?client_id=458254594674393101&permissions=388160&scope=bot)
