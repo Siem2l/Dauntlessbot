@@ -3,9 +3,39 @@ exports.run = (client, message, args, Discord) => {
   const FileSync = require('lowdb/adapters/FileSync');
   const adapter = new FileSync('./data/dauntlessdata.json');
   const db = low(adapter);
+  let armourcreate = function(armourfile,armourpiece){
+    var embed = new Discord.RichEmbed();
+    embed.setTitle("__"+ armourfile.boss  + "__")
+    armourfile = armourfile.items[armourpiece]
+    embed.setThumbnail(armourfile.icon_url)
+    .setAuthor(armourfile.name,"",armourfile.wiki_url)
+    .addField("Cellslot",armourfile.cellslot)
+    .addField("Element", armourfile.element, true)
+    .addField("Weakness",armourfile.weakness,true);
+    console.log(armourfile)
+    if (armourfile.bonuses != "None"){
+    var bonuslist = ""
+    for (let key in armourfile.bonuses){
+      bonuslist += `**+${armourfile.bonuses[key]}** ` + key + "\n";
 
+      }
+    }else{
+      var bonuslist = "None"
+    }
+
+    embed.addField("Bonus(es)",bonuslist,true);
+    if(armourfile.upgraded_bonus != null){
+    var upgbonuslist = ""
+      for (let key in armourfile.upgraded_bonus ){
+        upgbonuslist += `**+${armourfile.upgraded_bonus[key]}** ` + key + "\n";
+      }
+      embed.addField ("Upgraded Bonus(es)",upgbonuslist,true)
+    }
+    return {embed};
+
+  }
   try{
-    let armourtype;
+    var armourtype = -1
     switch (args[args.length-1]){
       case "helmet":
         armourtype = 0;
@@ -31,120 +61,35 @@ exports.run = (client, message, args, Discord) => {
       case "boots":
       armourtype=3;
     }
-
-
-    if (args.length == 2){
-      var regexbm = new RegExp( args[0]+".*",'i');
-      var behemothfile = db.get("behemoths").find(behemoth => regexbm.test(behemoth.namedb)).value();;
-    }else if (args.length == 3){
-      var behemothfile = db.get("behemoths").find({namedb:`${args[0]} ${args[1]}`}).value();
-    }
-     let regex = new RegExp( args[0]+" "+ args[1], 'i');
-    var armourfile = db.get("armour").find(function(o) {for (i in o["itemnames"]){if (regex.test(o['itemnames'][i])){return true;}}return false}).value();
-    if (armourfile){
-      armourtype = armourfile.itemnames.findIndex(function (o){return regex.test(o)})
-      armourfile = armourfile['items'][armourtype];
-      var embed = new Discord.RichEmbed();
-      embed.setTitle("__"+ behemothfile.name  + "__")
-      .setThumbnail(armourfile.icon_url)
-      .setAuthor(armourfile.name,"",armourfile.wiki_url)
-      .addField("Cellslot",armourfile.cellslot)
-      .addField("Element", armourfile.element, true)
-      .addField("Weakness",armourfile.weakness,true);
-      if (armourfile.bonuses != "None"){
-      var bonuslist = ""
-      for (let key in armourfile.bonuses){
-        bonuslist += `**+${armourfile.bonuses[key]}** ` + key + "\n";
-        }
-      }else{
-        var bonuslist = "None"
+    console.log(armourtype > -1)
+    if (armourtype > -1){
+      console.log(armourtype)
+      args.pop()
+      let string = args.join().split(',').join(' ')
+      let regex  = new RegExp(string+'.*','i')
+      armourfile = db.get("armour").find(function(o) {return regex.test(o.boss)}).value();
+      console.log(armourfile)
+      let embed = armourcreate(armourfile,armourtype)
+      if (embed){
+        return message.channel.send(embed)
       }
-      embed.addField ("Bonus(es)",bonuslist,true);
-      if(armourfile.upgraded_bonus != null){
-      var upgbonuslist = ""
-        for (let key in armourfile.upgraded_bonus ){
-          upgbonuslist += `**+${armourfile.upgraded_bonus[key]}** ` + key + "\n";
-        }
-        embed.addField ("Upgraded Bonus(es)",upgbonuslist,true)
-      }
-      message.channel.send({embed});
-      return;
     }
-
-    if (args.length == 2){
-      regex = new RegExp( args[0]+".*", 'i');
-    var armourfile = db.get("armour").find(behemoth => regex.test(behemoth.boss)).value();
-  } else{
-      var armourfile = db.get("armour").find({boss:`${args[0]} ${args[1]}`}).value();
-  }
-    if (armourfile){
-      armourfile = armourfile['items'][armourtype];
-    var embed = new Discord.RichEmbed();
-    embed.setTitle("__"+ behemothfile.name + "__")
-    .setThumbnail(armourfile.icon_url)
-    .setAuthor(armourfile.name,"",armourfile.wiki_url)
-    .addField("Cellslot",armourfile.cellslot)
-    .addField("Element", armourfile.element, true)
-    .addField("Weakness",armourfile.weakness,true);
-    if (armourfile.bonuses != "None"){
-    var bonuslist = ""
-    for (let key in armourfile.bonuses){
-      bonuslist += `**+${armourfile.bonuses[key]}** ` + key + "\n";
+    else {
+      let string = args.join().split(',').join(' ')
+      let regex  = new RegExp(string+'.*','i')
+      armourfile = db.get("armour").find(function(o) {for (i in o["itemnames"]){if (regex.test(o['itemnames'][i])){return true;}}return false}).value();
+      armourpiece = armourfile.itemnames.findIndex(function (o){return regex.test(o)})
+      let embed = armourcreate(armourfile,armourpiece)
+      if (embed){
+        return message.channel.send(embed)
       }
-    }else{
-      var bonuslist = "None"
     }
-    embed.addField ("Bonus(es)",bonuslist,true);
-    if(armourfile.upgraded_bonus != null){
-    var upgbonuslist = ""
-      for (let key in armourfile.upgraded_bonus ){
-        upgbonuslist += `**+${armourfile.upgraded_bonus[key]}** ` + key + "\n";
-      }
-      embed.addField ("Upgraded Bonus(es)",upgbonuslist,true)
-    }
-    message.channel.send({embed});
-    return;
-}
-regex = new RegExp( args[0], 'i');
-var armourfile = db.get("armour").find(function(o) {for (i in o["itemnames"]){if (regex.test(o['itemnames'][i])){return true;}}return false}).value();
-if (armourfile){
- armourtype = armourfile.itemnames.findIndex(function (o){return regex.test(o)})
- let regexbm = new RegExp(armourfile.boss,'i')
- behemothfile = db.get('behemoths').find(behemoth => regexbm.test(behemoth.namedb)).value();
- armourfile = armourfile['items'][armourtype];
- var embed = new Discord.RichEmbed();
- embed.setTitle("__"+ behemothfile.name  + "__")
- .setThumbnail(armourfile.icon_url)
- .setAuthor(armourfile.name,"",armourfile.wiki_url)
- .addField("Cellslot",armourfile.cellslot)
- .addField("Element", armourfile.element, true)
- .addField("Weakness",armourfile.weakness,true);
- if (armourfile.bonuses != "None"){
- var bonuslist = ""
- for (let key in armourfile.bonuses){
-   bonuslist += `**+${armourfile.bonuses[key]}** ` + key + "\n";
-   }
- }else{
-   var bonuslist = "None"
- }
- embed.addField ("Bonus(es)",bonuslist,true);
- if(armourfile.upgraded_bonus != null){
- var upgbonuslist = ""
-   for (let key in armourfile.upgraded_bonus ){
-     upgbonuslist += `**+${armourfile.upgraded_bonus[key]}** ` + key + "\n";
-   }
-   embed.addField ("Upgraded Bonus(es)",upgbonuslist,true)
- }
- message.channel.send({embed});
- return;
-}
-
   let guildinfo = client.getGuild.get(message.guild.id);
-  return message.channel.send(`Please use \`\`${guildinfo.guildprefix}armour <behemoth name> <armor piece>\`\` with a behemoth name from below:\n\`\`Gnasher, Shrike, Quillshot, Skarn, Charrogg, Embermane, Skraev, Drask, Nayzaga, Pangar, Hellion, Stormclaw, Kharabak, Ragetail Gnasher, Firebrand Charrogg, Shockjaw Nayzaga, Razorwing Kharabak, Frostback Pangar, Deadeye Quillshot, Bloodfire Embermane, Moonreaver Shrike, Rezakiri, Shrowd\`\`\n With a armour piece from this list:\n \`\`Helmet, Chestplate, Gauntlets, Greaves\`\``)
+  return message.channel.send(`Please use \`\`${guildinfo.guildprefix}armour <behemoth name> <armor piece>\`\` with a behemoth name from below:\n\`\`Gnasher, Shrike, Quillshot, Skarn, Charrogg, Embermane, Skraev, Drask, Nayzaga, Pangar, Hellion, Stormclaw, Kharabak, Ragetail Gnasher, Firebrand Charrogg, Shockjaw Nayzaga, Razorwing Kharabak, Frostback Pangar, Deadeye Quillshot, Bloodfire Embermane, Moonreaver Shrike, Rezakiri, Shrowd, Koshai\`\`\n With a armour piece from this list:\n \`\`Helmet, Chestplate, Gauntlets, Greaves\`\``)
   } catch (err){
     console.log(err);
     let guildinfo = client.getGuild.get(message.guild.id);
-    let reply =`Please use \`\`${guildinfo.guildprefix}armour <behemoth name> <armor piece>\`\` with a behemoth name from below:\n\`\`Gnasher, Shrike, Quillshot, Skarn, Charrogg, Embermane, Skraev, Drask, Nayzaga, Pangar, Hellion, Stormclaw, Kharabak, Ragetail Gnasher, Firebrand Charrogg, Shockjaw Nayzaga, Razorwing Kharabak, Frostback Pangar, Deadeye Quillshot, Bloodfire Embermane, Moonreaver Shrike, Rezakiri, Shrowd\`\`\n With a armour piece from this list:\n \`\`Helmet, Chestplate, Gauntlets, Greaves\`\``
+    let reply =`Please use \`\`${guildinfo.guildprefix}armour <behemoth name> <armor piece>\`\` with a behemoth name from below:\n\`\`Gnasher, Shrike, Quillshot, Skarn, Charrogg, Embermane, Skraev, Drask, Nayzaga, Pangar, Hellion, Stormclaw, Kharabak, Ragetail Gnasher, Firebrand Charrogg, Shockjaw Nayzaga, Razorwing Kharabak, Frostback Pangar, Deadeye Quillshot, Bloodfire Embermane, Moonreaver Shrike, Rezakiri, Shrowd, Koshai\`\`\n With a armour piece from this list:\n \`\`Helmet, Chestplate, Gauntlets, Greaves\`\``
     message.channel.send(reply);
   }
 

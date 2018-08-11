@@ -5,8 +5,9 @@ const config = require("./config.json");
 
 const talkedRecently = new Set();
 const SQLite = require("better-sqlite3");
-const sql = new SQLite('./data/guildinfo.sqlite')
+const sqlguild = new SQLite('./data/guildinfo.sqlite')
 const sqlrotation = new SQLite('./data/rotation.sqlite')
+const sqlcommands = new SQLite('./data/commanddata.sqlite')
 const fs = require("fs")
 const low = require("lowdb");
 const FileSync =   require('lowdb/adapters/FileSync');
@@ -22,20 +23,20 @@ dbl.on('posted', () => {
 dbl.on('error', e => {
  console.log(`Oops! ${e}`);
 })
-process.on('unhandledRejection', error => console.error(`Uncaught Promise Rejection:\n${error}`));
+//process.on('unhandledRejection', error => console.error(`Uncaught Promise Rejection:\n${error}`) console.log(error.lineNumber));
 //------------------------------------------Ready-------------------------------------------------
 client.on('ready', () => {
   client.user.setActivity(`on ${client.guilds.size} servers`);
   console.log(`Ready to serve on ${client.guilds.size} servers, for ${client.users.size} users.`);
-  const table = sql.prepare("SELECT count(*) FROM sqlite_master WHERE type='table' AND name = 'guildinfo';").get();
+  const table = sqlguild.prepare("SELECT count(*) FROM sqlite_master WHERE type='table' AND name = 'guildinfo';").get();
   if (!table['count(*)']) {
-    sql.prepare("CREATE TABLE guildinfo (guildid TEXT UNIQUE, guildprefix TEXT);").run();
-    sql.pragma("synchronous = 1");
-    sql.pragma("journal_mode = wal");
+    sqlguild.prepare("CREATE TABLE guildinfo (guildid TEXT UNIQUE, guildprefix TEXT);").run();
+    sqlguild.pragma("synchronous = 1");
+    sqlguild.pragma("journal_mode = wal");
   }
-  client.getGuild = sql.prepare("SELECT * FROM guildinfo WHERE guildid = ?");
-  client.setGuild = sql.prepare("INSERT OR REPLACE INTO guildinfo (guildid, guildprefix) VALUES (@guildid, @guildprefix);");
-  client.removeGuild = sql.prepare("DELETE FROM guildinfo WHERE guildid = ?;");
+  client.getGuild = sqlguild.prepare("SELECT * FROM guildinfo WHERE guildid = ?");
+  client.setGuild = sqlguild.prepare("INSERT OR REPLACE INTO guildinfo (guildid, guildprefix) VALUES (@guildid, @guildprefix);");
+  client.removeGuild = sqlguild.prepare("DELETE FROM guildinfo WHERE guildid = ?;");
 
   const tablerotation = sqlrotation.prepare("SELECT count(*) FROM sqlite_master WHERE type='table' AND name = 'rotation';").get();
   if (!tablerotation['count(*)']) {
@@ -45,9 +46,17 @@ client.on('ready', () => {
     }
   client.getIslands = sqlrotation.prepare("SELECT * FROM rotation ORDER BY time ASC");
   client.getIsland = sqlrotation.prepare("SELECT * FROM rotation WHERE islandname = ?");
-  client.setIsland = sqlrotation.prepare("INSERT OR REPLACE INTO rotation (islandname, time) VALUES (@islandname, @time);");
+  client.setIsland = sqlrotation.prepare("INSERT OR REPLACE INTO rotation (islandname, time) VALUES (?, ?);");
   client.removeIsland = sqlrotation.prepare("DELETE FROM rotation WHERE islandname = ?;");
-
+  const tablecommands = sqlcommands.prepare("SELECT count(*) FROM sqlite_master WHERE type='table' AND name = 'commanddata';").get();
+  if (!tablecommands['count(*)']) {
+    sqlcommands.prepare("CREATE TABLE commanddata (command TEXT UNIQUE, amount INT);").run();
+    sqlcommands.pragma("synchronous = 1");
+    sqlcommands.pragma("journal_mode = wal");
+  }
+  client.getcommand = sqlcommands.prepare("SELECT * FROM commanddata WHERE command = ?")
+  client.setcommand = sqlcommands.prepare("INSERT OR REPLACE INTO commanddata (command, amount) VALUES (?, ?);");
+  client.getcommands = sqlcommands.prepare("SELECT * FROM commanddata")
   /// discordbots.org server count
   setInterval(() => {
         dbl.postStats(client.guilds.size);
@@ -101,7 +110,7 @@ client.on('message', message => {
         guildprefix: config.prefix
       }
       client.setGuild.run(guildinfo)
-      message.channel.send("Prefix has been set to`` ! ``");
+      message.channel.send("Prefix has been set to`` d ``");
   }
   //---------------------------------------------------------------------------------------------
   //----------- ----------------------------------Getting guild prefix------------------------
@@ -116,7 +125,7 @@ client.on('message', message => {
   }
   //---------------------------------------------------------------------------------------------
   //---------------------------------------------Message cooldown--------------------------------
-  if(!message.content.startsWith(guildinfo.guildprefix)|| message.author.bot) {return;}
+  if((!message.content.startsWith(guildinfo.guildprefix) && !message.content.startsWith('<@462941257073819668>'))|| message.author.bot) {return;}
       if (talkedRecently.has(message.author.id)) {
           message.channel.send("Wait 3 seconds before sending a new command - " + message.author);
        }
@@ -128,9 +137,24 @@ client.on('message', message => {
           }  , 3000);
         }
     //--------------------------------------------dauntlessbuilder-------------------------------
+    if(message.content.startsWith(guildinfo.guildprefix)){
           var  args = message.content.slice(guildinfo.guildprefix.length).trim().split(/ +/g);
           var command = args.shift().toLowerCase();
+    }
+    else if(message.content.startsWith('<@462941257073819668>'))
+    {
+      var  args = message.content.slice(21).trim().split(/ +/g);
+      var command = args.shift().toLowerCase();
+    }
           if (command == "dbuilds"|| command == "db" || command == "build" || command == "dbuild"){
+            let cmddata = client.getcommand.get('dbuilds')
+            if (!cmddata){
+              client.setcommand.run("dbuilds",1)
+            }
+            else{
+              client.setcommand.run("dbuilds",++cmddata.amount)
+            }
+
             var commandFile = require(`./commands/dbuilds.js`);
             commandFile.run(client, message, args, Discord);
             return;
@@ -170,7 +194,7 @@ client.on('message', message => {
         let armorarray=['helmet','chestplate','gauntlets','greaves'];
         let weaponarray= ['axe','sword','chainblades','warpike','hammer']
         if (armorarray.indexOf(args[0]) > -1){
-          console.log('t')
+
           commandbm = "armour";
           argcheck = false;
         }
@@ -211,6 +235,13 @@ client.on('message', message => {
         message.channel.send(`Please choose a valid command or a valid behemoth you can find a list of all the commands at \`${guildinfo.guildprefix}help\` and a list of all the behemoths if you type \`${guildinfo.guildprefix}behemoth list\``)
         return;
       }
+      let cmddata = client.getcommand.get(commandFile.conf.name)
+      if (!cmddata){
+        client.setcommand.run(commandFile.conf.name,1)
+      }
+      else{
+        client.setcommand.run(commandFile.conf.name,++cmddata.amount)
+      }
       commandFile.run(client, message, args, Discord);
     }
     catch (err)  {
@@ -224,7 +255,7 @@ client.on('message', message => {
 //-------------------------------------------------------------------------------------------------
 //-----------------------------------------------Rotation updating---------------------------------
 setInterval(function() {let rotation = client.getIslands.all();
-  if (rotation[0]["time"]+ 597600000*2 < Date.now()){
+  if (rotation[0]["time"]+ 604800000*2 < Date.now()){
     console.log(rotation[0]["islandname"]);
   client.removeIsland.run(rotation[0]["islandname"]);
 }},150000);

@@ -24,7 +24,7 @@ exports.run = (client, message, args, Discord) => {
     if (gatherablearray.findIndex(function(item) { return regex.test(item)}) > -1){
       let gatherableitem =  gatherablearray[gatherablearray.findIndex(function(item) { return regex.test(item)})]
       let gatherableslist = db.get('islands').filter({gatherables:[{name:gatherableitem}]}).value();
-      if (gatherablelist){
+      if (gatherableslist){
           let string = `Islands with the gatherable **${gatherableitem}**: \`\`\``
           for (let i in gatherableslist){
             if (i === gatherableslist.length-1){

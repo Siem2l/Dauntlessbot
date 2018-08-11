@@ -4,78 +4,11 @@ exports.run = (client, message, args, Discord) => {
   const adapter = new FileSync('./data/dauntlessdata.json');
   const db = low(adapter);
   const request = require("request");
-  try{
-    var weapontype;
-    switch (args[args.length-1]){
-      case "axe":
-        weapontype = 0;
-        break;
-      case "chainblades":
-        weapontype = 1;
-        break;
-      case "hammer":
-        weapontype = 2;
-        break;
-      case "sword":
-        weapontype = 3;
-        break;
-      case "warpike":
-        weapontype = 4;
-        break;
-    }
-
-    let regex = new RegExp( args[0]+" "+ args[1], 'i');
-    var weaponfile = db.get("weapons").find(function(o) {for (i in o["itemnames"]){if (regex.test(o['itemnames'][i])){return true;}}return false}).value();
-    if(weaponfile){
-      weaponpiece = weaponfile.itemnames.findIndex(function (o){return regex.test(o)})
-      let regexbm = new RegExp(weaponfile.name,'i')
-       behemothfile = db.get('behemoths').find(behemoth => regexbm.test(behemoth.namedb)).value();
-       weaponfile = weaponfile["items"][weaponpiece];
-               var embed = new Discord.RichEmbed();
-       embed.setTitle("__"+ behemothfile.name + "__")
-       .setThumbnail(weaponfile.icon_url)
-       .setAuthor(weaponfile.name,"",weaponfile.wiki_url)
-       .addField("Cellslots",weaponfile.cellslot01 + " & " + weaponfile.cellslot02,true)
-       .addField("Element", weaponfile.element, true)
-       if (weaponfile.bonuses != "None"){
-       var bonuslist = ""
-       for (let key in weaponfile.bonuses){
-         bonuslist += `**+${weaponfile.bonuses[key]}** ` + key + "\n";
-         }
-       }else{
-         var bonuslist = "None"
-       }
-       embed.addField ("Bonus(es)",bonuslist,true);
-       if(weaponfile.upgraded_bonus != null){
-       var upgbonuslist = ""
-         for (let key in weaponfile.upgraded_bonus ){
-           upgbonuslist += `**+${weaponfile.upgraded_bonus[key]}** ` + key + "\n";
-         }
-         embed.addField ("Upgraded Bonus(es)",upgbonuslist,true)
-       }
-       if(weaponfile.specials != "None"){
-       var uniqueeffectstring = "";
-         for (let key in weaponfile.specials){
-           uniqueeffectstring += " • " + weaponfile.specials[key]
-       }
-       embed.addField("Unique Effect(s)",uniqueeffectstring)
-       }
-       message.channel.send({embed});
-       return;
-   }
-   regex = new RegExp( args[0]+".*", 'i');
-    if (args.length == 2){
-      var behemothfile = db.get("behemoths").find(behemoth => regex.test(behemoth.namedb)).value();;
-    }else if (args.length == 3){
-      var behemothfile = db.get("behemoths").find({namedb:`${args[0]} ${args[1]}`}).value();
-  }
-    var weaponfile = db.get("weapons").find(weapon => regex.test(weapon.name)).value();
-
-if (weaponfile){
-  weaponfile = weaponfile.items[weapontype];
-        var embed = new Discord.RichEmbed();
-    embed.setTitle("__"+ behemothfile.name + "__")
-    .setThumbnail(weaponfile.icon_url)
+  let weaponcreate = function(weaponfile,weapontype){
+    var embed = new Discord.RichEmbed();
+    embed.setTitle("__"+ weaponfile.name + "__")
+    weaponfile = weaponfile.items[weapontype]
+    embed.setThumbnail(weaponfile.icon_url)
     .setAuthor(weaponfile.name,"",weaponfile.wiki_url)
     .addField("Cellslots",weaponfile.cellslot01 + " & " + weaponfile.cellslot02,true)
     .addField("Element", weaponfile.element, true)
@@ -102,51 +35,48 @@ if (weaponfile){
     }
     embed.addField("Unique Effect(s)",uniqueeffectstring)
     }
-    message.channel.send({embed});
-    return;
-}
+    return{embed};
+  }
+  try{
+    var weapontype = -1;
+    switch (args[args.length-1]){
+      case "axe":
+        weapontype = 0;
+        break;
+      case "chainblades":
+        weapontype = 1;
+        break;
+      case "hammer":
+        weapontype = 2;
+        break;
+      case "sword":
+        weapontype = 3;
+        break;
+      case "warpike":
+        weapontype = 4;
+        break;
+    }
 
- regex = new RegExp( args[0], 'i');
- weaponfile = db.get("weapons").find(function(o) {for (i in o["itemnames"]){if (regex.test(o['itemnames'][i])){return true;}}return false}).value();
-if(weaponfile){
-  weaponpiece = weaponfile.itemnames.findIndex(function (o){return regex.test(o)})
-  let regexbm = new RegExp(weaponfile.name,'i')
-  console.log(regexbm)
-   behemothfile = db.get('behemoths').find(behemoth => regexbm.test(behemoth.namedb)).value();
-   console.log(weaponfile)
-   weaponfile = weaponfile["items"][weaponpiece];
-        var embed = new Discord.RichEmbed();
-   embed.setTitle("__"+ behemothfile.name + "__")
-   .setThumbnail(weaponfile.icon_url)
-   .setAuthor(weaponfile.name,"",weaponfile.wiki_url)
-   .addField("Cellslots",weaponfile.cellslot01 + " & " + weaponfile.cellslot02,true)
-   .addField("Element", weaponfile.element, true)
-   if (weaponfile.bonuses != "None"){
-   var bonuslist = ""
-   for (let key in weaponfile.bonuses){
-     bonuslist += `**+${weaponfile.bonuses[key]}** ` + key + "\n";
-     }
-   }else{
-     var bonuslist = "None"
-   }
-   embed.addField ("Bonus(es)",bonuslist,true);
-   if(weaponfile.upgraded_bonus != null){
-   var upgbonuslist = ""
-     for (let key in weaponfile.upgraded_bonus ){
-       upgbonuslist += `**+${weaponfile.upgraded_bonus[key]}** ` + key + "\n";
-     }
-     embed.addField ("Upgraded Bonus(es)",upgbonuslist,true)
-   }
-   if(weaponfile.specials != "None"){
-   var uniqueeffectstring = "";
-     for (let key in weaponfile.specials){
-       uniqueeffectstring += " • " + weaponfile.specials[key]
-   }
-   embed.addField("Unique Effect(s)",uniqueeffectstring)
-   }
-   message.channel.send({embed});
-   return;
-}
+    if (weapontype > -1){
+      args.pop()
+      let string = args.join().split(',').join(' ')
+      let regex  = new RegExp(string+'.*','i')
+      weaponfile = db.get("weapons").find(function(o) {return regex.test(o.name)}).value();
+      let embed = weaponcreate(weaponfile,weapontype)
+      if (embed){
+        return message.channel.send(embed)
+      }
+    }
+    else {
+      let string = args.join().split(',').join(' ')
+      let regex  = new RegExp(string+'.*','i')
+      weaponfile = db.get("weapons").find(function(o) {for (i in o["itemnames"]){if (regex.test(o['itemnames'][i])){return true;}}return false}).value();
+      weaponpiece = weaponfile.itemnames.findIndex(function (o){return regex.test(o)})
+      let embed = weaponcreate(weaponfile,weaponpiece)
+      if (embed){
+        return message.channel.send(embed)
+      }
+    }
 
   } catch (err){
 let guildinfo = client.getGuild.get(message.guild.id);
