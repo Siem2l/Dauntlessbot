@@ -31,6 +31,13 @@ exports.run = (client, message, args, Discord) => {
       }
       embed.addField ("Upgraded Bonus(es)",upgbonuslist,true)
     }
+    if(armourfile.specials != null){
+      var uniqueeffectlist = ''
+      for (let key in armourfile.specials){
+        uniqueeffectlist += `${armourfile.specials[key]}\n`
+      }
+      embed.addField("Unique Effects", uniqueeffectlist)
+    }
     return {embed};
 
   }

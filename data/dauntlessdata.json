@@ -257,7 +257,7 @@
         "Shock <:shock:459747215318188032>"
       ],
       "weakness": [
-        "Blaze <:blaze:459747214953283584>"
+        "Frost <:frost:459747214277869579>"
       ],
       "interupting": "Nayzaga can be interrupted by destroying the large spine structure during its aethercharged state.",
       "droptable": {
@@ -745,6 +745,40 @@
         ]
       },
       "icon_url": "https://www.nireon.me/behemoths/shrowd.png"
+    },
+    {
+      "name": "Koshai",
+      "namedb": "koshai",
+      "islands": [
+        "Sovereign's Throne"
+      ],
+      "description": "Koshai is one of the Behemoths in the world of Dauntless.",
+      "wiki_url": "https://dauntless.gamepedia.com/Koshai",
+      "element": [
+        "Neutral"
+      ],
+      "weakness": [
+        "Blaze <:blaze:459747214953283584>"
+      ],
+      "interupting": "Koshai can be interrupted if you do enough damage when he is upside down in a vine charging for his aerial attack.",
+      "droptable": {
+        "All": [
+          "• Aether Thorn \n• Koshai Thorn \n• Vital Thorn (rare drop) "
+        ],
+        "Antlers": [
+          "• Antler Fragment\n• Splintered Antler\n• Broken Antler (rare drop)\n• Polished Antlerbone (rare drop)\n• Imposing Antler (epic drop)\n• Living Antler (epic drop)"
+        ],
+        "Head": [
+          "• Vinetooth Fragment\n• Vinetooth\n• Thornmane (rare drop)\n• Thornscale (rare drop)\n• Nature's Mane (epic drop)"
+        ],
+        "Limbs": [
+          "• Bramblespur\n• Thornclaw (rare drop)\n• Choking Bramblespur (epic drop)\n• Constricting Bramblespur (epic drop)"
+        ],
+        "Tail": [
+          "• Caudal Thorn\n• Tail Nettles\n• Sturdy Tailvine (rare drop)\n• Razorthorn (rare drop)\n• Living Tailspike (epic drop)\n• Living Thorn (epic drop)"
+        ]
+      },
+      "icon_url": "https://www.nireon.me/behemoths/koshai.png"
     }
   ],
   "cells": [
@@ -821,7 +855,7 @@
       "namedb": "agility"
     },
     {
-      "name": "Assassin's Vigor",
+      "name": "Assassin's Vigour",
       "type": "Defence",
       "description": "Grants Health after breaking a Behemoth part.",
       "level01": "Heal 50 when you break a part",
@@ -830,7 +864,7 @@
       "level04": "Heal 200 when you break a part",
       "level05": "Heal 250 when you break a part",
       "level06": "Heal 300 when you break a part",
-      "namedb": "assassin's vigor"
+      "namedb": "assassin's vigour"
     },
     {
       "name": "Barbed",
@@ -1085,6 +1119,18 @@
       "namedb": "pacifier"
     },
     {
+      "name": "Predator",
+      "type": "Technique",
+      "description": "Increases damage after avoiding damage for a short time.",
+      "level01": "Deal 104% damage after not getting hit for 15 seconds. Bonus removed when hit.",
+      "level02": "Deal 108% damage after not getting hit for 15 seconds. Bonus removed when hit.",
+      "level03": "Deal 114% damage after not getting hit for 15 seconds. Bonus removed when hit.",
+      "level04": "Deal 120% damage after not getting hit for 15 seconds. Bonus removed when hit.",
+      "level05": "Deal 127% damage after not getting hit for 15 seconds. Bonus removed when hit.",
+      "level06": "Deal 135% damage after not getting hit for 15 seconds. Bonus removed when hit.",
+      "namedb": "predator"
+    },
+    {
       "name": "Rage",
       "type": "Power",
       "description": "Increases your damage when your health is low.",
@@ -1239,1098 +1285,6 @@
       "level05": "When under 50% health, increase attack speed by 20%",
       "level06": "When under 50% health, increase attack speed by 25%",
       "namedb": "wild frenzy"
-    }
-  ],
-  "exotics": [
-    {
-      "name": "The Hunger",
-      "namedb": "thehunger",
-      "description": "The Hunger is a craftable Exotic weapon in Dauntless. It is crafted from Shrowd reagents.\n",
-      "wiki_url": "https://dauntless.gamepedia.com/The_Hunger",
-      "icon_url": "https://nireon.me/exotics/the_hunger.png",
-      "uniqueeffect": "• Up to 25% increased damage as your meter increases\n• Activate at max meter to enter a feast state,\n   dealing 75% increase damage for 15 seconds,\n   but taking damage after each hit.\n• Activate again during feast state to unleash an Umbral attack\n   to regain lost health\n",
-      "cells": "Power Cell <:power:459813422796636171> & Utility Cell <:utility:459813423476113419>\n",
-      "strength": "+40 Umbral <:umbral:459747214932049930>",
-      "recipe_cost": [
-        [
-          {
-            "name": "Notes",
-            "amount": 2000
-          },
-          {
-            "name": "Writhing Feather",
-            "amount": 2
-          },
-          {
-            "name": "Aetheric Crownplate",
-            "amount": 2
-          },
-          {
-            "name": "Elemental Clawgem",
-            "amount": 4
-          },
-          {
-            "name": "Corrupted Darktail",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 250
-          },
-          {
-            "name": "Infused Weapon Archonite",
-            "amount": 24
-          },
-          {
-            "name": "Shrowd Feather",
-            "amount": 4
-          },
-          {
-            "name": "Raw Furytail",
-            "amount": 2
-          },
-          {
-            "name": "Raw Skullgem",
-            "amount": 2
-          },
-          {
-            "name": "Corrupted Bladefeather",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 260
-          },
-          {
-            "name": "Infused Weapon Archonite",
-            "amount": 24
-          },
-          {
-            "name": "Writhing Feather",
-            "amount": 1
-          },
-          {
-            "name": "Elemental Clawgem",
-            "amount": 2
-          },
-          {
-            "name": "Corrupted Shadowtalon",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 270
-          },
-          {
-            "name": "Infused Weapon Archonite",
-            "amount": 24
-          },
-          {
-            "name": "Raw Furyplate",
-            "amount": 6
-          },
-          {
-            "name": "Raw Skullgem",
-            "amount": 2
-          },
-          {
-            "name": "Corrupted Crownfeather",
-            "amount": 1
-          },
-          {
-            "name": "Shrowd Feather",
-            "amount": 8
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 280
-          },
-          {
-            "name": "Infused Weapon Archonite",
-            "amount": 24
-          },
-          {
-            "name": "Writhing Feather",
-            "amount": 1
-          },
-          {
-            "name": "Elemental Clawgem",
-            "amount": 2
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 290
-          },
-          {
-            "name": "Infused Weapon Archonite",
-            "amount": 32
-          },
-          {
-            "name": "Shrowd Feather",
-            "amount": 8
-          },
-          {
-            "name": "Raw Furytail",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 300
-          },
-          {
-            "name": "Charged Weapon Archonite",
-            "amount": 16
-          },
-          {
-            "name": "Pure Infused Weapon Archonite",
-            "amount": 4
-          },
-          {
-            "name": "Aetheric Crownplate",
-            "amount": 3
-          },
-          {
-            "name": "Corrupted Bladefeather",
-            "amount": 1
-          },
-          {
-            "name": "Corrupted Shadowtalon",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 310
-          },
-          {
-            "name": "Charged Weapon Archonite",
-            "amount": 24
-          },
-          {
-            "name": "Raw Skullgem",
-            "amount": 2
-          },
-          {
-            "name": "Raw Furyplate",
-            "amount": 2
-          },
-          {
-            "name": "Writhing Feather",
-            "amount": 1
-          },
-          {
-            "name": "Shrowd Feather",
-            "amount": 8
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 320
-          },
-          {
-            "name": "Charged Weapon Archonite",
-            "amount": 32
-          },
-          {
-            "name": "Pure Infused Weapon Archonite",
-            "amount": 8
-          },
-          {
-            "name": "Elemental Clawgem",
-            "amount": 6
-          },
-          {
-            "name": "Corrupted Darktail",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 330
-          },
-          {
-            "name": "Charged Weapon Archonite",
-            "amount": 40
-          },
-          {
-            "name": "Raw Furyplate",
-            "amount": 3
-          },
-          {
-            "name": "Raw Furytail",
-            "amount": 2
-          },
-          {
-            "name": "Shrowd Feather",
-            "amount": 8
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 340
-          },
-          {
-            "name": "Charged Weapon Archonite",
-            "amount": 40
-          },
-          {
-            "name": "Pure Infused Weapon Archonite",
-            "amount": 4
-          },
-          {
-            "name": "Aetheric Crownplate",
-            "amount": 1
-          },
-          {
-            "name": "Corrupted Bladefeather",
-            "amount": 1
-          },
-          {
-            "name": "Corrupted Crownfeather",
-            "amount": 1
-          }
-        ]
-      ]
-    },
-    {
-      "name": "The Godhand",
-      "namedb": "thegodhand",
-      "description": "The Godhand is a craftable Exotic weapon in Dauntless. It is crafted from Rezakiri reagents. (picture is a placeholder just like in-game)\n",
-      "wiki_url": "https://dauntless.gamepedia.com/The_Godhand",
-      "icon_url": "http://nireon.me/exotics/the_godhand.png",
-      "uniqueeffect": "• Channel a beam that deals increasing damage, up to 200%, while it continues to hit a target.",
-      "strength": "+40 Radiant <:radiant:459747214923923486>",
-      "cells": "Power Cell <:power:459813422796636171> & Technique Cell <:technique:459813422830190593>\n",
-      "recipe_cost": [
-        [
-          {
-            "name": "Notes",
-            "amount": 2000
-          },
-          {
-            "name": "Luminescent Chitin",
-            "amount": 2
-          },
-          {
-            "name": "Raw Furytooth",
-            "amount": 2
-          },
-          {
-            "name": "Raw Clawgem",
-            "amount": 4
-          },
-          {
-            "name": "Radiant Aethergem",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 250
-          },
-          {
-            "name": "Infused Weapon Archonite",
-            "amount": 24
-          },
-          {
-            "name": "Rezakiri Chitin",
-            "amount": 4
-          },
-          {
-            "name": "Aetheric Skullgem",
-            "amount": 2
-          },
-          {
-            "name": "Aetheric Tail",
-            "amount": 2
-          },
-          {
-            "name": "Glimmering Clawplate",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 260
-          },
-          {
-            "name": "Infused Weapon Archonite",
-            "amount": 24
-          },
-          {
-            "name": "Luminescent Chitin",
-            "amount": 1
-          },
-          {
-            "name": "Raw Clawgem",
-            "amount": 2
-          },
-          {
-            "name": "Brilliant Tailplate",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 270
-          },
-          {
-            "name": "Infused Weapon Archonite",
-            "amount": 24
-          },
-          {
-            "name": "Rezakiri Chitin",
-            "amount": 8
-          },
-          {
-            "name": "Elemental Furyplate",
-            "amount": 6
-          },
-          {
-            "name": "Aetheric Tail",
-            "amount": 2
-          },
-          {
-            "name": "Radiant Biocrystal",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 280
-          },
-          {
-            "name": "Infused Weapon Archonite",
-            "amount": 24
-          },
-          {
-            "name": "Luminescent Chitin",
-            "amount": 1
-          },
-          {
-            "name": "Raw Clawgem",
-            "amount": 2
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 290
-          },
-          {
-            "name": "Infused Weapon Archonite",
-            "amount": 32
-          },
-          {
-            "name": "Rezakiri Chitin",
-            "amount": 8
-          },
-          {
-            "name": "Aetheric Skullgem",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 300
-          },
-          {
-            "name": "Charged Weapon Archonite",
-            "amount": 16
-          },
-          {
-            "name": "Pure Infused Weapon Archonite",
-            "amount": 4
-          },
-          {
-            "name": "Raw Furytooth",
-            "amount": 3
-          },
-          {
-            "name": "Glimmering Clawplate",
-            "amount": 1
-          },
-          {
-            "name": "Brilliant Tailplate",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 310
-          },
-          {
-            "name": "Charged Weapon Archonite",
-            "amount": 24
-          },
-          {
-            "name": "Rezakiri Chitin",
-            "amount": 8
-          },
-          {
-            "name": "Luminescent Chitin",
-            "amount": 1
-          },
-          {
-            "name": "Elemental Furyplate",
-            "amount": 2
-          },
-          {
-            "name": "Aetheric Tail",
-            "amount": 2
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 320
-          },
-          {
-            "name": "Charged Weapon Archonite",
-            "amount": 32
-          },
-          {
-            "name": "Pure Infused Weapon Archonite",
-            "amount": 8
-          },
-          {
-            "name": "Raw Clawgem",
-            "amount": 6
-          },
-          {
-            "name": "Radiant Aethergem",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 330
-          },
-          {
-            "name": "Charged Weapon Archonite",
-            "amount": 40
-          },
-          {
-            "name": "Rezakiri Chitin",
-            "amount": 8
-          },
-          {
-            "name": "Elemental Furyplate",
-            "amount": 3
-          },
-          {
-            "name": "Aetheric Skullgem",
-            "amount": 2
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 340
-          },
-          {
-            "name": "Charged Weapon Archonite",
-            "amount": 40
-          },
-          {
-            "name": "Pure Infused Weapon Archonite",
-            "amount": 4
-          },
-          {
-            "name": "Raw Furytooth",
-            "amount": 1
-          },
-          {
-            "name": "Glimmering Clawplate",
-            "amount": 1
-          },
-          {
-            "name": "Radiant Biocrystal",
-            "amount": 1
-          }
-        ]
-      ]
-    },
-    {
-      "name": "Tragic Echo",
-      "namedb": "tragicecho",
-      "description": "Tragic Echo is a piece of craftable Exotic armour in Dauntless. It is crafted from Shrowd reagents.\n",
-      "wiki_url": "https://dauntless.gamepedia.com/Tragic_Echo",
-      "icon_url": "http://nireon.me/exotics/tragic_echo.png",
-      "uniqueeffect": "• Upon your first death, become a shadow clone that deals 100% increased damage for 15 seconds",
-      "cells": "Power Cell <:power:459813422796636171>\n",
-      "strength": "+10 Umbral <:umbral:459747214932049930>",
-      "weakness": "-5 Radiant <:radiant:459747214923923486>",
-      "recipe_cost": [
-        [
-          {
-            "name": "Notes",
-            "amount": 1500
-          },
-          {
-            "name": "Raw Furyplate",
-            "amount": 2
-          },
-          {
-            "name": "Raw Furytooth",
-            "amount": 1
-          },
-          {
-            "name": "Raw Furytail",
-            "amount": 1
-          },
-          {
-            "name": "Corrupted Darktail",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 125
-          },
-          {
-            "name": "Infused Armour Archonite",
-            "amount": 6
-          },
-          {
-            "name": "Aetheric Claw",
-            "amount": 1
-          },
-          {
-            "name": "Aetheric Skullgem",
-            "amount": 1
-          },
-          {
-            "name": "Dark Bladefeather",
-            "amount": 2
-          },
-          {
-            "name": "Twisted Shadowspur",
-            "amount": 2
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 130
-          },
-          {
-            "name": "Infused Armour Archonite",
-            "amount": 6
-          },
-          {
-            "name": "Shrowd Feather",
-            "amount": 10
-          },
-          {
-            "name": "Raw Furyplate",
-            "amount": 4
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 135
-          },
-          {
-            "name": "Infused Armour Archonite",
-            "amount": 6
-          },
-          {
-            "name": "Aetheric Claw",
-            "amount": 2
-          },
-          {
-            "name": "Aetheric Skullgem",
-            "amount": 2
-          },
-          {
-            "name": "Midnight Tailfeather",
-            "amount": 2
-          },
-          {
-            "name": "Darkbeak Shard",
-            "amount": 2
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 140
-          },
-          {
-            "name": "Infused Armour Archonite",
-            "amount": 6
-          },
-          {
-            "name": "Raw Furyplate",
-            "amount": 4
-          },
-          {
-            "name": "Dark Bladefeather",
-            "amount": 2
-          },
-          {
-            "name": "Twisted Shadowspur",
-            "amount": 2
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 145
-          },
-          {
-            "name": "Infused Armour Archonite",
-            "amount": 8
-          },
-          {
-            "name": "Raw Furytooth",
-            "amount": 2
-          },
-          {
-            "name": "Midnight Tailfeather",
-            "amount": 1
-          },
-          {
-            "name": "Darkbeak Shard",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 150
-          },
-          {
-            "name": "Charged Armour Archonite",
-            "amount": 4
-          },
-          {
-            "name": "Pure Infused Armour Archonite",
-            "amount": 1
-          },
-          {
-            "name": "Aetheric Claw",
-            "amount": 2
-          },
-          {
-            "name": "Aetheric Skullgem",
-            "amount": 2
-          },
-          {
-            "name": "Corrupted Darktail",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 155
-          },
-          {
-            "name": "Charged Armour Archonite",
-            "amount": 6
-          },
-          {
-            "name": "Shrowd Feather",
-            "amount": 10
-          },
-          {
-            "name": "Dark Bladefeather",
-            "amount": 3
-          },
-          {
-            "name": "Midnight Tailfeather",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 160
-          },
-          {
-            "name": "Charged Armour Archonite",
-            "amount": 8
-          },
-          {
-            "name": "Pure Infused Armour Archonite",
-            "amount": 2
-          },
-          {
-            "name": "Raw Furyplate",
-            "amount": 4
-          },
-          {
-            "name": "Raw Furytail",
-            "amount": 1
-          },
-          {
-            "name": "Twisted Shadowspur",
-            "amount": 3
-          },
-          {
-            "name": "Darkbeak Shard",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 165
-          },
-          {
-            "name": "Charged Armour Archonite",
-            "amount": 10
-          },
-          {
-            "name": "Shrowd Feather",
-            "amount": 8
-          },
-          {
-            "name": "Aetheric Claw",
-            "amount": 2
-          },
-          {
-            "name": "Aetheric Skullgem",
-            "amount": 2
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 170
-          },
-          {
-            "name": "Charged Armour Archonite",
-            "amount": 10
-          },
-          {
-            "name": "Pure Infused Armour Archonite",
-            "amount": 1
-          },
-          {
-            "name": "Raw Furyplate",
-            "amount": 4
-          },
-          {
-            "name": "Raw Furytooth",
-            "amount": 3
-          },
-          {
-            "name": "Dark Bladefeather",
-            "amount": 1
-          },
-          {
-            "name": "Twisted Shadowspur",
-            "amount": 1
-          }
-        ]
-      ]
-    },
-    {
-      "name": "Prismatic Grace",
-      "namedb": "prismaticgrace",
-      "description": "Prismatic Grace is a piece of craftable Exotic armour in Dauntless. It is crafted from Rezakiri reagents.",
-      "wiki_url": "https://dauntless.gamepedia.com/Prismatic_Grace",
-      "icon_url": "http://nireon.me/exotics/prismatic_grace.png",
-      "uniqueeffect": "• After reviving another player, grant them a Radiant Prism that blocks incoming damage for 5 seconds.\n• The first time you take lethal damage, gain a Radiant Prism that blocks incoming damage for 10 seconds.\n• While active, reviving another player fully restores both players but removes the Prism even at full danger.",
-      "cells": "Technique Cell <:technique:459813422830190593>\n",
-      "strength": "+10 Radiant <:radiant:459747214923923486>",
-      "weakness": "-5 Umbral <:umbral:459747214932049930>",
-      "recipe_cost": [
-        [
-          {
-            "name": "Notes",
-            "amount": 1500
-          },
-          {
-            "name": "Aetheric Claw",
-            "amount": 2
-          },
-          {
-            "name": "Aetheric Skullgem",
-            "amount": 1
-          },
-          {
-            "name": "Aetheric Tail",
-            "amount": 1
-          },
-          {
-            "name": "Radiant Aethergem",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 125
-          },
-          {
-            "name": "Infused Armour Archonite",
-            "amount": 6
-          },
-          {
-            "name": "Raw Clawgem",
-            "amount": 1
-          },
-          {
-            "name": "Raw Tailgem",
-            "amount": 1
-          },
-          {
-            "name": "Exoskeletal Plate",
-            "amount": 2
-          },
-          {
-            "name": "Lustrous Tailplate",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 130
-          },
-          {
-            "name": "Infused Armour Archonite",
-            "amount": 6
-          },
-          {
-            "name": "Rezakiri Chitin",
-            "amount": 10
-          },
-          {
-            "name": "Aetheric Claw",
-            "amount": 4
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 135
-          },
-          {
-            "name": "Infused Armour Archonite",
-            "amount": 6
-          },
-          {
-            "name": "Raw Clawgem",
-            "amount": 2
-          },
-          {
-            "name": "Raw Tailgem",
-            "amount": 2
-          },
-          {
-            "name": "Cracked Biocrystal",
-            "amount": 2
-          },
-          {
-            "name": "Clear Powergem",
-            "amount": 2
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 140
-          },
-          {
-            "name": "Infused Armour Archonite",
-            "amount": 6
-          },
-          {
-            "name": "Aetheric Claw",
-            "amount": 4
-          },
-          {
-            "name": "Exoskeletal Plate",
-            "amount": 2
-          },
-          {
-            "name": "Lustrous Tailplate",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 145
-          },
-          {
-            "name": "Infused Armour Archonite",
-            "amount": 8
-          },
-          {
-            "name": "Aetheric Skullgem",
-            "amount": 2
-          },
-          {
-            "name": "Cracked Biocrystal",
-            "amount": 1
-          },
-          {
-            "name": "Clear Powergem",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 150
-          },
-          {
-            "name": "Charged Armour Archonite",
-            "amount": 4
-          },
-          {
-            "name": "Pure Infused Armour Archonite",
-            "amount": 1
-          },
-          {
-            "name": "Raw Clawgem",
-            "amount": 2
-          },
-          {
-            "name": "Raw Tailgem",
-            "amount": 2
-          },
-          {
-            "name": "Radiant Aethergem",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 155
-          },
-          {
-            "name": "Charged Armour Archonite",
-            "amount": 6
-          },
-          {
-            "name": "Rezakiri Chitin",
-            "amount": 10
-          },
-          {
-            "name": "Exoskeletal Plate",
-            "amount": 3
-          },
-          {
-            "name": "Cracked Biocrystal",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 160
-          },
-          {
-            "name": "Charged Armour Archonite",
-            "amount": 8
-          },
-          {
-            "name": "Pure Infused Armour Archonite",
-            "amount": 2
-          },
-          {
-            "name": "Aetheric Claw",
-            "amount": 4
-          },
-          {
-            "name": "Aetheric Tail",
-            "amount": 1
-          },
-          {
-            "name": "Lustrous Tailplate",
-            "amount": 1
-          },
-          {
-            "name": "Clear Powergem",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 165
-          },
-          {
-            "name": "Charged Armour Archonite",
-            "amount": 10
-          },
-          {
-            "name": "Rezakiri Chitin",
-            "amount": 8
-          },
-          {
-            "name": "Raw Clawgem",
-            "amount": 2
-          },
-          {
-            "name": "Raw Tailgem",
-            "amount": 2
-          }
-        ],
-        [
-          {
-            "name": "Notes",
-            "amount": 170
-          },
-          {
-            "name": "Charged Armour Archonite",
-            "amount": 10
-          },
-          {
-            "name": "Pure Infused Armour Archonite",
-            "amount": 1
-          },
-          {
-            "name": "Aetheric Claw",
-            "amount": 4
-          },
-          {
-            "name": "Aetheric Skullgem",
-            "amount": 3
-          },
-          {
-            "name": "Exoskeletal Plate",
-            "amount": 1
-          },
-          {
-            "name": "Lustrous Tailplate",
-            "amount": 1
-          }
-        ]
-      ]
     }
   ],
   "islands": [
@@ -2734,7 +1688,13 @@
       "icon_url": "http://nireon.me/islands/the_maelstrom.png",
       "gatherables": [
         {
-          "name": "None"
+          "name": "Ironthistle"
+        },
+        {
+          "name": "Heart Lily"
+        },
+        {
+          "name": "Omnistone"
         }
       ]
     },
@@ -2747,7 +1707,13 @@
       "icon_url": "http://nireon.me/islands/the_maelstrom.png",
       "gatherables": [
         {
-          "name": "None"
+          "name": "Skybloom"
+        },
+        {
+          "name": "Wrathwort"
+        },
+        {
+          "name": "Omnistone"
         }
       ]
     },
@@ -6393,9 +5359,7 @@
               },
               {
                 "name": "Magnetooth",
-                "amount": [
-                  1
-                ]
+                "amount": 1
               }
             ],
             [
@@ -6510,7 +5474,7 @@
                 "amount": 11
               },
               {
-                "name": "Kharabak Chitin",
+                "name": "Splintered Chitin",
                 "amount": 1
               },
               {
@@ -6569,7 +5533,7 @@
                 "amount": 11
               },
               {
-                "name": "Kharabak Chitin",
+                "name": "Splintered Chitin",
                 "amount": 1
               }
             ],
@@ -6678,7 +5642,7 @@
                 "amount": 11
               },
               {
-                "name": "Kharabak Chitin",
+                "name": "Splintered Chitin",
                 "amount": 1
               }
             ],
@@ -10282,10 +9246,6 @@
                 "amount": 1
               },
               {
-                "name": "Frostback Scale",
-                "amount": 1
-              },
-              {
                 "name": "Icy Browplate",
                 "amount": 1
               }
@@ -10654,7 +9614,174 @@
             "Warmth": 2,
             "Fortress": 1
           },
-          "recipe_cost": [],
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 120
+              },
+              {
+                "name": "Frostback Scale",
+                "amount": 1
+              },
+              {
+                "name": "Cracked Frostplate",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 125
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Icy Browplate",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 130
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 135
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Icetalon",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 140
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Frostback Scale",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 145
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Icy Tailplate",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 150
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Pure Infused Armour Archonite",
+                "amount": 1
+              },
+              {
+                "name": "Frozen Hindplate",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 155
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Frostback Scale",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 160
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Frostback Scale",
+                "amount": 1
+              },
+              {
+                "name": "Cracked Tailplate",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 165
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 10
+              },
+              {
+                "name": "Pure Infused Armour Archonite",
+                "amount": 2
+              },
+              {
+                "name": "Frostback Scale",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 170
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 10
+              },
+              {
+                "name": "Icy Frostback Scale",
+                "amount": 1
+              },
+              {
+                "name": "Frost Tooth",
+                "amount": 1
+              }
+            ]
+          ],
           "wiki_url": "https://dauntless.gamepedia.com/Frostboots",
           "icon_url": "https://www.nireon.me/armour/greaves/frostback.png"
         }
@@ -13178,7 +12305,7 @@
                 "amount": 4
               },
               {
-                "name": "Pure Armour Archonite",
+                "name": "Pure Infused Armour Archonite",
                 "amount": 1
               },
               {
@@ -13200,7 +12327,7 @@
                 "amount": 6
               },
               {
-                "name": "Pure Armour Archonite",
+                "name": "Pure Infused Armour Archonite",
                 "amount": 1
               },
               {
@@ -13236,7 +12363,7 @@
                 "amount": 10
               },
               {
-                "name": "Pure Armour Archonite",
+                "name": "Pure Infused Armour Archonite",
                 "amount": 2
               },
               {
@@ -14325,7 +13452,7 @@
                 "amount": 1
               },
               {
-                "name": "Darkbeak Shrowd",
+                "name": "Darkbeak Shard",
                 "amount": 1
               },
               {
@@ -14722,69 +13849,934 @@
           "icon_url": "https://www.nireon.me/armour/greaves/shrowd.png"
         }
       ]
-    }
-  ],
-  "weapons": [
+    },
     {
-      "name": "Recruit",
+      "boss": "Exotic",
+      "itemnames": [
+        "Tragic Echo",
+        "Prismatic Grace",
+        "The Skullforge"
+      ],
       "items": [
         {
-          "type": "Axes",
-          "name": "Recruit's Axe",
-          "cellslot01": "None",
-          "cellslot02": "None",
-          "element": "None",
+          "name": "Tragic Echo",
+          "wiki_url": "https://dauntless.gamepedia.com/Tragic_Echo",
+          "icon_url": "http://nireon.me/exotics/tragic_echo.png",
+          "specials": {
+            "special01": "• Upon your first death, become a shadow clone that deals 100% increased damage for 15 seconds"
+          },
+          "cellslot": "Power Cell <:power:459813422796636171>",
           "bonuses": "None",
-          "specials": "None",
-          "wiki_url": "https://dauntless.gamepedia.com/Recruit%27s_Axe",
-          "icon_url": "https://www.nireon.me/weapons/axes/recruit.png"
+          "element": "+10 Umbral <:umbral:459747214932049930>",
+          "weakness": "-5 Radiant <:radiant:459747214923923486>",
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 1500
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 2
+              },
+              {
+                "name": "Raw Furytooth",
+                "amount": 1
+              },
+              {
+                "name": "Raw Furytail",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Darktail",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 125
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Aetheric Claw",
+                "amount": 1
+              },
+              {
+                "name": "Aetheric Skullgem",
+                "amount": 1
+              },
+              {
+                "name": "Dark Bladefeather",
+                "amount": 2
+              },
+              {
+                "name": "Twisted Shadowspur",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 130
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Shrowd Feather",
+                "amount": 10
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 4
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 135
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Aetheric Claw",
+                "amount": 2
+              },
+              {
+                "name": "Aetheric Skullgem",
+                "amount": 2
+              },
+              {
+                "name": "Midnight Tailfeather",
+                "amount": 2
+              },
+              {
+                "name": "Darkbeak Shard",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 140
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 4
+              },
+              {
+                "name": "Dark Bladefeather",
+                "amount": 2
+              },
+              {
+                "name": "Twisted Shadowspur",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 145
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Raw Furytooth",
+                "amount": 2
+              },
+              {
+                "name": "Midnight Tailfeather",
+                "amount": 1
+              },
+              {
+                "name": "Darkbeak Shard",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 150
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Pure Infused Armour Archonite",
+                "amount": 1
+              },
+              {
+                "name": "Aetheric Claw",
+                "amount": 2
+              },
+              {
+                "name": "Aetheric Skullgem",
+                "amount": 2
+              },
+              {
+                "name": "Corrupted Darktail",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 155
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Shrowd Feather",
+                "amount": 10
+              },
+              {
+                "name": "Dark Bladefeather",
+                "amount": 3
+              },
+              {
+                "name": "Midnight Tailfeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 160
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Pure Infused Armour Archonite",
+                "amount": 2
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 4
+              },
+              {
+                "name": "Raw Furytail",
+                "amount": 1
+              },
+              {
+                "name": "Twisted Shadowspur",
+                "amount": 3
+              },
+              {
+                "name": "Darkbeak Shard",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 165
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 10
+              },
+              {
+                "name": "Shrowd Feather",
+                "amount": 8
+              },
+              {
+                "name": "Aetheric Claw",
+                "amount": 2
+              },
+              {
+                "name": "Aetheric Skullgem",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 170
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 10
+              },
+              {
+                "name": "Pure Infused Armour Archonite",
+                "amount": 1
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 4
+              },
+              {
+                "name": "Raw Furytooth",
+                "amount": 3
+              },
+              {
+                "name": "Dark Bladefeather",
+                "amount": 1
+              },
+              {
+                "name": "Twisted Shadowspur",
+                "amount": 1
+              }
+            ]
+          ]
         },
         {
-          "type": "Chain Blades",
-          "name": "Recruit's Chain Blades",
-          "cellslot01": "None",
-          "cellslot02": "None",
-          "element": "None",
+          "name": "Prismatic Grace",
+          "wiki_url": "https://dauntless.gamepedia.com/Prismatic_Grace",
+          "icon_url": "http://nireon.me/exotics/prismatic_grace.png",
+          "specials": {
+            "special01": "• After reviving another player, grant them a Radiant Prism that blocks incoming damage for 5 seconds.\n• The first time you take lethal damage, gain a Radiant Prism that blocks incoming damage for 10 seconds.\n• While active, reviving another player fully restores both players but removes the Prism even at full danger."
+          },
+          "cellslot": "Technique Cell <:technique:459813422830190593>\n",
           "bonuses": "None",
-          "specials": "None",
-          "wiki_url": "https://dauntless.gamepedia.com/Recruit%27s_Chain_Blades",
-          "icon_url": "https://www.nireon.me/weapons/chainblades/recruit.png"
+          "element": "+10 Radiant <:radiant:459747214923923486>",
+          "weakness": "-5 Umbral <:umbral:459747214932049930>",
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 1500
+              },
+              {
+                "name": "Aetheric Claw",
+                "amount": 2
+              },
+              {
+                "name": "Aetheric Skullgem",
+                "amount": 1
+              },
+              {
+                "name": "Aetheric Tail",
+                "amount": 1
+              },
+              {
+                "name": "Radiant Aethergem",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 125
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Raw Clawgem",
+                "amount": 1
+              },
+              {
+                "name": "Raw Tailgem",
+                "amount": 1
+              },
+              {
+                "name": "Exoskeletal Plate",
+                "amount": 2
+              },
+              {
+                "name": "Lustrous Tailplate",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 130
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Rezakiri Chitin",
+                "amount": 10
+              },
+              {
+                "name": "Aetheric Claw",
+                "amount": 4
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 135
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Raw Clawgem",
+                "amount": 2
+              },
+              {
+                "name": "Raw Tailgem",
+                "amount": 2
+              },
+              {
+                "name": "Cracked Biocrystal",
+                "amount": 2
+              },
+              {
+                "name": "Clear Powergem",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 140
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Aetheric Claw",
+                "amount": 4
+              },
+              {
+                "name": "Exoskeletal Plate",
+                "amount": 2
+              },
+              {
+                "name": "Lustrous Tailplate",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 145
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Aetheric Skullgem",
+                "amount": 2
+              },
+              {
+                "name": "Cracked Biocrystal",
+                "amount": 1
+              },
+              {
+                "name": "Clear Powergem",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 150
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Pure Infused Armour Archonite",
+                "amount": 1
+              },
+              {
+                "name": "Raw Clawgem",
+                "amount": 2
+              },
+              {
+                "name": "Raw Tailgem",
+                "amount": 2
+              },
+              {
+                "name": "Radiant Aethergem",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 155
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Rezakiri Chitin",
+                "amount": 10
+              },
+              {
+                "name": "Exoskeletal Plate",
+                "amount": 3
+              },
+              {
+                "name": "Cracked Biocrystal",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 160
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Pure Infused Armour Archonite",
+                "amount": 2
+              },
+              {
+                "name": "Aetheric Claw",
+                "amount": 4
+              },
+              {
+                "name": "Aetheric Tail",
+                "amount": 1
+              },
+              {
+                "name": "Lustrous Tailplate",
+                "amount": 1
+              },
+              {
+                "name": "Clear Powergem",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 165
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 10
+              },
+              {
+                "name": "Rezakiri Chitin",
+                "amount": 8
+              },
+              {
+                "name": "Raw Clawgem",
+                "amount": 2
+              },
+              {
+                "name": "Raw Tailgem",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 170
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 10
+              },
+              {
+                "name": "Pure Infused Armour Archonite",
+                "amount": 1
+              },
+              {
+                "name": "Aetheric Claw",
+                "amount": 4
+              },
+              {
+                "name": "Aetheric Skullgem",
+                "amount": 3
+              },
+              {
+                "name": "Exoskeletal Plate",
+                "amount": 1
+              },
+              {
+                "name": "Lustrous Tailplate",
+                "amount": 1
+              }
+            ]
+          ]
         },
         {
-          "type": "Hammers",
-          "name": "Recruit's Hammer",
-          "cellslot01": "None",
-          "cellslot02": "None",
-          "element": "None",
+          "name": "The Skullforge",
+          "wiki_url": "https://dauntless.gamepedia.com/The_Skullforge",
+          "icon_url": "http://nireon.me/exotics/the_skullforge.png",
+          "specials": {
+            "special01": "• 1.5% of all damage dealt becomes a stamina shield (max 50) that depletes first when spending stamina. Depletes slowly after 5 seconds not dealing damage."
+          },
+          "cellslot": "Defence Cell <:power:459813422796636171>",
           "bonuses": "None",
-          "specials": "None",
-          "wiki_url": "https://dauntless.gamepedia.com/Recruit%27s_Hammer",
-          "icon_url": "https://www.nireon.me/weapons/hammers/recruit.png"
-        },
-        {
-          "type": "Swords",
-          "name": "Recruit's Sword",
-          "cellslot01": "None",
-          "cellslot02": "None",
-          "element": "None",
-          "bonuses": "None",
-          "specials": "None",
-          "wiki_url": "https://dauntless.gamepedia.com/Recruit%27s_Sword",
-          "icon_url": "https://www.nireon.me/weapons/swords/recruit.png"
-        },
-        {
-          "type": "War Pikes",
-          "name": "Recruit's War Pike",
-          "cellslot01": "None",
-          "cellslot02": "None",
-          "element": "None",
-          "bonuses": "None",
-          "specials": "None",
-          "wiki_url": "https://dauntless.gamepedia.com/Recruit%27s_War_Pike",
-          "icon_url": "https://www.nireon.me/weapons/warpikes/recruit.png"
+          "element": "+10 Blaze <:blaze:459747214953283584>",
+          "weakness": "-5 Frost <:frost:459747214277869579>",
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 1500
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 2
+              },
+              {
+                "name": "Raw Tailgem",
+                "amount": 1
+              },
+              {
+                "name": "Rare Furytooth",
+                "amount": 1
+              },
+              {
+                "name": "Glowing Gillhide",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 125
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Aetheric Claw",
+                "amount": 1
+              },
+              {
+                "name": "Elemental Tailgem",
+                "amount": 1
+              },
+              {
+                "name": "Heavy Rockhide",
+                "amount": 2
+              },
+              {
+                "name": "Fiery Thagomizer",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 130
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Firebrand Scale",
+                "amount": 10
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 4
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 135
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Aetheric Claw",
+                "amount": 2
+              },
+              {
+                "name": "Elemental Tailgem",
+                "amount": 2
+              },
+              {
+                "name": "Sturdy Firebrand Horn",
+                "amount": 2
+              },
+              {
+                "name": "Burned Gillhide",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 140
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 4
+              },
+              {
+                "name": "Heavy Rockhide",
+                "amount": 2
+              },
+              {
+                "name": "Fiery Thagomizer",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 145
+              },
+              {
+                "name": "Infused Armour Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Raw Tailgem",
+                "amount": 2
+              },
+              {
+                "name": "Sturdy Firebrand Horn",
+                "amount": 1
+              },
+              {
+                "name": "Burned Gillhide",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 150
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Pure Infused Armour Archonite",
+                "amount": 1
+              },
+              {
+                "name": "Aetheric Claw",
+                "amount": 2
+              },
+              {
+                "name": "Elemental Tailgem",
+                "amount": 2
+              },
+              {
+                "name": "Glowing Gillhide",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 155
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 6
+              },
+              {
+                "name": "Fireband Scale",
+                "amount": 10
+              },
+              {
+                "name": "Heavy Rockhide",
+                "amount": 3
+              },
+              {
+                "name": "Sturdy Firebrand Horn",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 160
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Pure Infused Armour Archonite",
+                "amount": 2
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 4
+              },
+              {
+                "name": "Raw Furytooth",
+                "amount": 1
+              },
+              {
+                "name": "Fiery Thagomizer",
+                "amount": 3
+              },
+              {
+                "name": "Burned Gillhide",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 165
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 10
+              },
+              {
+                "name": "Firebrand Scale",
+                "amount": 8
+              },
+              {
+                "name": "Aetheric Claw",
+                "amount": 2
+              },
+              {
+                "name": "Elemental Tailgem",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 170
+              },
+              {
+                "name": "Charged Armour Archonite",
+                "amount": 10
+              },
+              {
+                "name": "Pure Infused Armour Archonite",
+                "amount": 1
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 4
+              },
+              {
+                "name": "Raw Tailgem",
+                "amount": 3
+              },
+              {
+                "name": "Heavy Rockhide",
+                "amount": 1
+              },
+              {
+                "name": "Fiery Thagomizer",
+                "amount": 1
+              }
+            ]
+          ]
         }
       ]
     },
+    {
+      "boss": "Koshai",
+      "itemnames": [
+        "Visage of Thorns",
+        "Mantle of Thorns",
+        "Grasp of Thorns",
+        "Stride of Thorns"
+      ],
+      "items": [
+        {
+          "name": "Visage of Thorns",
+          "cellslot": "Technique Cell <:technique:459813422830190593>",
+          "element": "None",
+          "weakness": "None",
+          "bonuses": {
+            "Predator": 1,
+            "Evasive Fury": 1
+          },
+          "upgraded_bonus": {
+            "Predator": 1,
+            "Evasive Fury": 2
+          },
+          "recipe_cost": [],
+          "wiki_url": "https://dauntless.gamepedia.com/Visage_of_Thorns",
+          "icon_url": "https://www.nireon.me/armour/helmet/koshai.png"
+        },
+        {
+          "name": "Mantle of Thorns",
+          "cellslot": "Utility <:utility:459813423476113419>",
+          "element": "None",
+          "weakness": "None",
+          "bonuses": {
+            "Predator": 1,
+            "Agility": 1
+          },
+          "upgraded_bonus": {
+            "Predator": 1,
+            "Agility": 2
+          },
+          "recipe_cost": [],
+          "wiki_url": "https://dauntless.gamepedia.com/Mantle_of_Thorns",
+          "icon_url": "https://www.nireon.me/armour/helmet/koshai.png"
+        },
+        {
+          "name": "Grasp of Thorns",
+          "cellslot": "Power <:power:459813422796636171>",
+          "element": "None",
+          "weakness": "None",
+          "bonuses": {
+            "Predator": 1,
+            "Agility": 1
+          },
+          "upgraded_bonus": {
+            "Predator": 2,
+            "Agility": 1
+          },
+          "recipe_cost": [],
+          "wiki_url": "https://dauntless.gamepedia.com/Grasp_of_Thorns",
+          "icon_url": "https://www.nireon.me/armour/helmet/koshai.png"
+        },
+        {
+          "name": "Stride of Thorns",
+          "cellslot": "Utility <:utility:459813423476113419>",
+          "element": "None",
+          "weakness": "None",
+          "bonuses": {
+            "Predator": 1,
+            "Evasive Fury": 1
+          },
+          "recipe_cost": [],
+          "wiki_url": "https://dauntless.gamepedia.com/Stride_of_Thorns",
+          "icon_url": "https://www.nireon.me/armour/helmet/koshai.png"
+        }
+      ]
+    }
+  ],
+  "weapons": [
     {
       "name": "Gnasher",
       "itemnames": [
@@ -16173,7 +16165,7 @@
     {
       "name": "Embermane",
       "itemnames": [
-        "Ember Cutlass",
+        "Emberscythe",
         "Emberblades",
         "Embermaul",
         "Ember Cutlass",
@@ -16896,6 +16888,20 @@
               },
               {
                 "name": "Sharp Frostfeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 120
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 20
+              },
+              {
+                "name": "Skraev Feather",
                 "amount": 1
               }
             ]
@@ -18416,11 +18422,33 @@
             [
               {
                 "name": "Notes",
-                "amount": 120
+                "amount": 180
               },
               {
                 "name": "Pangar Hide",
                 "amount": 2
+              },
+              {
+                "name": "Frostplate",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 180
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Pangar Hide",
+                "amount": 2
+              },
+              {
+                "name": "Frostplate",
+                "amount": 1
               },
               {
                 "name": "Severed Tailplate",
@@ -18439,6 +18467,10 @@
               {
                 "name": "Pangar Hide",
                 "amount": 2
+              },
+              {
+                "name": "Frostplate",
+                "amount": 1
               },
               {
                 "name": "Frosty Tooth",
@@ -18459,7 +18491,15 @@
                 "amount": 2
               },
               {
+                "name": "Frostplate",
+                "amount": 1
+              },
+              {
                 "name": "Severed Tailplate",
+                "amount": 1
+              },
+              {
+                "name": "Frosty Incisor",
                 "amount": 1
               }
             ],
@@ -18475,6 +18515,10 @@
               {
                 "name": "Pangar Hide",
                 "amount": 2
+              },
+              {
+                "name": "Frostplate",
+                "amount": 1
               },
               {
                 "name": "Frosty Tooth",
@@ -18495,7 +18539,11 @@
                 "amount": 2
               },
               {
-                "name": "Severed Tailplate",
+                "name": "Frostplate",
+                "amount": 1
+              },
+              {
+                "name": "Fractured Tailplate",
                 "amount": 1
               }
             ]
@@ -18524,7 +18572,7 @@
                 "amount": 2
               },
               {
-                "name": "Severed Tailplate",
+                "name": "Frostplate",
                 "amount": 1
               }
             ],
@@ -18540,6 +18588,10 @@
               {
                 "name": "Pangar Hide",
                 "amount": 2
+              },
+              {
+                "name": "Frostplate",
+                "amount": 1
               },
               {
                 "name": "Severed Tailplate",
@@ -18562,23 +18614,9 @@
               {
                 "name": "Frostplate",
                 "amount": 1
-              }
-            ],
-            [
-              {
-                "name": "Notes",
-                "amount": 180
               },
               {
-                "name": "Weapon Archonite",
-                "amount": 32
-              },
-              {
-                "name": "Pangar Hide",
-                "amount": 2
-              },
-              {
-                "name": "Severed Tailplate",
+                "name": "Frosty Tooth",
                 "amount": 1
               }
             ],
@@ -18597,6 +18635,58 @@
               },
               {
                 "name": "Frostplate",
+                "amount": 1
+              },
+              {
+                "name": "Severed Tailplate",
+                "amount": 1
+              },
+              {
+                "name": "Frosty Incisor",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 180
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Pangar Hide",
+                "amount": 2
+              },
+              {
+                "name": "Frostplate",
+                "amount": 1
+              },
+              {
+                "name": "Frosty Tooth",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 180
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Pangar Hide",
+                "amount": 2
+              },
+              {
+                "name": "Frostplate",
+                "amount": 1
+              },
+              {
+                "name": "Fractured Tailplate",
                 "amount": 1
               }
             ]
@@ -20230,11 +20320,15 @@
                 "amount": 240
               },
               {
-                "name": "Stormclaw Hide",
+                "name": "Kharabak Chitin",
                 "amount": 2
               },
               {
-                "name": "Capacitail",
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Skullshell",
                 "amount": 1
               }
             ],
@@ -20248,11 +20342,11 @@
                 "amount": 44
               },
               {
-                "name": "Stormclaw Hide",
+                "name": "Kharabak Chitin",
                 "amount": 2
               },
               {
-                "name": "Capacitail",
+                "name": "Splintered Chitin",
                 "amount": 1
               }
             ],
@@ -20266,11 +20360,15 @@
                 "amount": 44
               },
               {
-                "name": "Stormclaw Hide",
+                "name": "Kharabak Chitin",
                 "amount": 2
               },
               {
-                "name": "Magnetooth",
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Vestigial Claw",
                 "amount": 1
               }
             ],
@@ -20284,11 +20382,19 @@
                 "amount": 44
               },
               {
-                "name": "Stormclaw Hide",
+                "name": "Kharabak Chitin",
                 "amount": 2
               },
               {
-                "name": "Capacitail",
+                "name": "Splintered Chitin",
+                "amount": 1
+              },
+              {
+                "name": "Skullshell",
+                "amount": 1
+              },
+              {
+                "name": "Cracked Incisor",
                 "amount": 1
               }
             ],
@@ -20302,11 +20408,37 @@
                 "amount": 44
               },
               {
-                "name": "Stormclaw Hide",
+                "name": "Kharabak Chitin",
                 "amount": 2
               },
               {
-                "name": "Magnetooth",
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Vestigial Claw",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Scaly Chitin",
                 "amount": 1
               }
             ]
@@ -20324,7 +20456,136 @@
             "Bladestorm": 2
           },
           "specials": "None",
-          "recipe_cost": [],
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Skullshell",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Vestigial Claw",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 1
+              },
+              {
+                "name": "Skullshell",
+                "amount": 1
+              },
+              {
+                "name": "Cracked Incisor",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Vestigial Claw",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Scaly Chitin",
+                "amount": 1
+              }
+            ]
+          ],
           "wiki_url": "https://dauntless.gamepedia.com/Kharablades",
           "icon_url": "https://www.nireon.me/weapons/chainblades/kharabak.png"
         },
@@ -20338,7 +20599,136 @@
           "specials": {
             "special01": "Restore 30 Stamina after reloading a shell"
           },
-          "recipe_cost": [],
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Vestigial Claw",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Skullshell",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 1
+              },
+              {
+                "name": "Vestigial Claw",
+                "amount": 1
+              },
+              {
+                "name": "Scaly Chitin",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Skullshell",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Cracked Incisor",
+                "amount": 1
+              }
+            ]
+          ],
           "wiki_url": "https://dauntless.gamepedia.com/Kharabasher",
           "icon_url": "https://www.nireon.me/weapons/hammers/kharabak.png"
         },
@@ -20364,6 +20754,10 @@
               },
               {
                 "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Vestigial Claw",
                 "amount": 1
               }
             ],
@@ -20399,7 +20793,11 @@
                 "amount": 2
               },
               {
-                "name": "Vestigal Claw",
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Skullshell",
                 "amount": 1
               }
             ],
@@ -20419,6 +20817,14 @@
               {
                 "name": "Splintered Chitin",
                 "amount": 1
+              },
+              {
+                "name": "Vestigial Claw",
+                "amount": 1
+              },
+              {
+                "name": "Scaly Chitin",
+                "amount": 1
               }
             ],
             [
@@ -20435,7 +20841,33 @@
                 "amount": 2
               },
               {
-                "name": "Vestigal Claw",
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Skullshell",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Cracked Incisor",
                 "amount": 1
               }
             ]
@@ -20453,7 +20885,136 @@
             "Bladestorm": 2
           },
           "specials": "None",
-          "recipe_cost": [],
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Skullshell",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Vestigial Claw",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 1
+              },
+              {
+                "name": "Skullshell",
+                "amount": 1
+              },
+              {
+                "name": "Cracked Incisor",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Vestigial Claw",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Weapon Archonite",
+                "amount": 44
+              },
+              {
+                "name": "Kharabak Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Scaly Chitin",
+                "amount": 1
+              }
+            ]
+          ],
           "wiki_url": "https://dauntless.gamepedia.com/Kharabak%27s_Sting",
           "icon_url": "https://www.nireon.me/weapons/warpikes/kharabak.png"
         }
@@ -23520,7 +24081,226 @@
           "specials": {
             "special01": "Heal for 300 whenever a Behemoth is Staggered"
           },
-          "recipe_cost": [],
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Shockjaw Hide",
+                "amount": 2
+              },
+              {
+                "name": "Charged Shockjaw Hide",
+                "amount": 1
+              },
+              {
+                "name": "Dull Sparkclaw",
+                "amount": 2
+              },
+              {
+                "name": "Greater Sparkclaw",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 250
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Charged Tailspike",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 260
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Dull Sparkclaw",
+                "amount": 1
+              },
+              {
+                "name": "Tailspike Fragment",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 270
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Sparking Claw",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 280
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Tailspike Fragment",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 290
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Dull Sparkclaw",
+                "amount": 1
+              },
+              {
+                "name": "Greater Sparkclaw",
+                "amount": 1
+              },
+              {
+                "name": "Tailspike Fragment",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 300
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 16
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Shockjaw Hide",
+                "amount": 2
+              },
+              {
+                "name": "Charged Shockjaw Hide",
+                "amount": 1
+              },
+              {
+                "name": "Dull Sparkclaw",
+                "amount": 1
+              },
+              {
+                "name": "Greater Sparkclaw",
+                "amount": 1
+              },
+              {
+                "name": "Sparking Tailspike",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 310
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Tailspike Fragment",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 320
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Greater Sparkclaw",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 330
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Dull Sparkclaw",
+                "amount": 1
+              },
+              {
+                "name": "Dull Tooth Fragment",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 340
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Dull Sparkclaw",
+                "amount": 2
+              },
+              {
+                "name": "Dull Tooth Fragment",
+                "amount": 1
+              },
+              {
+                "name": "Tailspike Fragment",
+                "amount": 1
+              },
+              {
+                "name": "Sparking Tailspike",
+                "amount": 1
+              }
+            ]
+          ],
           "wiki_url": "https://dauntless.gamepedia.com/Shockjaw_Smasher",
           "icon_url": "https://www.nireon.me/weapons/hammers/shockjaw.png"
         },
@@ -26092,6 +26872,10 @@
                 "amount": 24
               },
               {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
                 "name": "Cracked Tailplate",
                 "amount": 1
               }
@@ -27237,7 +28021,258 @@
             "Barbed": 2
           },
           "specials": "None",
-          "recipe_cost": [],
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Deadeye Hide",
+                "amount": 2
+              },
+              {
+                "name": "Flawless Spinehide",
+                "amount": 1
+              },
+              {
+                "name": "Dewspine",
+                "amount": 2
+              },
+              {
+                "name": "Spiked Shinplate",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 250
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Heavy Tailspike",
+                "amount": 1
+              },
+              {
+                "name": "Deadeye Quill",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 260
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Dewspine",
+                "amount": 1
+              },
+              {
+                "name": "Jagged Tailspike",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 270
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Perfect Dewspine",
+                "amount": 1
+              },
+              {
+                "name": "Deadeye Quill",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 280
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Jagged Tailspike",
+                "amount": 1
+              },
+              {
+                "name": "Deadeye Razorquill",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 290
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Dewspine",
+                "amount": 1
+              },
+              {
+                "name": "Spiked Shinplate",
+                "amount": 1
+              },
+              {
+                "name": "Jagged Tailspike",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 300
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 16
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Deadeye Hide",
+                "amount": 2
+              },
+              {
+                "name": "Flawless Spinehide",
+                "amount": 1
+              },
+              {
+                "name": "Dewspine",
+                "amount": 1
+              },
+              {
+                "name": "Spiked Shinplate",
+                "amount": 1
+              },
+              {
+                "name": "Perfect Tailspike",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 310
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Jagged Tailspike",
+                "amount": 1
+              },
+              {
+                "name": "Deadeye Razorquill",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 320
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Spiked Shinplate",
+                "amount": 1
+              },
+              {
+                "name": "Deadeye Quill",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 330
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Dewspine",
+                "amount": 1
+              },
+              {
+                "name": "Deadeye Tusk",
+                "amount": 1
+              },
+              {
+                "name": "Deadeye Quillshard",
+                "amount": 4
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 340
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Dewspine",
+                "amount": 2
+              },
+              {
+                "name": "Deadeye Tusk",
+                "amount": 1
+              },
+              {
+                "name": "Jagged Tailspike",
+                "amount": 1
+              },
+              {
+                "name": "Perfect Tailspike",
+                "amount": 1
+              },
+              {
+                "name": "Deadeye Quillshard",
+                "amount": 2
+              },
+              {
+                "name": "Deadeye Razorquill",
+                "amount": 2
+              }
+            ]
+          ],
           "wiki_url": "https://dauntless.gamepedia.com/Deadeye_Ripper",
           "icon_url": "https://www.nireon.me/weapons/swords/deadeye.png"
         },
@@ -28440,6 +29475,18 @@
               {
                 "name": "Charged Weapon Archonite",
                 "amount": 40
+              },
+              {
+                "name": "Chipped Dewclaw",
+                "amount": 1
+              },
+              {
+                "name": "Rough Hindscale",
+                "amount": 1
+              },
+              {
+                "name": "Emberhorn Fragment",
+                "amount": 1
               },
               {
                 "name": "Perfect Emberhorn",
@@ -31120,7 +32167,258 @@
           "specials": {
             "special01": "When under 20% health, deal 150% damage"
           },
-          "recipe_cost": [],
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Shrowd Feather",
+                "amount": 2
+              },
+              {
+                "name": "Writhing Feather",
+                "amount": 1
+              },
+              {
+                "name": "Cracked Shadowtalon",
+                "amount": 2
+              },
+              {
+                "name": "Twisted Shadowspur",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 250
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Midnight Tailfeather",
+                "amount": 1
+              },
+              {
+                "name": "Dark Bladefeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 260
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Cracked Shadowtalon",
+                "amount": 1
+              },
+              {
+                "name": "Dark Tailfeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 270
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Corrupted Shadowtalon",
+                "amount": 1
+              },
+              {
+                "name": "Dark Bladefeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 280
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Dark Tailfeather",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Bladefeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 290
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Cracked Shadowtalon",
+                "amount": 1
+              },
+              {
+                "name": "Twisted Shadowspur",
+                "amount": 1
+              },
+              {
+                "name": "Dark Tailfeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 300
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 16
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Shrowd Feather",
+                "amount": 2
+              },
+              {
+                "name": "Writhing Feather",
+                "amount": 1
+              },
+              {
+                "name": "Cracked Shadowtalon",
+                "amount": 1
+              },
+              {
+                "name": "Twisted Shadowspur",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Darktail",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 310
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Dark Tailfeather",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Bladefeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 320
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Twisted Shadowspur",
+                "amount": 1
+              },
+              {
+                "name": "Dark Bladefeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 330
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Cracked Shadowtalon",
+                "amount": 1
+              },
+              {
+                "name": "Darkbeak Fragment",
+                "amount": 1
+              },
+              {
+                "name": "Torn Bladefeather",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 340
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Cracked Shadowtalon",
+                "amount": 1
+              },
+              {
+                "name": "Darkbeak Fragment",
+                "amount": 1
+              },
+              {
+                "name": "Dark Tailfeather",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Darktail",
+                "amount": 1
+              },
+              {
+                "name": "Torn Bladefeather",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Bladefeather",
+                "amount": 1
+              }
+            ]
+          ],
           "wiki_url": "https://dauntless.gamepedia.com/Shrowd_Reaper",
           "icon_url": "https://www.nireon.me/weapons/axes/shrowd.png"
         },
@@ -31401,7 +32699,258 @@
           "specials": {
             "special01": "When under 20% health, deal 150% damage"
           },
-          "recipe_cost": [],
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Shrowd Feather",
+                "amount": 2
+              },
+              {
+                "name": "Writhing Feather",
+                "amount": 1
+              },
+              {
+                "name": "Cracked Shadowtalon",
+                "amount": 2
+              },
+              {
+                "name": "Twisted Shadowspur",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 250
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Midnight Tailfeather",
+                "amount": 1
+              },
+              {
+                "name": "Dark Bladefeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 260
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Cracked Shadowtalon",
+                "amount": 1
+              },
+              {
+                "name": "Dark Tailfeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 270
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Corrupted Shadowtalon",
+                "amount": 1
+              },
+              {
+                "name": "Dark Bladefeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 280
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Dark Tailfeather",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Bladefeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 290
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Cracked Shadowtalon",
+                "amount": 1
+              },
+              {
+                "name": "Twisted Shadowspur",
+                "amount": 1
+              },
+              {
+                "name": "Dark Tailfeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 300
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 16
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Shrowd Feather",
+                "amount": 2
+              },
+              {
+                "name": "Writhing Feather",
+                "amount": 1
+              },
+              {
+                "name": "Cracked Shadowtalon",
+                "amount": 1
+              },
+              {
+                "name": "Twisted Shadowspur",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Darktail",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 310
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Dark Tailfeather",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Bladefeather",
+                "amount": 3
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 320
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Twisted Shadowspur",
+                "amount": 1
+              },
+              {
+                "name": "Dark Bladefeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 330
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Cracked Shadowtalon",
+                "amount": 1
+              },
+              {
+                "name": "Darkbeak Fragment",
+                "amount": 1
+              },
+              {
+                "name": "Torn Bladefeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 340
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Cracked Shadowtalon",
+                "amount": 1
+              },
+              {
+                "name": "Darkbeak Fragment",
+                "amount": 1
+              },
+              {
+                "name": "Dark Tailfeather",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Darktail",
+                "amount": 1
+              },
+              {
+                "name": "Torn Bladefeather",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Bladefeather",
+                "amount": 1
+              }
+            ]
+          ],
           "wiki_url": "https://dauntless.gamepedia.com/Shrowdmaul",
           "icon_url": "https://www.nireon.me/weapons/hammers/shrowd.png"
         },
@@ -31918,7 +33467,7 @@
               },
               {
                 "name": "Cracked Shadowtalon",
-                "amount": 2
+                "amount": 1
               },
               {
                 "name": "Darkbeak Fragment",
@@ -31937,13 +33486,1117 @@
                 "amount": 1
               },
               {
-                "name": "Corrupted Shadowtalon",
+                "name": "Corrupted Bladefeather",
                 "amount": 1
               }
             ]
           ],
           "wiki_url": "https://dauntless.gamepedia.com/Shrowd_Pike",
           "icon_url": "https://www.nireon.me/weapons/warpikes/shrowd.png"
+        }
+      ]
+    },
+    {
+      "name": "Exotic",
+      "itemnames": [
+        "The Hunger",
+        "The Godhand",
+        "Molten Edict"
+      ],
+      "items": [
+        {
+          "name": "The Hunger",
+          "type": "Swords",
+          "bonuses": "None",
+          "wiki_url": "https://dauntless.gamepedia.com/The_Hunger",
+          "icon_url": "https://nireon.me/exotics/the_hunger.png",
+          "specials": {
+            "special01": "Up to 25% increased damage as your meter increases\n• Activate at max meter to enter a feast state,\n   dealing 75% increase damage for 15 seconds,\n   but taking damage after each hit.\n• Activate again during feast state to unleash an Umbral attack\n   to regain lost health\n"
+          },
+          "cellslot01": "Power Cell <:power:459813422796636171>",
+          "cellslot02": "Utility Cell <:utility:459813423476113419>\n",
+          "element": "+40 Umbral <:umbral:459747214932049930>",
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 2000
+              },
+              {
+                "name": "Writhing Feather",
+                "amount": 2
+              },
+              {
+                "name": "Aetheric Crownplate",
+                "amount": 2
+              },
+              {
+                "name": "Elemental Clawgem",
+                "amount": 4
+              },
+              {
+                "name": "Corrupted Darktail",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 250
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Shrowd Feather",
+                "amount": 4
+              },
+              {
+                "name": "Raw Furytail",
+                "amount": 2
+              },
+              {
+                "name": "Raw Skullgem",
+                "amount": 2
+              },
+              {
+                "name": "Corrupted Bladefeather",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 260
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Writhing Feather",
+                "amount": 1
+              },
+              {
+                "name": "Elemental Clawgem",
+                "amount": 2
+              },
+              {
+                "name": "Corrupted Shadowtalon",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 270
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 6
+              },
+              {
+                "name": "Raw Skullgem",
+                "amount": 2
+              },
+              {
+                "name": "Corrupted Crownfeather",
+                "amount": 1
+              },
+              {
+                "name": "Shrowd Feather",
+                "amount": 8
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 280
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Writhing Feather",
+                "amount": 1
+              },
+              {
+                "name": "Elemental Clawgem",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 290
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Shrowd Feather",
+                "amount": 8
+              },
+              {
+                "name": "Raw Furytail",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 300
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 16
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Aetheric Crownplate",
+                "amount": 3
+              },
+              {
+                "name": "Corrupted Bladefeather",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Shadowtalon",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 310
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Raw Skullgem",
+                "amount": 2
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 2
+              },
+              {
+                "name": "Writhing Feather",
+                "amount": 1
+              },
+              {
+                "name": "Shrowd Feather",
+                "amount": 8
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 320
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Elemental Clawgem",
+                "amount": 6
+              },
+              {
+                "name": "Corrupted Darktail",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 330
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 3
+              },
+              {
+                "name": "Raw Furytail",
+                "amount": 2
+              },
+              {
+                "name": "Shrowd Feather",
+                "amount": 8
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 340
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Aetheric Crownplate",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Bladefeather",
+                "amount": 1
+              },
+              {
+                "name": "Corrupted Crownfeather",
+                "amount": 1
+              }
+            ]
+          ]
+        },
+        {
+          "type": "War Pike",
+          "name": "The Godhand",
+          "wiki_url": "https://dauntless.gamepedia.com/The_Godhand",
+          "icon_url": "http://nireon.me/exotics/the_godhand.png",
+          "specials": {
+            "special01": "Channel a beam that deals increasing damage, up to 200%, while it continues to hit a target."
+          },
+          "element": "+40 Radiant <:radiant:459747214923923486>",
+          "cellslot01": "Power Cell <:power:459813422796636171>",
+          "cellslot02": "Technique Cell <:technique:459813422830190593>",
+          "bonuses": "None",
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 2000
+              },
+              {
+                "name": "Luminescent Chitin",
+                "amount": 2
+              },
+              {
+                "name": "Raw Furytooth",
+                "amount": 2
+              },
+              {
+                "name": "Raw Clawgem",
+                "amount": 4
+              },
+              {
+                "name": "Radiant Aethergem",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 250
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Rezakiri Chitin",
+                "amount": 4
+              },
+              {
+                "name": "Aetheric Skullgem",
+                "amount": 2
+              },
+              {
+                "name": "Aetheric Tail",
+                "amount": 2
+              },
+              {
+                "name": "Glimmering Clawplate",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 260
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Luminescent Chitin",
+                "amount": 1
+              },
+              {
+                "name": "Raw Clawgem",
+                "amount": 2
+              },
+              {
+                "name": "Brilliant Tailplate",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 270
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Rezakiri Chitin",
+                "amount": 8
+              },
+              {
+                "name": "Elemental Furyplate",
+                "amount": 6
+              },
+              {
+                "name": "Aetheric Tail",
+                "amount": 2
+              },
+              {
+                "name": "Radiant Biocrystal",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 280
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Luminescent Chitin",
+                "amount": 1
+              },
+              {
+                "name": "Raw Clawgem",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 290
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Rezakiri Chitin",
+                "amount": 8
+              },
+              {
+                "name": "Aetheric Skullgem",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 300
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 16
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Raw Furytooth",
+                "amount": 3
+              },
+              {
+                "name": "Glimmering Clawplate",
+                "amount": 1
+              },
+              {
+                "name": "Brilliant Tailplate",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 310
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Rezakiri Chitin",
+                "amount": 8
+              },
+              {
+                "name": "Luminescent Chitin",
+                "amount": 1
+              },
+              {
+                "name": "Elemental Furyplate",
+                "amount": 2
+              },
+              {
+                "name": "Aetheric Tail",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 320
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Raw Clawgem",
+                "amount": 6
+              },
+              {
+                "name": "Radiant Aethergem",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 330
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Rezakiri Chitin",
+                "amount": 8
+              },
+              {
+                "name": "Elemental Furyplate",
+                "amount": 3
+              },
+              {
+                "name": "Aetheric Skullgem",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 340
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Raw Furytooth",
+                "amount": 1
+              },
+              {
+                "name": "Glimmering Clawplate",
+                "amount": 1
+              },
+              {
+                "name": "Radiant Biocrystal",
+                "amount": 1
+              }
+            ]
+          ]
+        },
+        {
+          "name": "Molten Edict",
+          "type": "Hammer",
+          "bonuses": "None",
+          "wiki_url": "https://dauntless.gamepedia.com/Molten_Edict",
+          "icon_url": "https://nireon.me/exotics/molten_edict.png",
+          "specials": {
+            "special01": "Up to 25% increased damage as your meter increases\n• Activate at max meter to enter a feast state,\n   dealing 75% increase damage for 15 seconds,\n   but taking damage after each hit.\n• Activate again during feast state to unleash an Umbral attack\n   to regain lost health\n"
+          },
+          "cellslot01": "Power Cell <:power:459813422796636171>",
+          "cellslot02": "Defence Cell <:defence:459813422545108995>\n",
+          "element": "+40 Blaze <:blaze:459747214953283584>",
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 2000
+              },
+              {
+                "name": "Smoldering Firebrand Scale",
+                "amount": 2
+              },
+              {
+                "name": "Aetheric Tail",
+                "amount": 2
+              },
+              {
+                "name": "Elemental Clawgem",
+                "amount": 4
+              },
+              {
+                "name": "Glowing Skullcrest",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 250
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Firebrand Scale",
+                "amount": 4
+              },
+              {
+                "name": "Raw Furytooth",
+                "amount": 2
+              },
+              {
+                "name": "Raw Tailgem",
+                "amount": 2
+              },
+              {
+                "name": "Glowing Gillhide",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 260
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Smoldering Firebrand Scale",
+                "amount": 1
+              },
+              {
+                "name": "Elemental Clawgem",
+                "amount": 2
+              },
+              {
+                "name": "Glowing Rockhide",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 270
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Firebrand Scale",
+                "amount": 8
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 6
+              },
+              {
+                "name": "Raw Tailgem",
+                "amount": 2
+              },
+              {
+                "name": "Glowing Thagomizer",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 280
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Smoldering Firebrand Scale",
+                "amount": 1
+              },
+              {
+                "name": "Elemental Clawgem",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 290
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Firebrand Scale",
+                "amount": 8
+              },
+              {
+                "name": "Raw Furytooth",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 300
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 16
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Aetheric Tail",
+                "amount": 3
+              },
+              {
+                "name": "Glowing Gillhide",
+                "amount": 1
+              },
+              {
+                "name": "Glowing Rockhide",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 310
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Fireberand Scale",
+                "amount": 8
+              },
+              {
+                "name": "Smoldering Firebrand Scale",
+                "amount": 1
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 2
+              },
+              {
+                "name": "Raw Tailgem",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 320
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Elemental Clawgem",
+                "amount": 6
+              },
+              {
+                "name": "Glowing Skullcrest",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 330
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Firebrand Scale",
+                "amount": 8
+              },
+              {
+                "name": "Raw Furyplate",
+                "amount": 3
+              },
+              {
+                "name": "Raw Furytooth",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 340
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Aetheric Tail",
+                "amount": 1
+              },
+              {
+                "name": "Glowing Gillhide",
+                "amount": 1
+              },
+              {
+                "name": "Glowing Thagomizer",
+                "amount": 1
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Koshai",
+      "itemnames": [
+        "Koshai's Wrath",
+        "Koshai's Lash",
+        "Koshai's Fist",
+        "Koshai's Tooth",
+        "Koshai's Spine"
+      ],
+      "items": [
+        {
+          "type": "Axes",
+          "name": "Koshai's Wrath",
+          "cellslot01": "Power <:power:459813422796636171>",
+          "cellslot02": "Utility <:utility:459813423476113419>",
+          "element": "None",
+          "bonuses": {
+            "Sharpened": 1
+          },
+          "specials": {
+            "special01": "After not dealing damage for 8 seconds, the next 2 attacks deal 25% increased damage."
+          },
+          "recipe_cost": [
+            [
+              {
+                "name": "Notes",
+                "amount": 240
+              },
+              {
+                "name": "Bramblespur",
+                "amount": 2
+              },
+              {
+                "name": "Splintered Antler",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 250
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Vital Thorn",
+                "amount": 1
+              },
+              {
+                "name": "Vinetooth",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 260
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Aether Thorn",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 270
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Vital Thorn",
+                "amount": 1
+              },
+              {
+                "name": "Bramblespur",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 280
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Aether Thorn",
+                "amount": 1
+              },
+              {
+                "name": "Splintered Antler",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 290
+              },
+              {
+                "name": "Infused Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Bramblespur",
+                "amount": 2
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 300
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 16
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Choking Bramblespur",
+                "amount": 1
+              },
+              {
+                "name": "Living Thorn",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 310
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 24
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 4
+              },
+              {
+                "name": "Bramblespur",
+                "amount": 4
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 320
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 32
+              },
+              {
+                "name": "Nature's Mane",
+                "amount": 1
+              },
+              {
+                "name": "Splintered Antler",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 330
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Pure Infused Weapon Archonite",
+                "amount": 8
+              },
+              {
+                "name": "Aether Thorn",
+                "amount": 5
+              },
+              {
+                "name": "Vinetooth",
+                "amount": 1
+              }
+            ],
+            [
+              {
+                "name": "Notes",
+                "amount": 340
+              },
+              {
+                "name": "Charged Weapon Archonite",
+                "amount": 40
+              },
+              {
+                "name": "Splintered Antler",
+                "amount": 1
+              },
+              {
+                "name": "Imposing Antler",
+                "amount": 1
+              }
+            ]
+          ],
+          "wiki_url": "https://dauntless.gamepedia.com/Koshai%27s_Wrath",
+          "icon_url": "https://www.nireon.me/weapons/axes/koshai.png"
+        },
+        {
+          "type": "Chain Blades",
+          "name": "Koshai's Lash",
+          "cellslot01": "Power <:power:459813422796636171>",
+          "cellslot02": "Utility <:utility:459813423476113419>",
+          "element": "None",
+          "bonuses": {
+            "Sharpened": 1
+          },
+          "specials": {
+            "special01": "After not dealing damage for 8 seconds, the next 6 attacks deal 25% increased damage."
+          },
+          "recipe_cost": [],
+          "wiki_url": "https://dauntless.gamepedia.com/Koshai%27s_Lash",
+          "icon_url": "https://www.nireon.me/weapons/chainblades/koshai.png"
+        },
+        {
+          "type": "Hammer",
+          "name": "Koshai's Fist",
+          "cellslot01": "Power <:power:459813422796636171>",
+          "cellslot02": "Utility <:utility:459813423476113419>",
+          "element": "None",
+          "bonuses": {
+            "Sharpened": 1
+          },
+          "specials": {
+            "special01": "After not dealing damage for 8 seconds, the next 2 attacks deal 25% increased damage."
+          },
+          "recipe_cost": [],
+          "wiki_url": "https://dauntless.gamepedia.com/Koshai%27s_Fist",
+          "icon_url": "https://www.nireon.me/weapons/hammers/koshai.png"
+        },
+        {
+          "type": "Sword",
+          "name": "Koshai's Tooth",
+          "cellslot01": "Power <:power:459813422796636171>",
+          "cellslot02": "Utility <:utility:459813423476113419>",
+          "element": "None",
+          "bonuses": {
+            "Sharpened": 1
+          },
+          "specials": {
+            "special01": "After not dealing damage for 8 seconds, the next 4 attacks deal 25% increased damage."
+          },
+          "recipe_cost": [],
+          "wiki_url": "https://dauntless.gamepedia.com/Koshai%27s_Tooth",
+          "icon_url": "https://www.nireon.me/weapons/swords/koshai.png"
+        },
+        {
+          "type": "War Pikes",
+          "name": "Koshai's Spine",
+          "cellslot01": "Power <:power:459813422796636171>",
+          "cellslot02": "Utility <:utility:459813423476113419>",
+          "element": "None",
+          "bonuses": {
+            "Sharpened": 1
+          },
+          "specials": {
+            "special01": "After not dealing damage for 8 seconds, the next 5 attacks deal 25% increased damage."
+          },
+          "recipe_cost": [],
+          "wiki_url": "https://dauntless.gamepedia.com/Koshai%27s_Spine",
+          "icon_url": "https://www.nireon.me/weapons/warpikes/koshai.png"
         }
       ]
     }
@@ -32002,6 +34655,1135 @@
       "cellslot": "Utility <:utility:459813423476113419>",
       "instant": "Grants a 200 hit point shield for 4 seconds.",
       "hold": "Surrounds the slayer in swirling stone that deals 720 damage to all nearby Behemoths over 12 seconds."
+    }
+  ],
+  "reagents": [
+    {
+      "name": "Rezakiri",
+      "reagentnames": [
+        "Aethergem Fragment",
+        "Brilliant Tailplate",
+        "Chitin Fragment",
+        "Clear Powergem",
+        "Cracked Biocrystal",
+        "Exoskeletal Plate",
+        "Fractured Mandible",
+        "Glimmering Clawplate",
+        "Luminescent Chitin",
+        "Lustrous Tailplate",
+        "Rezakiri Chitin",
+        "Shattered Tailplate"
+      ],
+      "reagents": [
+        {
+          "name": "Aethergem Fragment",
+          "rarity": "Common",
+          "droppart": "Tailgem",
+          "description": "A Common drop from the Tailgem of a Rezakiri"
+        },
+        {
+          "name": "Brilliant Tailplate",
+          "rarity": "Epic",
+          "droppart": "Tail",
+          "description": "An Epic drop from the Tail of a Rezakiri"
+        },
+        {
+          "name": "Chitin Fragment",
+          "rarity": "Common",
+          "droppart": "Limbs",
+          "description": "A Common drop from the Limbs of a Rezakiri"
+        },
+        {
+          "name": "Clear Powergem",
+          "rarity": "Rare",
+          "droppart": "Tailgem",
+          "description": "A Rare drop from the Tailgem of a Rezakiri"
+        },
+        {
+          "name": "Cracked Biocrystal",
+          "rarity": "Rare",
+          "droppart": "Head",
+          "description": "A Rare drop from the Head of a Rezakiri"
+        },
+        {
+          "name": "Exoskeletal Plate",
+          "rarity": "Rare",
+          "droppart": "Leg",
+          "description": "A Rare drop from the Leg of a Rezakiri"
+        },
+        {
+          "name": "Fractured Mandible",
+          "rarity": "Common",
+          "droppart": "Head",
+          "description": "A Common drop from the Head of a Rezakiri"
+        },
+        {
+          "name": "Glimmering Clawplate",
+          "rarity": "Epic",
+          "droppart": "Leg",
+          "description": "An Epic drop from the Leg of a Rezakiri"
+        },
+        {
+          "name": "Luminescent Chitin",
+          "rarity": "Rare",
+          "droppart": "Body Parts",
+          "description": "A Rare drop from the body parts of a Rezakiri"
+        },
+        {
+          "name": "Lustrous Tailplate",
+          "rarity": "Rare",
+          "droppart": "Tail",
+          "description": "A Rare drop from the Tail of a Rezakiri"
+        },
+        {
+          "name": "Rezakiri Chitin",
+          "rarity": "Common",
+          "droppart": "Body Parts",
+          "description": "A Common drop from the body parts of a Rezakiri"
+        },
+        {
+          "name": "Shattered Tailplate",
+          "rarity": "Common",
+          "droppart": "Tail",
+          "description": "A Common drop from the tail of a Rezakiri"
+        }
+      ]
+    },
+    {
+      "name": "Aether Charged Behemoth",
+      "reagentnames": [
+        "Aetheric Claw",
+        "Aetheric Crownplate",
+        "Aetheric Tail"
+      ],
+      "reagents": [
+        {
+          "name": "Aetheric Claw",
+          "rarity": "Epic",
+          "droppart": "Limbs",
+          "description": "An Epic drop from the Limbs of an Aether Charged Behemoth"
+        },
+        {
+          "name": "Aetheric Crownplate",
+          "rarity": "Epic",
+          "droppart": "Limbs",
+          "description": "An Epic drop from the Limbs of an Aether Charged Behemoth"
+        },
+        {
+          "name": "Aetheric Tail",
+          "rarity": "Epic",
+          "droppart": "Tail",
+          "description": "An Epic drop from the Tail of an Aether Charged Behemoth"
+        }
+      ]
+    },
+    {
+      "name": "Kharabak",
+      "reagentnames": [
+        "Bladeclaw Tip",
+        "Cracked Incisior",
+        "Jagged Sparkscale",
+        "Kharabak Chitin",
+        "Scaly Chitin",
+        "Skullshell",
+        "Splintered Chitin",
+        "Vestigial Claw"
+      ],
+      "reagents": [
+        {
+          "name": "Bladeclaw Tip",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Kharabak"
+        },
+        {
+          "name": "Cracked Incisior",
+          "rarity": "Uncommon",
+          "droppart": "Head",
+          "description": "A common drop from the head of a Kharabak"
+        },
+        {
+          "name": "Jagged Sparkscale",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop form the body of a Kharabak"
+        },
+        {
+          "name": "Kharabak Chitin",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Kharabak"
+        },
+        {
+          "name": "Scaly Chitin",
+          "rarity": "Rare",
+          "droppart": "Tail",
+          "description": "A common drop from the tail of a Kharabak"
+        },
+        {
+          "name": "Skullshell",
+          "rarity": "Uncommon",
+          "droppart": "Head",
+          "description": "A common drop from the head of a Kharabak"
+        },
+        {
+          "name": "Splintered Chitin",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Kharabak"
+        },
+        {
+          "name": "Vestigial Claw",
+          "rarity": "Uncommon",
+          "droppart": "Tail",
+          "description": "A common drop from the tail of a Kharabak"
+        }
+      ]
+    },
+    {
+      "name": "Firebrand Charrogg",
+      "reagentnames": [
+        "Burned Gillhide",
+        "Chipped Firebrand Horn",
+        "Fiery Thagomizer",
+        "Firebrand Scale",
+        "Gillhide Scraps",
+        "Glowing Gillhide",
+        "Glowing Rockhide",
+        "Glowing Skullcrest",
+        "Glowing Thagomizer",
+        "Heavy Rockhide",
+        "Scorched Rockhide",
+        "Smoldering Firebrand Scale",
+        "Smoldering Tailspike",
+        "Sturdy Firebrand Horn"
+      ],
+      "reagents": [
+        {
+          "name": "Burned Gillhide",
+          "rarity": "Rare",
+          "droppart": "Firesacs",
+          "description": "A Rare drop from the Firesacs of a Firebrand Charrogg"
+        },
+        {
+          "name": "Chipped Firebrand Horn",
+          "rarity": "Common",
+          "droppart": "Head",
+          "description": "A Common drop from the Head of a Firebrand Charrogg"
+        },
+        {
+          "name": "Fiery Thagomizer",
+          "rarity": "Rare",
+          "droppart": "Tail",
+          "description": "A Rare drop from the Tail of a Firebrand Charrogg"
+        },
+        {
+          "name": "Firebrand Scale",
+          "rarity": "Common",
+          "droppart": "Body Parts",
+          "description": "A Common drop from the body parts of a Firebrand Charrogg"
+        },
+        {
+          "name": "Gillhide Scraps",
+          "rarity": "Common",
+          "droppart": "Firesacs",
+          "description": "A Common drop form the Firesacs of a Firebrand Charrogg"
+        },
+        {
+          "name": "Glowing Gillhide",
+          "rarity": "Epic",
+          "droppart": "Firesacs",
+          "description": "An Epic drop from the Firesacs of a Firebrand Charrogg"
+        },
+        {
+          "name": "Glowing Rockhide",
+          "rarity": "Epic",
+          "droppart": "Leg",
+          "description": "An Epic drop from the Leg of a Firebrand Charrogg"
+        },
+        {
+          "name": "Glowing Skullcrest",
+          "rarity": "Epic",
+          "droppart": "Head",
+          "description": "An Epic drop from the Head of a Firebrand Charrogg"
+        },
+        {
+          "name": "Glowing Thagomizer",
+          "rarity": "Epic",
+          "droppart": "Tail",
+          "description": "An Epic drop from the Tail of a Firebrand Charrogg"
+        },
+        {
+          "name": "Heavy Rockhide",
+          "rarity": "Rare",
+          "droppart": "Leg",
+          "description": "A rare drop from the Leg of a Firebrand Charrogg"
+        },
+        {
+          "name": "Scorched Rockhide",
+          "rarity": "Common",
+          "droppart": "Leg",
+          "description": "A Common drop from the Leg of a Firebrand Charrogg"
+        },
+        {
+          "name": "Smoldering Firebrand Scale",
+          "rarity": "Rare",
+          "droppart": "Body Parts",
+          "description": "A Rare drop from the body parts of a Firebrand Charrogg"
+        },
+        {
+          "name": "Smoldering Tailspike",
+          "rarity": "Common",
+          "droppart": "Tail",
+          "description": "A Common drop from the Tail of a Firebrand Charrogg"
+        },
+        {
+          "name": "Sturdy Firebrand Horn",
+          "rarity": "Rare",
+          "droppart": "Head",
+          "description": "A Rare drop from the Head of a Firebrand Charrogg"
+        }
+      ]
+    },
+    {
+      "name": "Hellion",
+      "reagentnames": [
+        "Burned Undertooth",
+        "Hellion Hide",
+        "Igneous Hide",
+        "Molten Tailplate",
+        "Obsidian Tailplate",
+        "Scorched Claw"
+      ],
+      "reagents": [
+        {
+          "name": "Burned Undertooth",
+          "rarity": "Uncommon",
+          "droppart": "Head",
+          "description": "A common drop from the head of a Hellion"
+        },
+        {
+          "name": "Hellion Hide",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Hellion"
+        },
+        {
+          "name": "Igneous Hide",
+          "rarity": "Rare",
+          "droppart": "Legs",
+          "description": "A rare drop from the legs of a Hellion"
+        },
+        {
+          "name": "Molten Tailplate",
+          "rarity": "Uncommon",
+          "droppart": "Tail",
+          "description": "A common drop from the tail of a Hellion"
+        },
+        {
+          "name": "Obsidian Tailplate",
+          "rarity": "Rare",
+          "droppart": "Tail",
+          "description": "A rare drop from the tail of a Hellion"
+        },
+        {
+          "name": "Scorched Claw",
+          "rarity": "Uncommon",
+          "droppart": "Legs",
+          "description": "A common drop from the legs of a Hellion"
+        }
+      ]
+    },
+    {
+      "name": "Embermane",
+      "reagentnames": [
+        "Burning Tailspike",
+        "Emberhorn",
+        "Embermane Hide",
+        "Smoked Dewclaw"
+      ],
+      "reagents": [
+        {
+          "name": "Burning Tailspike",
+          "rarity": "Uncommon",
+          "droppart": "Tail",
+          "description": "A common drop from the tail of an Embermane"
+        },
+        {
+          "name": "Emberhorn",
+          "rarity": "Uncommon",
+          "droppart": "Head",
+          "description": "A common drop from the head of an Embermane"
+        },
+        {
+          "name": "Embermane Hide",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of an Embermane"
+        },
+        {
+          "name": "Smoked Dewclaw",
+          "rarity": "Uncommon",
+          "droppart": "Legs",
+          "description": "A common drop from the legs of an Embermane"
+        }
+      ]
+    },
+    {
+      "name": "Stormclaw",
+      "reagentnames": [
+        "Capacitail",
+        "Charged Tail",
+        "Glinttooth",
+        "Magnetooth",
+        "Static Hide",
+        "Static Shank",
+        "Stormclaw Hide",
+        "Volthoof"
+      ],
+      "reagents": [
+        {
+          "name": "Capacitail",
+          "rarity": "Uncommon",
+          "droppart": "Tail",
+          "description": "A common drop from the tail of a Stormclaw"
+        },
+        {
+          "name": "Charged Tail",
+          "rarity": "Rare",
+          "droppart": "Tail",
+          "description": "A rare drop from the tail of a Stormclaw"
+        },
+        {
+          "name": "Glinttooth",
+          "rarity": "Rare",
+          "droppart": "Head",
+          "description": "A rare drop from the head of a Stormclaw"
+        },
+        {
+          "name": "Magnetooth",
+          "rarity": "Uncommon",
+          "droppart": "Head",
+          "description": "A common drop from the head of a Stormclaw"
+        },
+        {
+          "name": "Static Hide",
+          "rarity": "Uncommon",
+          "droppart": "Front Legs",
+          "description": "A common drop from the front legs of a Stormclaw"
+        },
+        {
+          "name": "Static Shank",
+          "rarity": "Uncommon",
+          "droppart": "Rear Legs",
+          "description": "A common drop from the rear legs of a Stormclaw"
+        },
+        {
+          "name": "Stormclaw Hide",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Stormclaw"
+        },
+        {
+          "name": "Volthoof",
+          "rarity": "Rare",
+          "droppart": "Rear Legs",
+          "description": "A rare drop from the rear legs of a Stormclaw"
+        }
+      ]
+    },
+    {
+      "name": "Shockjaw Nayzaga",
+      "reagentnames": [
+        "Charged Shockjaw Hide",
+        "Charged Spine",
+        "Charged Tailspike",
+        "Dull Sparkclaw",
+        "Dull Tooth Fragment",
+        "Greater Sparkclaw",
+        "Shockjaw Hide",
+        "Sparking Claw",
+        "Sparking Spine",
+        "Tailspike Fragment"
+      ],
+      "reagents": [
+        {
+          "name": "Charged Shockjaw Hide",
+          "rarity": "Rare",
+          "droppart": "Body Parts",
+          "description": "A Rare drop from the body parts of a Shockjaw Nayzaga"
+        },
+        {
+          "name": "Charged Spine",
+          "rarity": "Rare",
+          "droppart": "Head",
+          "description": "A Rare drop from the head of a Shockjaw Nayzaga"
+        },
+        {
+          "name": "Charged Tailspike",
+          "rarity": "Rare",
+          "droppart": "Tail",
+          "description": "A Rare drop from the Tail of a Shockjaw Nayzaga"
+        },
+        {
+          "name": "Dull Sparkclaw",
+          "rarity": "Common",
+          "droppart": "Leg",
+          "description": "A Common drop from the Leg of a Shockjaw Nayzaga"
+        },
+        {
+          "name": "Dull Tooth Fragment",
+          "rarity": "Common",
+          "droppart": "Head",
+          "description": "A Common drop from the Head of a Shockjaw Nayzaga"
+        },
+        {
+          "name": "Greater Sparkclaw",
+          "rarity": "Rare",
+          "droppart": "Leg",
+          "description": "A Rare drop from the Leg of a Shockjaw Nayzaga"
+        },
+        {
+          "name": "Shockjaw Hide",
+          "rarity": "Common",
+          "droppart": "Body Parts",
+          "description": "A Common drop from the body parts of a Shockjaw Nayzaga"
+        },
+        {
+          "name": "Sparking Claw",
+          "rarity": "Epic",
+          "droppart": "Leg",
+          "description": "An Epic drop from the Leg of a Shockjaw Nayzaga"
+        },
+        {
+          "name": "Sparking Spine",
+          "rarity": "Epic",
+          "droppart": "Head",
+          "description": "An Epic drop from the Head of a Shockjaw Nayzaga"
+        },
+        {
+          "name": "Tailspike Fragment",
+          "rarity": "Common",
+          "droppart": "Tail",
+          "description": "A Common drop form the Tail of a Shockjaw Nayzaga"
+        }
+      ]
+    },
+    {
+      "name": "Charrogg",
+      "reagentnames": [
+        "Charrogg Hide"
+      ],
+      "reagents": [
+        {
+          "name": "Charrogg Hide",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Charrogg"
+        }
+      ]
+    },
+    {
+      "name": "Razorwing Kharabak",
+      "reagentnames": [
+        "Claw Shell Fragment",
+        "Deadly Incisor",
+        "Deadly Jagged Bladeclaw",
+        "Deadly Ovipositor",
+        "Ovipositor Fragment",
+        "Razorwing Chitin",
+        "Razorwing Fragment",
+        "Skullshell Fragment",
+        "Sleek Bladeclaw",
+        "Sleek Razorwing Chitin",
+        "Sleek Skullshell",
+        "Sleek Tail Chitin"
+      ],
+      "reagents": [
+        {
+          "name": "Claw Shell Fragment",
+          "rarity": "Common",
+          "droppart": "Leg",
+          "description": "A Common drop from the Leg of a Razorwing Kharabak"
+        },
+        {
+          "name": "Deadly Incisor",
+          "rarity": "Epic",
+          "droppart": "Head",
+          "description": "An Epic drop from the Head of a Razorwing Kharabak"
+        },
+        {
+          "name": "Deadly Jagged Bladeclaw",
+          "rarity": "Epic",
+          "droppart": "Leg",
+          "description": "An Epic drop from the Leg of a Razorwing Kharabak"
+        },
+        {
+          "name": "Deadly Ovipositor",
+          "rarity": "Epic",
+          "droppart": "Tail",
+          "description": "An Epic drop from the Tail of a Razorwing Kharabak"
+        },
+        {
+          "name": "Ovipositor Fragment",
+          "rarity": "Common",
+          "droppart": "Tail",
+          "description": "A Common drop form the Tail of a Razorwing Kharabak"
+        },
+        {
+          "name": "Razorwing Chitin",
+          "rarity": "Common",
+          "droppart": "Body Parts",
+          "description": "A Common drop from the body parts of a Razorwing Kharabak"
+        },
+        {
+          "name": "Razorwing Fragment",
+          "rarity": "Common",
+          "droppart": "Body Parts",
+          "description": "A Common drop from the body parts of a Razorwing Kharabak"
+        },
+        {
+          "name": "Skullshell Fragment",
+          "rarity": "Common",
+          "droppart": "Head",
+          "description": "A Common drop from the Head of a Razorwing Kharabak"
+        },
+        {
+          "name": "Sleek Bladeclaw",
+          "rarity": "Rare",
+          "droppart": "Leg",
+          "description": "A Rare drop from the Leg of a Razorwing Kharabak"
+        },
+        {
+          "name": "Sleek Razorwing Chitin",
+          "rarity": "Rare",
+          "droppart": "Body Parts",
+          "description": "A Rare drop from the body parts of a Razorwing Kharabak"
+        },
+        {
+          "name": "Sleek Skullshell",
+          "rarity": "Rare",
+          "droppart": "Head",
+          "description": "A Rare drop from the Head of a Razorwing Kharabak"
+        },
+        {
+          "name": "Sleek Tail Chitin",
+          "rarity": "Rare",
+          "droppart": "Tail",
+          "description": "A Rare drop from the Tail of a Razorwing Kharabak"
+        }
+      ]
+    },
+    {
+      "name": "Shrowd",
+      "reagentnames": [
+        "Corrupted Bladefeather",
+        "Corrupted Darktail",
+        "Corrupted Shadowtalon",
+        "Cracked Shadowtalon",
+        "Dark Bladefeather",
+        "Dark Tailfeather",
+        "Darkbeak Shard",
+        "Shrowd Feather",
+        "Torn Bladefeather",
+        "Twisted Shadowspur",
+        "Writhing Feather"
+      ],
+      "reagents": [
+        {
+          "name": "Corrupted Bladefeather",
+          "rarity": "Epic",
+          "droppart": "Wing",
+          "description": "An Epic drop from the Wing of a Shrowd"
+        },
+        {
+          "name": "Corrupted Darktail",
+          "rarity": "Epic",
+          "droppart": "Tail",
+          "description": "An Epic drop from the Tail of a Shrowd"
+        },
+        {
+          "name": "Corrupted Shadowtalon",
+          "rarity": "Epic",
+          "droppart": "Leg",
+          "description": "An Epic drop from the Leg of a Shrowd"
+        },
+        {
+          "name": "Cracked Shadowtalon",
+          "rarity": "Common",
+          "droppart": "Leg",
+          "description": "A Common drop from the Leg of a Shrowd"
+        },
+        {
+          "name": "Dark Bladefeather",
+          "rarity": "Rare",
+          "droppart": "Wing",
+          "description": "A Rare drop from the Wing of a Shrowd"
+        },
+        {
+          "name": "Dark Tailfeather",
+          "rarity": "Rare",
+          "droppart": "Tail",
+          "description": "A Common drop from the Tail of a Shrowd"
+        },
+        {
+          "name": "Darkbeak Shard",
+          "rarity": "Rare",
+          "droppart": "Head",
+          "description": "A Rare drop from the Head of a Shrowd"
+        },
+        {
+          "name": "Shrowd Feather",
+          "rarity": "Common",
+          "droppart": "Body Parts",
+          "description": "A Common drop from the body parts of a Shrowd"
+        },
+        {
+          "name": "Torn Bladefeather",
+          "rarity": "Common",
+          "droppart": "Wing",
+          "description": "A Common drop from the Wing of a Shrowd"
+        },
+        {
+          "name": "Twisted Shadowspur",
+          "rarity": "Rare",
+          "droppart": "Leg",
+          "description": "A Rare drop from the Leg of a Shrowd"
+        },
+        {
+          "name": "Writhing Feather",
+          "rarity": "Rare",
+          "droppart": "Body Parts",
+          "description": "A Rare drop from the body parts of a Shrowd"
+        }
+      ]
+    },
+    {
+      "name": "Frostback Pangar",
+      "reagentnames": [
+        "Cracked Frostplate",
+        "Frostback Scale",
+        "Frosted Tailplate",
+        "Frosted Hindplate",
+        "Frost Tooth",
+        "Icetalon",
+        "Icy Browplate",
+        "Icy Frostback Scale",
+        "Icy Tailplate"
+      ],
+      "reagents": [
+        {
+          "name": "Cracked Frostplate",
+          "rarity": "Common",
+          "droppart": "Leg",
+          "description": "A common drop from the Leg of a Frostback Pangar"
+        },
+        {
+          "name": "Frostback Scale",
+          "rarity": "Common",
+          "droppart": "Body Parts",
+          "description": "A Common drop from the body parts of a Frostback Pangar"
+        },
+        {
+          "name": "Frosted Tailplate",
+          "rarity": "Epic",
+          "droppart": "Tail",
+          "description": "An Epic drop from the Tail of a Frostback Pangar"
+        },
+        {
+          "name": "Frosted Hindplate",
+          "rarity": "Epic",
+          "droppart": "Leg",
+          "description": "An Epic drop from the Leg of a Frostback Pangar"
+        },
+        {
+          "name": "Frost Tooth",
+          "rarity": "Rare",
+          "droppart": "Head",
+          "description": "A common drop from the head of a Frostback Pangar"
+        },
+        {
+          "name": "Icetalon",
+          "rarity": "Rare",
+          "droppart": "Leg",
+          "description": "A Rare drop from the Leg of a Frostback Pangar"
+        },
+        {
+          "name": "Icy Browplate",
+          "rarity": "Common",
+          "droppart": "Head",
+          "description": "A Common drop from the Head of a Frostback Pangar"
+        },
+        {
+          "name": "Icy Frostback Scale",
+          "rarity": "Rare",
+          "droppart": "Body Parts",
+          "description": "A Rare drop from the body parts of a Frostback Pangar"
+        },
+        {
+          "name": "Icy Tailplate",
+          "rarity": "Rare",
+          "droppart": "Tail",
+          "description": "A Rare drop from the Tail of a Frostback Pangar"
+        }
+      ]
+    },
+    {
+      "name": "Ragetail Gnasher",
+      "reagentnames": [
+        "Cracked Ragetooth",
+        "Cracked Slapper",
+        "Glistening Fur",
+        "Perfect Ragetail Plate",
+        "Perfect Ragetooth",
+        "Polished Ragetooth",
+        "Pristine Ragetail Shinplate",
+        "Rageclaw",
+        "Ragetail Hide",
+        "Ragetail Shinplate",
+        "Severed Ragetail"
+      ],
+      "reagents": [
+        {
+          "name": "Cracked Ragetooth",
+          "rarity": "Common",
+          "droppart": "Head",
+          "description": "A Common drop from the Head of a Ragetail Gnasher"
+        },
+        {
+          "name": "Cracked Slapper",
+          "rarity": "Common",
+          "droppart": "Head",
+          "description": "A Common drop from the Head of a Ragetail Gnasher"
+        },
+        {
+          "name": "Glistening Fur",
+          "rarity": "Rare",
+          "droppart": "Body Parts",
+          "description": "A Rare drop from the body parts of a Ragetail Gnasher"
+        },
+        {
+          "name": "Perfect Ragetail Plate",
+          "rarity": "Epic",
+          "droppart": "Tail",
+          "description": "An Epic drop from the Tail of a Ragetail Gnasher"
+        },
+        {
+          "name": "Perfect Ragetooth",
+          "rarity": "Epic",
+          "droppart": "Head",
+          "description": "An Epic drop from the Head of a Ragetail Gnasher"
+        },
+        {
+          "name": "Polished Ragetooth",
+          "rarity": "Rare",
+          "droppart": "Head",
+          "description": "A Rare drop from the Head of a Ragetail Gnasher"
+        },
+        {
+          "name": "Pristine Ragetail Shinplate",
+          "rarity": "Epic",
+          "droppart": "Leg",
+          "description": "An Epic drop from the Leg of a Ragetail Gnasher"
+        },
+        {
+          "name": "Rageclaw",
+          "rarity": "Rare",
+          "droppart": "Leg",
+          "description": "A Rare drop from the Leg of a Ragetail Gnasher"
+        },
+        {
+          "name": "Ragetail Hide",
+          "rarity": "Common",
+          "droppart": "Body Parts",
+          "description": "A Common drop from the body parts of a Ragetail Gnasher"
+        },
+        {
+          "name": "Ragetail Shinplate",
+          "rarity": "Common",
+          "droppart": "Leg",
+          "description": "A Common drop from the Leg of a Ragetail Gnasher"
+        },
+        {
+          "name": "Severed Ragetail",
+          "rarity": "Rare",
+          "droppart": "Tail",
+          "description": "A Rare drop from the Tail of a Ragetail Gnasher"
+        }
+      ]
+    },
+    {
+      "name": "Pangar",
+      "reagentnames": [
+        "Cracked Tailplate",
+        "Fractured Icetalon",
+        "Frostplate",
+        "Frosty Tooth",
+        "Nayzaga Chitin",
+        "Pangar Hide",
+        "Polar Incisor",
+        "Severed Tailplate"
+      ],
+      "reagents": [
+        {
+          "name": "Cracked Tailplate",
+          "rarity": "Rare",
+          "droppart": "Tail",
+          "description": "A rare drop from the tail of a Pangar"
+        },
+        {
+          "name": "Fractured Icetalon",
+          "rarity": "Rare",
+          "droppart": "Legs",
+          "description": "A rare drop from the legs of a Pangar"
+        },
+        {
+          "name": "Frostplate",
+          "rarity": "Uncommon",
+          "droppart": "Legs",
+          "description": "A common drop from the legs of a Pangar"
+        },
+        {
+          "name": "Frosty Tooth",
+          "rarity": "Uncommon",
+          "droppart": "Head",
+          "description": "A common drop from the head of a Pangar"
+        },
+        {
+          "name": "Nayzaga Chitin",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Pangar"
+        },
+        {
+          "name": "Pangar Hide",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Pangar"
+        },
+        {
+          "name": "Polar Incisor",
+          "rarity": "Rare",
+          "droppart": "Head",
+          "description": "A rare drop from the head of a Pangar"
+        },
+        {
+          "name": "Severed Tailplate",
+          "rarity": "Uncommon",
+          "droppart": "Tail",
+          "description": "A common drop from the tail of a Pangar"
+        }
+      ]
+    },
+    {
+      "name": "Drask",
+      "reagentnames": [
+        "Drask Hide",
+        "Electroscale",
+        "Fractal Eyetooth"
+      ],
+      "reagents": [
+        {
+          "name": "Drask Hide",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Drask"
+        },
+        {
+          "name": "Electroscale",
+          "rarity": "Uncommon",
+          "droppart": "Tail",
+          "description": "A common drop from the tail of Drask"
+        },
+        {
+          "name": "Fractal Eyetooth",
+          "rarity": "Uncommon",
+          "droppart": "Head",
+          "description": "A common drop from the head of a Drask"
+        }
+      ]
+    },
+    {
+      "name": "Nayzaga",
+      "reagentnames": [
+        "Electric Tailspike",
+        "Shocktooth",
+        "Sparkclaw Chunk",
+        "Sparkclaw Splinter",
+        "Sparkspine"
+      ],
+      "reagents": [
+        {
+          "name": "Electric Tailspike",
+          "rarity": "Rare",
+          "droppart": "Tail",
+          "description": "A rare drop from the tail of a Nayzaga"
+        },
+        {
+          "name": "Shocktooth",
+          "rarity": "Uncommon",
+          "droppart": "Head",
+          "description": "An uncommon drop from the head of a Nayzaga"
+        },
+        {
+          "name": "Sparkclaw Chunk",
+          "rarity": "Rare",
+          "droppart": "Legs",
+          "description": "A rare drop from the legs of a Nayzaga"
+        },
+        {
+          "name": "Sparkclaw Splinter",
+          "rarity": "Uncommon",
+          "droppart": "Legs",
+          "description": "A common drop from the legs of a Nayzaga"
+        },
+        {
+          "name": "Sparkspine",
+          "rarity": "Uncommon",
+          "droppart": "Tail",
+          "description": "A common drop from the tail of a Nayzaga"
+        }
+      ]
+    },
+    {
+      "name": "Raging Elemental Behemoth",
+      "reagentnames": [
+        "Elemental Furyplate"
+      ],
+      "reagents": [
+        {
+          "name": "Elemental Furyplate",
+          "rarity": "Epic",
+          "droppart": "Limbs",
+          "description": "An Epic drop from the Limbs of a Raging Elemental Behemoth"
+        }
+      ]
+    },
+    {
+      "name": "Gnasher",
+      "reagentnames": [
+        "Gnasher Hide"
+      ],
+      "reagents": [
+        {
+          "name": "Gnasher Hide",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Gnasher"
+        }
+      ]
+    },
+    {
+      "name": "Quillshot",
+      "reagentnames": [
+        "Quillshot Hide"
+      ],
+      "reagents": [
+        {
+          "name": "Quillshot Hide",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Quillshot"
+        }
+      ]
+    },
+    {
+      "name": "Raging Neutral Behemoth",
+      "reagentnames": [
+        "Raw Furyplate",
+        "Raw Furytail",
+        "Raw Furytooth"
+      ],
+      "reagents": [
+        {
+          "name": "Raw Furyplate",
+          "rarity": "Epic",
+          "droppart": "Limbs",
+          "description": "An Epic drop from the Limbs of a Raging Neutral Behemoth"
+        },
+        {
+          "name": "Raw Furytail",
+          "rarity": "Epic",
+          "droppart": "Tail",
+          "description": "An Epic drop from the Tail of a Raging Neutral Behemoth"
+        },
+        {
+          "name": "Raw Furytooth",
+          "rarity": "Epic",
+          "droppart": "Head",
+          "description": "An Epic drop from the Head of a Raging Neutral Behemoth"
+        }
+      ]
+    },
+    {
+      "name": "Neutral Behemoth",
+      "reagentnames": [
+        "Raw Skullgem"
+      ],
+      "reagents": [
+        {
+          "name": "Raw Skullgem",
+          "rarity": "Epic",
+          "droppart": "Rapidly-Broken Head",
+          "description": "An Epic drop from the rapidly-broken Head of a Neutral Behemoth"
+        }
+      ]
+    },
+    {
+      "name": "Skraev",
+      "reagentnames": [
+        "Sharp Frostfeather",
+        "Shattered Beak",
+        "Skraev Feather"
+      ],
+      "reagents": [
+        {
+          "name": "Sharp Frostfeather",
+          "rarity": "Uncommon",
+          "droppart": "Wings",
+          "description": "A common drop from the wings of a Skraev"
+        },
+        {
+          "name": "Shattered Beak",
+          "rarity": "Uncommon",
+          "droppart": "Head",
+          "description": "A common drop from the head of a Skraev"
+        },
+        {
+          "name": "Skraev Feather",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Skraev"
+        }
+      ]
+    },
+    {
+      "name": "Shrike",
+      "reagentnames": [
+        "Shrike Feather"
+      ],
+      "reagents": [
+        {
+          "name": "Shrike Feather",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Shrike"
+        }
+      ]
+    },
+    {
+      "name": "Skarn",
+      "reagentnames": [
+        "Skarn Hide"
+      ],
+      "reagents": [
+        {
+          "name": "Skarn Hide",
+          "rarity": "Uncommon",
+          "droppart": "Body",
+          "description": "A common drop from the body of a Skarn"
+        }
+      ]
     }
   ]
 }
