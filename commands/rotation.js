@@ -19,10 +19,11 @@ exports.run = (client, message, args, Discord) => {
     let date2 = new Date((rotation[1]["time"]+604800000*2)).getTime() - now;
     let date3 = new Date(rotation[2]["time"]).getTime() - now;
     let date4 = new Date(rotation[3]["time"]).getTime() - now;
-    embed.addField("**In Rotation**",`\`\`${rotation[0]["islandname"]}\`\` - leaving in: ${Math.floor(date1 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date1 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths1[0]["name"]}\n • ${behemoths1[1]["name"]}`)
-         .addField("**In Rotation**",`\`\`${rotation[1]["islandname"]}\`\` - leaving in: ${Math.floor(date2 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date2 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths2[0]["name"]}\n • ${behemoths2[1]["name"]}`)
-         .addField("**Upcoming**",`\`\`${rotation[2]["islandname"]}\`\` - entering in: ${Math.floor(date3 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date3 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths3[0]["name"]}\n • ${behemoths3[1]["name"]}`)
-         .addField("**Upcoming**",`\`\`${rotation[3]["islandname"]}\`\` - entering in: ${Math.floor(date4 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date4 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date4 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths4[0]["name"]}\n • ${behemoths4[1]["name"]}`)
+    let behemothstring1 = ''
+    embed.addField("**In Rotation**",`\`\`${rotation[0]["islandname"]}\`\` - leaving in: ${Math.floor(date1 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date1 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths1[0]["name"]}\n`)
+         .addField("**In Rotation**",`\`\`${rotation[1]["islandname"]}\`\` - leaving in: ${Math.floor(date2 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date2 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths2[0]["name"]}\n`)
+         .addField("**Upcoming**",`\`\`${rotation[2]["islandname"]}\`\` - entering in: ${Math.floor(date3 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date3 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths3[0]["name"]}\n`)
+         .addField("**Upcoming**",`\`\`${rotation[3]["islandname"]}\`\` - entering in: ${Math.floor(date4 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date4 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date4 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths4[0]["name"]}\n`)
   }
   else if(rotation.length == 3 ){
     let behemoths1 = db1.get("behemoths").filter({islands: [rotation[0]["islandname"]]}).value();
@@ -32,9 +33,9 @@ exports.run = (client, message, args, Discord) => {
     let date1 = (new Date(rotation[0]["time"]+604800000*2)).getTime() - now;
     let date2 = new Date(rotation[1]["time"]+604800000*2).getTime() - now;
     let date3 = new Date(rotation[2]["time"]).getTime() - now;
-    embed.addField("**In Rotation**",`\`\`${rotation[0]["islandname"]}\`\` - leaving in: ${Math.floor(date1 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date1 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths1[0]["name"]}\n • ${behemoths1[1]["name"]}`)
-         .addField("**In Rotation**",`\`\`${rotation[1]["islandname"]}\`\` - leaving in: ${Math.floor(date2 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date2 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths2[0]["name"]}\n • ${behemoths2[1]["name"]}`)
-         .addField("**Upcoming**",`\`\`${rotation[2]["islandname"]}\`\` - entering in: ${Math.floor(date3 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date3 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths3[0]["name"]}\n • ${behemoths3[1]["name"]}`)
+    embed.addField("**In Rotation**",`\`\`${rotation[0]["islandname"]}\`\` - leaving in: ${Math.floor(date1 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date1 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths1[0]["name"]}`)
+         .addField("**In Rotation**",`\`\`${rotation[1]["islandname"]}\`\` - leaving in: ${Math.floor(date2 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date2 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths2[0]["name"]}`)
+         .addField("**Upcoming**",`\`\`${rotation[2]["islandname"]}\`\` - entering in: ${Math.floor(date3 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date3 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths3[0]["name"]}`)
   }
   else if(rotation.length == 2){
     let behemoths1 = db1.get("behemoths").filter({islands: [rotation[0]["islandname"]]}).value();
@@ -42,14 +43,14 @@ exports.run = (client, message, args, Discord) => {
     let now = new Date().getTime();
     let date1 = (new Date(rotation[0]["time"]+604800000*2)).getTime() - now;
     let date2 = new Date(rotation[1]["time"]+604800000*2).getTime() - now;
-    embed.addField("**In Rotation**",`\`\`${rotation[0]["islandname"]}\`\` - leaving in: ${Math.floor(date1 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date1 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths1[0]["name"]}\n • ${behemoths1[1]["name"]}`)
-         .addField("**In Rotation**",`\`\`${rotation[1]["islandname"]}\`\` - leaving in: ${Math.floor(date2 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date2 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths2[0]["name"]}\n • ${behemoths2[1]["name"]}`)
+    embed.addField("**In Rotation**",`\`\`${rotation[0]["islandname"]}\`\` - leaving in: ${Math.floor(date1 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date1 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths1[0]["name"]}`)
+         .addField("**In Rotation**",`\`\`${rotation[1]["islandname"]}\`\` - leaving in: ${Math.floor(date2 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date2 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths2[0]["name"]}`)
   }
   else if(rotation.length == 1){
     let behemoths1 = db1.get("behemoths").filter({islands: [rotation[0]["islandname"]]}).value();
     let now = new Date().getTime();
     let date1 = (new Date(rotation[0]["time"]+604800000*2)).getTime() - now;
-    embed.addField("**In Rotation**",`\`\`${rotation[0]["islandname"]}\`\` - leaving in: ${Math.floor(date1 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date1 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths1[0]["name"]}\n • ${behemoths1[1]["name"]}`)
+    embed.addField("**In Rotation**",`\`\`${rotation[0]["islandname"]}\`\` - leaving in: ${Math.floor(date1 / (1000 * 60 * 60 * 24))} Days, ${Math.floor((date1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))} Hrs, ${Math.floor((date1 % (1000 * 60 * 60)) / (1000 * 60))} Min.\n • ${behemoths1[0]["name"]}`)
   }
   embed.setFooter("This data has been provided through the Official Dauntless Wiki. Click on the Title to get linked to the wiki.")
     message.channel.send({embed})
