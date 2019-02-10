@@ -181,8 +181,39 @@ exports.run = async (client, message, args, Discord) => {
       //17: lanternname
       //18: lantern cell
       if (res.body[build[1]]) {
-        gearstring += "**Weapon:** " + res.body[build[1]] + " +" + build[2] + "\n";
+
         let weaponname = res.body[build[1]]
+        if (res.body[build[1]] == "Repeater"){
+
+          gearstring += "**Weapon:** " + res.body[build[1]] + "\n";
+          if (res.body[build[19]]){
+          gearstring += "\t*Barrel:*\t" + res.body[build[19]] + "\n";
+          }
+          if (res.body[build[21]]){
+          gearstring += "\t*Chamber:*\t" + res.body[build[21]] + "\n";
+          }
+          if (res.body[build[23]]){
+          gearstring += "\t*Grip:*\t" + res.body[build[23]] + "\n";
+          }
+          if (res.body[build[25]]){
+          gearstring += "\t*Prism:*\t" + res.body[build[25]] + "\n";
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+        else{
+          gearstring += "**Weapon:** " + res.body[build[1]] + " +" + build[2] + "\n";
+        }
         if (res.body[build[3]]) {
           let cellperks = []
           cellperks[0] = res.body[build[3]].replace(" Cell", "").replace("+", "").substr(0, res.body[build[3]].replace(" Cell", "").replace("+", "").indexOf(" "))
@@ -238,13 +269,6 @@ exports.run = async (client, message, args, Discord) => {
           pages[++Object.keys(pages)[Object.keys(pages).length-1]] = embedcreate(weaponname)
         }
         //--------------------------Upgraded bonuses loader----------------------
-        var regex = new RegExp(res.body[build[1]] + ".*", 'i');
-        if (exoticsarray.indexOf(res.body[build[1]]) > -1) {
-          var weaponfile = db.get("exotics").find({
-            name: res.body[build[1]]
-          }).value();
-          specialfile.push(weaponfile["uniqueeffect"])
-        } else {
           var weaponfile = db.get("weapons").find({
             items: [{
               name: res.body[build[1]]
@@ -274,7 +298,7 @@ exports.run = async (client, message, args, Discord) => {
             }
           }
         }
-      }
+
       if (res.body[build[5]]) {
         gearstring += "**Helmet:** " + res.body[build[5]] + " +" + build[6] + "\n"
         if (res.body[build[7]]) {
@@ -305,12 +329,6 @@ exports.run = async (client, message, args, Discord) => {
           pages[++Object.keys(pages)[Object.keys(pages).length-1]] = embedarmourcreate(res.body[build[5]])
         }
         //--------------------------Upgraded bonuses loader----------------------
-        if (exoticsarray.indexOf(res.body[build[5]]) > -1) {
-          var armourfile = db.get("exotics").find({
-            name: res.body[build[5]]
-          }).value();
-          specialfile.push(armourfile["uniqueeffect"])
-        } else {
           var armourfile = db.get("armour").find({
             items: [{
               name: res.body[build[5]]
@@ -334,7 +352,6 @@ exports.run = async (client, message, args, Discord) => {
             }
           }
         }
-      }
       if (res.body[build[8]]) {
         gearstring += "**Chestplate:** " + res.body[build[8]] + " +" + build[9] + "\n"
         if (res.body[build[10]]) {
@@ -528,6 +545,8 @@ exports.run = async (client, message, args, Discord) => {
           pages[++Object.keys(pages)[Object.keys(pages).length-1]] = embedlanterncreate(res.body[build[17]])
         }
       }
+
+      // repeaterdata
       perkfile.sort((a, b) => b.amount - a.amount);
       for (let key in perkfile) {
         if (perkfile[key]["amount"] > 6) {
@@ -584,6 +603,7 @@ exports.run = async (client, message, args, Discord) => {
       });
       collector.on("end", collected => {
               msg.edit("Timer ran out use the command again to use the menu again")
+              msg.clearReactions()
       });
     });
   } catch (err) {

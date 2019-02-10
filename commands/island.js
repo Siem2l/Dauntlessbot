@@ -17,10 +17,10 @@ exports.run = (client, message, args, Discord) => {
       }
         return message.channel.send(`Cell list:\n\`\`\`${stringlist}\`\`\``)
       }
+    args[0] = args[0].replace("'",'')
     var regex = new RegExp( args[0]+".*", 'i');
-    console.log(regex)
+
     var islandfile= db.get("islands").find(island => regex.test(island.namedb)).value();;
-    console.log(islandfile)
     var behemothlistfile = db.get("behemoths").value().filter(item => item.islands.includes(islandfile.name));
 
     let behemothlist="";

@@ -4,7 +4,8 @@ exports.run = (client, message, args, Discord) => {
   const adapter = new FileSync('./data/dauntlessdata.json');
   const db = low(adapter);
 try{
-  if (args[0]=='list'){
+  console.log(args)
+  if (args[0]=='list'|| args[0] == ''){
     let stringlist = ""
     var behemoth = db.get('behemoths').value();
     for (key in behemoth){

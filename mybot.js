@@ -251,12 +251,4 @@ client.on('message', message => {
     }
 }
 });
-
-//-------------------------------------------------------------------------------------------------
-//-----------------------------------------------Rotation updating---------------------------------
-setInterval(function() {let rotation = client.getIslands.all();
-  if (rotation[0]["time"]+ 604800000*2 < Date.now()){
-    console.log(rotation[0]["islandname"]);
-  client.removeIsland.run(rotation[0]["islandname"]);
-}},150000);
 client.login(config.token);
