@@ -205,7 +205,137 @@
 			"Tail": ["• Vestigial Claw\n • Scaly Chitin (rare drop)"]
 		},
 		"icon_url": "https://www.nireon.me/behemoths/kharabak.png"
-	},{
+	}, {
+		"name": "Ragetail Gnasher",
+		"namedb": "ragetail gnasher",
+		"islands": ["Cerulean-5"],
+		"description": "Ragetail Gnasher is one of the Behemoths in the world of Dauntless. It can be found in The Maelstrom.",
+		"wiki_url": "https://dauntless.gamepedia.com/Ragetail_Gnasher",
+		"element": ["Neutral"],
+		"weakness": ["None"],
+		"interupting": "The Gnasher can be Interrupted during its charge where it angrily bites anything in its path. This attack is telegraphed by a short jump, followed by the dash immediately after it touches the ground.",
+		"droptable": {
+			"All": ["• Ragetail Hide\n• Glistening Fur (rare drop) "],
+			"Head": ["• Cracked Ragetooth\n• Polished Ragetooth (rare drop)\n• Perfect Ragetooth (epic drop)"],
+			"Legs": ["• Ragetail Shinplate\n• Rageclaw (rare drop)\n• Pristine Ragetail Shinplate (epic drop)"],
+			"Tail": ["• Cracked Slapper\n• Severed Ragetail (rare drop)\n• Perfect Ragetail Plate (epic drop)"]
+		},
+		"icon_url": "https://www.nireon.me/behemoths/ragetail_gnasher.png"
+	}, {
+		"name": "Firebrand Charrogg",
+		"namedb": "firebrand charrogg",
+		"islands": ["Sovereign's Throne"],
+		"description": "Firebrand Charrogg is one of the Behemoths in the world of Dauntless. It can be found in The Maelstrom.",
+		"wiki_url": "https://dauntless.gamepedia.com/Firebrand_Charrogg",
+		"element": ["Blaze <:blaze:459747214953283584>"],
+		"weakness": ["Frost <:frost:459747214277869579>"],
+		"interupting": "Firebrand Charogg is not interuptable",
+		"droptable": {
+			"All": ["• Firebrand Scale\n• Smoldering Firebrand Scale (rare drop) "],
+			"Head": ["• Chipped Firebrand Horn\n• Sturdy Firebrand Horn (rare drop)\n• Glowing Skullcrest (epic drop)"],
+			"Firesacs": ["• Gillhide Scraps\n• Burned Gillhide (rare drop)\n• Glowing Gillhide (epic drop)"],
+			"Legs": ["• Scorched Rockhide\n• Heavy Rockhide(rare drop)\n• Glowing Rockhide (epic drop)"],
+			"Tail": ["• Smoldering Tailspike\n• Fiery Thagomizer (rare drop)\n• Glowing Thagomizer (epic drop)"]
+		},
+		"icon_url": "https://www.nireon.me/behemoths/firebrand_charrogg.png"
+	}, {
+		"name": "Shockjaw Nayzaga",
+		"namedb": "shockjaw nayzaga",
+		"islands": ["Sovereign's Throne"],
+		"description": "Shockjaw Nayzaga is one of the Behemoths in the world of Dauntless. It can be found in The Maelstrom.",
+		"wiki_url": "https://dauntless.gamepedia.com/Shockjaw_Nayzaga",
+		"element": ["Shock <:shock:459747215318188032>"],
+		"weakness": ["Frost <:frost:459747214277869579> "],
+		"interupting": "Nayzaga can be interrupted by destroying the large spine structure during its aethercharged state. Note that this structure cannot be damaged without first removing the barrier, which can be destroyed by reflecting an electrical orb into it. Alternatively, the shield can be broken with melee attacks, although Insulated +6 is required, as the shield causes Shocked status. It is therefore highly recommended that slayers bring Insulated gear.",
+		"droptable": {
+			"All": ["• Shockjaw Hide\n• Charged Shockjaw Hide (rare drop) "],
+			"Head": ["• Dull Tooth Fragment\n• Charged Spine (rare drop)\n• Sparking Spine (epic drop)"],
+			"Legs": ["• Dull Sparkclaw\n• Greater Sparkclaw (rare drop)\n• Sparking Claw (epic drop)"],
+			"Tail": ["• Tailspike Fragment\n• Charged Tail (rare drop)\n• Sparking Tailspike (epic drop)"]
+		},
+		"icon_url": "https://www.nireon.me/behemoths/shockjaw_nayzaga.png"
+	}, {
+		"name": "Razorwing Kharabak",
+		"namedb": "razorwing kharabak",
+		"islands": ["Sovereign's Throne"],
+		"description": "Razorwing Kharabak is one of the Behemoths in the world of Dauntless. It can be found in The Maelstrom.",
+		"wiki_url": "https://dauntless.gamepedia.com/Razorwing_Kharabak",
+		"element": ["Neutral"],
+		"weakness": ["Blaze <:blaze:459747214953283584>", "Shock <:shock:459747215318188032>"],
+		"interupting": "The Razorwing Kharabak can be interrupted during its forward charge while it is scraping one claw along the ground. The start of this charge is signaled by Kharabak creating some distance and then briefly flying upwards before moving forward. While enraged, it usually does this move twice in succession.\nNotably, Razorwing seems to use this move much less frequently than regular Kharabak. Slayers can usually count on it at least twice while it is enraged.",
+		"droptable": {
+			"All": ["• Razorwing Chitin\n• Sleek Razorwing Chitin (rare drop) "],
+			"Head": ["• Skullshell Fragment\n• Sleek Skullshell (rare drop)\n• Deadly Incisor (epic drop)"],
+			"Legs": ["• Claw Shell Fragment\n• Sleek Bladeclaw (rare drop)\n• Deadly Jagged Bladeclaw (epic drop)"],
+			"Tail": ["• Ovipositor Fragment\n• Sleek Tail Chitin (rare drop)\n• Deadly Ovipositor (epic drop)"]
+		},
+		"icon_url": "https://www.nireon.me/behemoths/razorwing_kharabak.png"
+	}, {
+		"name": "Frostback Pangar",
+		"namedb": "frostback pangar",
+		"islands": ["Cerulean-5"],
+		"description": "Frostback Pangar is one of the Behemoths in the world of Dauntless.It can be found in the maelstrom",
+		"wiki_url": "https://dauntless.gamepedia.com/Frostback_Pangar",
+		"element": ["Frost <:frost:459747214277869579>"],
+		"weakness": ["Blaze <:blaze:459747214953283584>"],
+		"interupting": "Pangar can be interrupted by striking it from the front while it is rolling forward. It will not be interrupted if struck from another side.",
+		"droptable": {
+			"All": ["• Frostback Scale\n• Icy Frostback Scale (rare drop) "],
+			"Head": ["• Icy Browplate\n• Frost Tooth (rare drop)\n• Polar Incisor (epic drop)"],
+			"Legs": ["• Cracked Frostplate\n• Icetalon (rare drop)\n• Frozen Hindplate (epic drop)"],
+			"Tail": ["• Fractured Tailplate\n• Icy Tailplate (rare drop)\n• Frosted Tailplate (epic drop)"]
+		},
+		"icon_url": "https://www.nireon.me/behemoths/frostback_pangar.png"
+	}, {
+		"name": "Deadeye Quillshot",
+		"namedb": "deadeye quillshot",
+		"islands": ["Marigold-8"],
+		"description": "Deadeye Quillshot is one of the Behemoths in the world of Dauntless. It can be found in the maelstrom.",
+		"wiki_url": "https://dauntless.gamepedia.com/Deadeye_Quillshot",
+		"element": ["Neutral"],
+		"weakness": ["None"],
+		"interupting": "Although not a conventional interruption, the Quillshot can be forced out of its quill barrage when enraged. Dealing sufficient damage (ie. reaching a damage threshold) will cause an interrupt, although it is difficult to pull off.",
+		"droptable": {
+			"All": ["• Deadeye Hide\n• Flawless Spinehide (rare drop) "],
+			"Head": ["• Deadeye Tusk\n• Ferocious Snout (rare drop)\n• Perfect Tusk (epic drop)"],
+			"Quills": ["• Deadeye Quillshard\n• Deadeye Quill (rare drop)\n• Deadeye Razorquill (epic drop)"],
+			"Legs": ["• Dewspine\n• Spiked Shinplate (rare drop)\n• Perfect Dewspine (epic drop)"],
+			"Tail": ["• Jagged Tailspike\n• Heavy Tailspike (rare drop)\n• Perfect Tailspike (epic drop)"]
+		},
+		"icon_url": "https://www.nireon.me/behemoths/deadeye_quillshot.png"
+	}, {
+		"name": "Bloodfire Embermane",
+		"namedb": "bloodfire embermane",
+		"islands": ["Marigold-8"],
+		"description": "Bloodfire Embermane is one of the Behemoths in the world of Dauntless, found in The Maelstrom.",
+		"wiki_url": "https://dauntless.gamepedia.com/Bloodfire_Embermane",
+		"element": ["Blaze <:blaze:459747214953283584>"],
+		"weakness": ["Frost <:frost:459747214277869579>"],
+		"interupting": "The Embermane can be interrupted during its charge. Before charging the Embermane will crouch down, almost as if prowling, then dash towards its victim, attempting to gore them with its horn or disembowel them with its claws. If hit on the head during this charge, it'll be forcefully cancelled and briefly stunned.\nIt is possible to also interrupt its shorter charges, although this is far more difficult due to how short they are.",
+		"droptable": {
+			"All": ["•  Wildfire Hide\n•  Glowing Wildfire Hide (rare drop) "],
+			"Head": ["•  Emberhorn Fragment\n•  Polished Emeberhorn (rare drop)\n•  Perfect Emberhorn (epic drop)"],
+			"Legs": ["•  Chipped Dewclaw\n•  Smoking Dewclaw (rare drop)\n•  Fireforged Dewclaw (epic drop)"],
+			"Tail": ["•  Rough Hindscale\n•  Fiery Hindscale (rare drop)\n•  Blazing Hindscale (epic drop)"]
+		},
+		"icon_url": "https://www.nireon.me/behemoths/bloodfire_embermane.png"
+	}, {
+		"name": "Moonreaver Shrike",
+		"namedb": "moonreaver shrike",
+		"islands": ["Sovereign's Throne"],
+		"description": "Moonreaver Shrike is one of the Behemoths in the world of Dauntless, found in The Maelstrom.",
+		"wiki_url": "https://dauntless.gamepedia.com/Moonreaver_Shrike",
+		"element": ["Neutral"],
+		"weakness": ["None"],
+		"interupting": "The Moonreaver Shrike can be interrupted during its gliding attack where it first creates some distance by charging, then flies towards its prey, attempting to maim it with its talons.",
+		"droptable": {
+			"All": ["• Torn Moonfeather\n• Pristine Moonfeather (rare drop) "],
+			"Head": ["• Broken Moonbeak\n• Pristine Moonbeak (rare drop)\n• Perfect Moonbeak (epic drop)"],
+			"Limbs": ["• Moonmantle\n• Pristine Moonmantle (rare drop)\n• Perfect Moonmantle (epic drop)"],
+			"Tail": ["• Reaverdown\n• Pristine Reaverdown (rare drop)\n• Perfect Reaverdown (epic drop)"]
+		},
+		"icon_url": "https://www.nireon.me/behemoths/moonreaver_shrike.png"
+	}, {
 		"name": "Rezakiri",
 		"namedb": "rezakiri",
 		"islands": ["Dyadic Drift"],
@@ -3975,7 +4105,4675 @@
 			"wiki_url": "https://dauntless.gamepedia.com/Kharabak_Greaves",
 			"icon_url": "https://www.nireon.me/armour/greaves/kharabak.png"
 		}]
-	},{
+	}, {
+		"boss": "ragetail gnasher",
+		"itemnames": ["Ragetail Touque", "Ragetail Clook", "Ragetail Grips", "Ragetail Treads"],
+		"items": [{
+			"name": "Ragetail Touque",
+			"cellslot": "Defence <:defence:459813422545108995>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Tough": 1,
+				"Bloodless": 1
+			},
+			"upgraded_bonus": {
+				"Tough": 1,
+				"Bloodless": 2
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}, {
+					"name": "Cracked Slapper",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Rageclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Ragetail Shinplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}, {
+					"name": "Polished Ragetooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 2
+				}, {
+					"name": "Cracked Ragetooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Ragetail Shinplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Ragetail Shinplate",
+					"amount": 1
+				}, {
+					"name": "Cracked Ragetooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Cracked Slapper",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}, {
+					"name": "Perfect Ragetooth",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Ragetail_Touque",
+			"icon_url": "https://www.nireon.me/armour/helmet/ragetail.png"
+		}, {
+			"name": "Ragetail Cloak",
+			"cellslot": "Defence <:defence:459813422545108995>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Tough": 1,
+				"Bloodless": 1
+			},
+			"upgraded_bonus": {
+				"Tough": 2,
+				"Bloodless": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}, {
+					"name": "Ragetail Shinplate",
+					"amount": 1
+				}, {
+					"name": "Cracked Ragetooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Cracked Ragetooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Cracked Ragetooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Perfect Ragetooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}, {
+					"name": "Severed Ragetail",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Rageclaw",
+					"amount": 1
+				}, {
+					"name": "Severed Ragetail",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Ragetail_Cloak",
+			"icon_url": "https://www.nireon.me/armour/chestplate/ragetail.png"
+		}, {
+			"name": "Ragetail Grips",
+			"cellslot": "Power <:power:459813422796636171>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Ragehunter": 1,
+				"Tough": 1
+			},
+			"upgraded_bonus": {
+				"Ragehunter": 2,
+				"Tough": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}, {
+					"name": "Polished Ragetooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Glistening Fur",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 2
+				}, {
+					"name": "Cracked Slapper",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Cracked Ragetooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Ragetail Shinplate",
+					"amount": 1
+				}, {
+					"name": "Polished Ragetooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Ragetail Shinplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}, {
+					"name": "Pristine Ragetail Shinplate",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Ragetail_Grips",
+			"icon_url": "https://www.nireon.me/armour/gauntlets/ragetail.png"
+		}, {
+			"name": "Ragetail Treads",
+			"cellslot": "Power <:power:459813422796636171>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Ragehunter": 1,
+				"Bloodless": 1
+			},
+			"upgraded_bonus": {
+				"Ragehunter": 1,
+				"Bloodless": 2
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}, {
+					"name": "Ragetail Shinplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Cracked Ragetooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Rageclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Severed Ragetail",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Pristine Ragetail Shinplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}, {
+					"name": "Cracked Slapper",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Ragetail Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Glistening Fur",
+					"amount": 1
+				}, {
+					"name": "Polished Ragetooth",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Ragetail_Treads",
+			"icon_url": "https://www.nireon.me/armour/greaves/ragetail.png"
+		}]
+	}, {
+		"boss": "firebrand charrogg",
+		"itemnames": ["Firebrand Charrhelm", "Firebrand Charrplate", "Firebrand Gauntlets", "Firebrand Greaves"],
+		"items": [{
+			"name": "Firebrand Charrhelm",
+			"cellslot": "Defence <:defence:459813422545108995>",
+			"element": "+10 Blaze <:blaze:459747214953283584>",
+			"weakness": "-5 Frost <:frost:459747214277869579>",
+			"bonuses": {
+				"Fireproof": 1,
+				"Energized": 1
+			},
+			"upgraded_bonus": {
+				"Fireproof": 1,
+				"Energized": 2
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}, {
+					"name": "Smoldering Tailspike",
+					"amount": 1
+				}, {
+					"name": "Gillhide Scraps",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Heavy Rockhide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Scorched Rockhide",
+					"amount": 1
+				}, {
+					"name": "Burned Gillhide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}, {
+					"name": "Sturdy Firebrand Horn",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 2
+				}, {
+					"name": "Chipped Firebrand Horn",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Scorched Rockhide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Scorched Rockhide",
+					"amount": 1
+				}, {
+					"name": "Chipped Firebrand Horn",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Smoldering Tailspike",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}, {
+					"name": "Glowing Skullcrest",
+					"amount": 1
+				}, {
+					"name": "Gillhide Scraps",
+					"amount": 2
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Firebrand_Charrhelm",
+			"icon_url": "https://www.nireon.me/armour/helmet/firebrand.png"
+		}, {
+			"name": "Firebrand Charrplate",
+			"cellslot": "Utility <:utility:459813423476113419>",
+			"element": "+10 Blaze <:blaze:459747214953283584>",
+			"weakness": "-5 Frost <:frost:459747214277869579>",
+			"bonuses": {
+				"Fireproof": 1,
+				"Energized": 1
+			},
+			"upgraded_bonus": {
+				"Fireproof": 2,
+				"Energized": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}, {
+					"name": "Scorched Rockhide",
+					"amount": 1
+				}, {
+					"name": "Chipped Firebrand Horn",
+					"amount": 1
+				}, {
+					"name": "Gillhide Scraps",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Chipped Firebrand Horn",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Chipped Firebrand Horn",
+					"amount": 1
+				}, {
+					"name": "Gillhide Scraps",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Glowing Skullcrest",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Scorched Rockhide",
+					"amount": 1
+				}, {
+					"name": "Gillhide Scraps",
+					"amount": 2
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}, {
+					"name": "Fiery Thagomizer",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}, {
+					"name": "Burned Gillhide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Heavy Rockhide",
+					"amount": 1
+				}, {
+					"name": "Fiery Thagomizer",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Firebrand_Charrplate",
+			"icon_url": "https://www.nireon.me/armour/chestplate/firebrand.png"
+		}, {
+			"name": "Firebrand Gauntlets",
+			"cellslot": "Utility <:utility:459813423476113419>",
+			"element": "+10 Blaze <:blaze:459747214953283584>",
+			"weakness": "-5 Frost <:frost:459747214277869579>",
+			"bonuses": {
+				"Rage": 1,
+				"Energized": 1
+			},
+			"upgraded_bonus": {
+				"Rage": 2,
+				"Energized": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}, {
+					"name": "Sturdy Firebrand Horn",
+					"amount": 1
+				}, {
+					"name": "Gillhide Scraps",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Gillhide Scraps",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Smoldering Firebrand Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}, {
+					"name": "Gillhide Scraps",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 2
+				}, {
+					"name": "Smoldering Tailspike",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Chipped Firebrand Horn",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Scorched Rockhide",
+					"amount": 1
+				}, {
+					"name": "Sturdy Firebrand Horn",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Scorched Rockhide",
+					"amount": 1
+				}, {
+					"name": "Glowing Gillhide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}, {
+					"name": "Glowing Rockhide",
+					"amount": 1
+				}, {
+					"name": "Gillhide Scraps",
+					"amount": 2
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Firebrand_Gauntlets",
+			"icon_url": "https://www.nireon.me/armour/gauntlets/firebrand.png"
+		}, {
+			"name": "Firebrand Greaves",
+			"cellslot": "Power <:power:459813422796636171>",
+			"element": "+10 Blaze <:blaze:459747214953283584>",
+			"weakness": "-5 Frost <:frost:459747214277869579>",
+			"bonuses": {
+				"Fireproof": 1,
+				"Rage": 1
+			},
+			"upgraded_bonus": {
+				"Fireproof": 2,
+				"Rage": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}, {
+					"name": "Scorched Rockhide",
+					"amount": 1
+				}, {
+					"name": "Gillhide Scraps",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Chipped Firebrand Horn",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Heavy Rockhide",
+					"amount": 1
+				}, {
+					"name": "Gillhide Scraps",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Fiery Thagomizer",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Glowing Rockhide",
+					"amount": 1
+				}, {
+					"name": "Burned Gillhide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Firebrand Scale",
+					"amount": 1
+				}, {
+					"name": "Smoldering Tailspike",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Scorched Rockhide",
+					"amount": 1
+				}, {
+					"name": "Glowing Rockhide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Smoldering Firebrand Scale",
+					"amount": 1
+				}, {
+					"name": "Sturdy Firebrand Horn",
+					"amount": 1
+				}, {
+					"name": "Burned Gillhide",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Firebrand_Greaves",
+			"icon_url": "https://www.nireon.me/armour/greaves/firebrand.png"
+		}]
+	}, {
+		"boss": "shockjaw nayzaga",
+		"itemnames": ["Shockjaw Mask", "Shockjaw Vest", "Shockjaw Bracers", "Shockjaw Greaves"],
+		"items": [{
+			"name": "Shockjaw Mask",
+			"cellslot": "Utility <:utility:459813423476113419>",
+			"element": "+10 Shock <:shock:459747215318188032>",
+			"weakness": "-5 Frost <:frost:459747214277869579>",
+			"bonuses": {
+				"Insulated": 1,
+				"Medic": 1
+			},
+			"upgraded_bonus": {
+				"Insulated": 2,
+				"Medic": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}, {
+					"name": "Charged Spine",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Charged Shockjaw Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 2
+				}, {
+					"name": "Tailspike Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Dull Tooth Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Dull Sparkclaw",
+					"amount": 1
+				}, {
+					"name": "Charged Spine",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Dull Sparkclaw",
+					"amount": 1
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}, {
+					"name": "Sparking Claw",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Shockjaw_Mask",
+			"icon_url": "https://www.nireon.me/armour/helmet/shockjaw.png"
+		}, {
+			"name": "Shockjaw Vest",
+			"cellslot": "Defence <:defence:459813422545108995>",
+			"element": "+10 Shock <:shock:459747215318188032>",
+			"weakness": "-5 Frost <:frost:459747214277869579>",
+			"bonuses": {
+				"Insulated": 1,
+				"Aetheric Attunement": 1
+			},
+			"upgraded_bonus": {
+				"Insulated": 2,
+				"Aetheric Attunement": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}, {
+					"name": "Dull Sparkclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Dull Tooth Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Greater Sparkclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Charged Tailspike",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Archonite",
+					"amount": 1
+				}, {
+					"name": "Sparking Claw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Archonite",
+					"amount": 1
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}, {
+					"name": "Tailspike Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Charged Shockjaw Hide",
+					"amount": 1
+				}, {
+					"name": "Charged Spine",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Shockjaw_Vest",
+			"icon_url": "https://www.nireon.me/armour/chestplate/shockjaw.png"
+		}, {
+			"name": "Shockjaw Bracers",
+			"cellslot": "Utility <:utility:459813423476113419>",
+			"element": "+10 Shock <:shock:459747215318188032>",
+			"weakness": "-5 Frost <:frost:459747214277869579>",
+			"bonuses": {
+				"Aetheric Attunement": 1,
+				"Medic": 1
+			},
+			"upgraded_bonus": {
+				"Aetheric Attunement": 2,
+				"Medic": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}, {
+					"name": "Tailspike Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Greater Sparkclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Dull Sparkclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}, {
+					"name": "Charged Spine",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 2
+				}, {
+					"name": "Dull Tooth Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Dull Sparkclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Dull Sparkclaw",
+					"amount": 1
+				}, {
+					"name": "Dull Tooth Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Tailspike Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}, {
+					"name": "Sparking Spine",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Shockjaw_Bracers",
+			"icon_url": "https://www.nireon.me/armour/gauntlets/shockjaw.png"
+		}, {
+			"name": "Shockjaw Greaves",
+			"cellslot": "Defence <:defence:459813422545108995>",
+			"element": "+10 Shock <:shock:459747215318188032>",
+			"weakness": "-5 Frost <:frost:459747214277869579>",
+			"bonuses": {
+				"Medic": 1,
+				"Insulated": 1
+			},
+			"upgraded_bonus": {
+				"Medic": 2,
+				"Insulated": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}, {
+					"name": "Dull Sparkclaw",
+					"amount": 1
+				}, {
+					"name": "Dull Tooth Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Dull Tooth Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Dull Tooth Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Sparking Spine",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}, {
+					"name": "Charged Tailspike",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Shockjaw Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Greater Sparkclaw",
+					"amount": 1
+				}, {
+					"name": "Charged Tailspike",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Shockjaw_Greaves",
+			"icon_url": "https://www.nireon.me/armour/greaves/shockjaw.png"
+		}]
+	}, {
+		"boss": "razorwing kharabak",
+		"itemnames": ["Razorwing Helm", "Razorwing Plate", "Razorwing Bracers", "Razorwing Boots"],
+		"items": [{
+			"name": "Razorwing Helm",
+			"cellslot": "Mobility <:mobility:459813422566211585>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Endurance": 1,
+				"Deconstruction": 1
+			},
+			"upgraded_bonus": {
+				"Endurance": 2,
+				"Deconstruction": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}, {
+					"name": "Claw Shell Fragment",
+					"amount": 1
+				}, {
+					"name": "Skullshell Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Skullshell Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Skullshell Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Deadly Incisor",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}, {
+					"name": "Sleek Tail Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Sleek Bladeclaw",
+					"amount": 1
+				}, {
+					"name": "Sleek Tail Chitin",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Razorwing_Helm",
+			"icon_url": "https://www.nireon.me/armour/helmet/razorwing.png"
+		}, {
+			"name": "Razorwing Plate",
+			"cellslot": "Technique <:technique:459813422830190593>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Bladestorm": 1,
+				"Deconstruction": 1
+			},
+			"upgraded_bonus": {
+				"Bladestorm": 2,
+				"Deconstruction": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}, {
+					"name": "Sleek Skullshell",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Sleek Razorwing Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 2
+				}, {
+					"name": "Ovipositor Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Skullshell Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Claw Shell Fragment",
+					"amount": 1
+				}, {
+					"name": "Sleek Skullshell",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Claw Shell Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}, {
+					"name": "Deadly Jagged Bladeclaw",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Razorwing_Plate",
+			"icon_url": "https://www.nireon.me/armour/chestplate/razorwing.png"
+		}, {
+			"name": "Razorwing Bracers",
+			"cellslot": "Mobility <:mobility:459813422566211585>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Bladestorm": 1,
+				"Endurance": 1
+			},
+			"upgraded_bonus": {
+				"Bladestorm": 2,
+				"Endurance": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}, {
+					"name": "Claw Shell Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Skullshell Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Sleek Bladeclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Sleek Tail Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Deadly Jagged Bladeclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}, {
+					"name": "Ovipositor Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Sleek Razorwing Chitin",
+					"amount": 1
+				}, {
+					"name": "Sleek Skullshell",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Razorwing_Bracers",
+			"icon_url": "https://www.nireon.me/armour/gauntlets/razorwing.png"
+		}, {
+			"name": "Razorwing Greaves",
+			"cellslot": "Power <:power:459813422796636171>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Deconstruction": 1,
+				"Bladestorm": 1
+			},
+			"upgraded_bonus": {
+				"Deconstruction": 2,
+				"Bladestorm": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}, {
+					"name": "Ovipositor Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Sleek Bladeclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Claw Shell Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}, {
+					"name": "Sleek Skullshell",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 2
+				}, {
+					"name": "Skullshell Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Claw Shell Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Claw Shell Fragment",
+					"amount": 1
+				}, {
+					"name": "Skullshell Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Ovipositor Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Razorwing Chitin",
+					"amount": 1
+				}, {
+					"name": "Deadly Incisor",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Razorwing_Greaves",
+			"icon_url": "https://www.nireon.me/armour/greaves/razorwing.png"
+		}]
+	}, {
+		"boss": "frostback pangar",
+		"itemnames": ["Frosthelm", "Frostplate", "Frostgrips", "Frostboots"],
+		"items": [{
+			"name": "Frosthelm",
+			"cellslot": "Power <:power:459813422796636171>",
+			"element": "+10 Frost <:frost:459747214277869579>",
+			"weakness": "-5 Blaze <:blaze:459747214953283584>",
+			"bonuses": {
+				"Warmth": 2,
+				"Knockout King": 1
+			},
+			"upgraded_bonus": {
+				"Warmth": 1,
+				"Knockout King": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}, {
+					"name": "Cracked Tailplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Icetalon",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Cracked Frostplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}, {
+					"name": "Frost Tooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armor Archonite",
+					"amount": 1
+				}, {
+					"name": "Frostback Scale",
+					"amount": 2
+				}, {
+					"name": "Icy Browplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armor Archonite",
+					"amount": 1
+				}, {
+					"name": "Cracked Frostplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Cracked Frostplate",
+					"amount": 1
+				}, {
+					"name": "Icy Browplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armor Archonite",
+					"amount": 2
+				}, {
+					"name": "Cracked Tailplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}, {
+					"name": "Polar Incisor",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Frosthelm",
+			"icon_url": "https://www.nireon.me/armour/helmet/frostback.png"
+		}, {
+			"name": "Frostplate",
+			"cellslot": "Power <:power:459813422796636171>",
+			"element": "+10 Frost <:frost:459747214277869579>",
+			"weakness": "-5 Blaze <:blaze:459747214953283584>",
+			"bonuses": {
+				"Knockout King": 1,
+				"Fortress": 1
+			},
+			"upgraded_bonus": {
+				"Knockout King": 2,
+				"Fortress": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}, {
+					"name": "Icy Browplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Icy Browplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Icy Browplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armor Archonite",
+					"amount": 1
+				}, {
+					"name": "Polar Incisor",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armor Archonite",
+					"amount": 1
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Icy Tailplate",
+					"amount": 1
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armor Archonite",
+					"amount": 2
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Icetalon",
+					"amount": 1
+				}, {
+					"name": "Icy Tailplate",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Frostplate",
+			"icon_url": "https://www.nireon.me/armour/chestplate/frostback.png"
+		}, {
+			"name": "Frostgrips",
+			"element": "+10 Frost <:frost:459747214277869579>",
+			"weakness": "-5 Blaze <:blaze:459747214953283584>",
+			"bonuses": {
+				"Fortress": 1,
+				"Warmth": 1
+			},
+			"upgraded_bonus": {
+				"Fortress": 2,
+				"Warmth": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}, {
+					"name": "Frost Tooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armor Archonite",
+					"amount": 6
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armor Archonite",
+					"amount": 6
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armor Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armor Archonite",
+					"amount": 6
+				}, {
+					"name": "Icy Frostback Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armor Archonite",
+					"amount": 8
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armor Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armor Archonite",
+					"amount": 1
+				}, {
+					"name": "Frostback Scale",
+					"amount": 2
+				}, {
+					"name": "Cracked Tailplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armor Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armor Archonite",
+					"amount": 1
+				}, {
+					"name": "Icy Browplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armor Archonite",
+					"amount": 8
+				}, {
+					"name": "Cracked Frostplate",
+					"amount": 1
+				}, {
+					"name": "Frost Tooth",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armor Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armor Archonite",
+					"amount": 2
+				}, {
+					"name": "Cracked Frostplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armor Archonite",
+					"amount": 10
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}, {
+					"name": "Frozen Hindplate",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Frostgrips",
+			"icon_url": "https://www.nireon.me/armour/gauntlets/frostback.png"
+		}, {
+			"name": "Frostboots",
+			"cellslot": "Defence <:defence:459813422545108995>",
+			"element": "+10 Frost <:frost:459747214277869579>",
+			"weakness": "-5 Blaze <:blaze:459747214953283584>",
+			"bonuses": {
+				"Warmth": 1,
+				"Fortress": 1
+			},
+			"upgraded_bonus": {
+				"Warmth": 2,
+				"Fortress": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}, {
+					"name": "Cracked Frostplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Icy Browplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Icetalon",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Icy Tailplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Frozen Hindplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}, {
+					"name": "Cracked Tailplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Frostback Scale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Icy Frostback Scale",
+					"amount": 1
+				}, {
+					"name": "Frost Tooth",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Frostboots",
+			"icon_url": "https://www.nireon.me/armour/greaves/frostback.png"
+		}]
+	}, {
+		"boss": "deadeye quillshot",
+		"itemnames": ["Deadeye Mask", "Deadeye Jacket", "Deadeye Grips", "Deadeye Boots"],
+		"items": [{
+			"name": "Deadeye Mask",
+			"cellslot": "Defence <:defence:459813422545108995>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Barbed": 1,
+				"Shellshock Resist": 1
+			},
+			"upgraded_bonus": {
+				"Barbed": 1,
+				"Shellshock Resist": 2
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}, {
+					"name": "Dewspine",
+					"amount": 1
+				}, {
+					"name": "Deadeye Tusk",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quillshard",
+					"amount": 2
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Deadeye Tusk",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Deadeye Tusk",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quillshard",
+					"amount": 2
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Perfect Tusk",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quillshard",
+					"amount": 4
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}, {
+					"name": "Heavy Tailspike",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quill",
+					"amount": 2
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Spiked Shinplate",
+					"amount": 1
+				}, {
+					"name": "Heavy Tailspike",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Deadeye_Mask",
+			"icon_url": "https://www.nireon.me/armour/helmet/deadeye.png"
+		}, {
+			"name": "Deadeye Jacket",
+			"cellslot": "Technique <:technique:459813422830190593>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Shellshock Resist": 1,
+				"Savagery": 1
+			},
+			"upgraded_bonus": {
+				"Shellshock Resist": 2,
+				"Savagery": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}, {
+					"name": "Ferocious Snout",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quillshard",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Deadeye Quillshard",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Flawless Spinehide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quillshard",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 2
+				}, {
+					"name": "Jagged Tailspike",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Deadeye Tusk",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Dewspine",
+					"amount": 1
+				}, {
+					"name": "Ferocious Snout",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Dewspine",
+					"amount": 1
+				}, {
+					"name": "Deadeye Razorquill",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}, {
+					"name": "Perfect Dewspine",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quillshard",
+					"amount": 2
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Deadeye_Jacket",
+			"icon_url": "https://www.nireon.me/armour/chestplate/deadeye.png"
+		}, {
+			"name": "Deadeye Grips",
+			"cellslot": "Technique <:technique:459813422830190593>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Barbed": 1,
+				"Savagery": 1
+			},
+			"upgraded_bonus": {
+				"Barbed": 2,
+				"Savagery": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}, {
+					"name": "Jagged Tailspike",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quillshard",
+					"amount": 2
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Spiked Shinplate",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Dewspine",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quill",
+					"amount": 2
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}, {
+					"name": "Ferocious Snout",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 2
+				}, {
+					"name": "Deadeye Tusk",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Dewspine",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Dewspine",
+					"amount": 1
+				}, {
+					"name": "Deadeye Tusk",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Jagged Tailspike",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}, {
+					"name": "Perfect Tusk",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quillshard",
+					"amount": 4
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Deadeye_Grips",
+			"icon_url": "https://www.nireon.me/armour/gauntlets/deadeye.png"
+		}, {
+			"name": "Deadeye Boots",
+			"cellslot": "Technique <:technique:459813422830190593>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Savagery": 1,
+				"Shellshock Resist": 1
+			},
+			"upgraded_bonus": {
+				"Savagery": 2,
+				"Shellshock Resist": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}, {
+					"name": "Dewspine",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quillshard",
+					"amount": 2
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Deadeye Tusk",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Spiked Shinplate",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quillshard",
+					"amount": 2
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Heavy Tailspike",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Perfect Dewspine",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quill",
+					"amount": 2
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}, {
+					"name": "Jagged Tailspike",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Deadeye Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Flawless Spinehide",
+					"amount": 1
+				}, {
+					"name": "Ferocious Snout",
+					"amount": 1
+				}, {
+					"name": "Deadeye Quill",
+					"amount": 2
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Deadeye_Boots",
+			"icon_url": "https://www.nireon.me/armour/greaves/deadeye.png"
+		}]
+	}, {
+		"boss": "bloodfire embermane",
+		"itemnames": ["Bloodfire Helm", "Bloodfire Plate", "Bloodfire Gloves", "Bloodfire Greaves"],
+		"items": [{
+			"name": "Bloodfire Helm",
+			"cellslot": "Mobility <:mobility:459813422566211585>",
+			"element": "+10 Blaze <:blaze:459747214953283584>",
+			"weakness": "-5 Shock <:shock:459747215318188032>",
+			"bonuses": {
+				"Fireproof": 1,
+				"Evasive Fury": 1
+			},
+			"upgraded_bonus": {
+				"Fireproof": 2,
+				"Evasive Fury": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}, {
+					"name": "Fiery Hindscale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Glowing Wildfire Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 2
+				}, {
+					"name": "Emberhorn Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Rough Hindscale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Chipped Dewclaw",
+					"amount": 1
+				}, {
+					"name": "Fiery Hindscale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Chipped Dewclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}, {
+					"name": "Fireforged Dewclaw",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Bloodfire_Helm",
+			"icon_url": "https://www.nireon.me/armour/helmet/bloodfire.png"
+		}, {
+			"name": "Bloodfire Plate",
+			"cellslot": "Mobility <:mobility:459813422566211585>",
+			"element": "+10 Blaze <:blaze:459747214953283584>",
+			"weakness": "-5 Shock <:shock:459747215318188032>",
+			"bonuses": {
+				"Evasion": 1,
+				"Fireproof": 1
+			},
+			"upgraded_bonus": {
+				"Evasion": 2,
+				"Fireproof": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}, {
+					"name": "Chipped Dewclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Rough Hindscale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Smoking Dewclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Polished Emberhorn",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Fireforged Dewclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}, {
+					"name": "Emberhorn Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Glowing Wildfire Hide",
+					"amount": 1
+				}, {
+					"name": "Fiery Hindscale",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Bloodfire_Plate",
+			"icon_url": "https://www.nireon.me/armour/chestplate/bloodfire.png"
+		}, {
+			"name": "Bloodfire Gloves",
+			"cellslot": "Technique <:technique:459813422830190593>",
+			"element": "+10 Blaze <:blaze:459747214953283584>",
+			"weakness": "-5 Shock <:shock:459747215318188032>",
+			"bonuses": {
+				"Evasive Fury": 1,
+				"Evasion": 1
+			},
+			"upgraded_bonus": {
+				"Evasive Fury": 2,
+				"Evasion": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}, {
+					"name": "Emberhorn Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Smoking Dewclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Chipped Dewclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}, {
+					"name": "Fiery Hindscale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 2
+				}, {
+					"name": "Rough Hindscale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Chipped Dewclaw",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Chipped Dewclaw",
+					"amount": 1
+				}, {
+					"name": "Rough Hindscale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Emberhorn Fragment",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}, {
+					"name": "Blazing Hindscale",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Bloodfire_Gloves",
+			"icon_url": "https://www.nireon.me/armour/gauntlets/bloodfire.png"
+		}, {
+			"name": "Bloodfire Greaves",
+			"cellslot": "Defence <:defence:459813422545108995>",
+			"element": "+10 Blaze <:blaze:459747214953283584>",
+			"weakness": "-5 Shock <:shock:459747215318188032>",
+			"bonuses": {
+				"Fireproof": 1,
+				"Evasive Fury": 1
+			},
+			"upgraded_bonus": {
+				"Fireproof": 2,
+				"Evasive Fury": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}, {
+					"name": "Chipped Dewclaw",
+					"amount": 1
+				}, {
+					"name": "Rough Hindscale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Rough Hindscale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Rough Hindscale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Blazing Hindscale",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}, {
+					"name": "Polished Emberhorn",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Wildfire Hide",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Smoking Dewclaw",
+					"amount": 1
+				}, {
+					"name": "Polished Emberhorn",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Bloodfire_Greaves",
+			"icon_url": "https://www.nireon.me/armour/greaves/bloodfire.png"
+		}]
+	}, {
+		"boss": "moonreaver shrike",
+		"itemnames": ["Reaver Crest", "Reaver Plate", "Reaver Gauntlets", "Reaver Boots"],
+		"items": [{
+			"name": "Reaver Crest",
+			"cellslot": "Technique <:technique:459813422830190593>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Evasion": 1,
+				"Weighted Strikes": 1
+			},
+			"upgraded_bonus": {
+				"Evasion": 2,
+				"Weighted Strikes": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}, {
+					"name": "Moonmantle",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Reaverdown",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pristine Moonmantle",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Pristine Moonbeak",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Perfect Moonmantle",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}, {
+					"name": "Broken Moonbeak",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armuor Archonite",
+					"amount": 2
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pristine Moonfeather",
+					"amount": 1
+				}, {
+					"name": "Pristine Reaverdown",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Reaver_Crest",
+			"icon_url": "https://www.nireon.me/armour/helmet/moonreaver.png"
+		}, {
+			"name": "Reaver Plate",
+			"cellslot": "Mobility <:mobility:459813422566211585>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Conditioning": 1,
+				"Weighted Strikes": 1
+			},
+			"upgraded_bonus": {
+				"Conditioning": 2,
+				"Weighted Strikes": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}, {
+					"name": "Broken Moonbeak",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pristine Moonbeak",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Moonmantle",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}, {
+					"name": "Pristine Reaverdown",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 2
+				}, {
+					"name": "Reaverdown",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Moonmantle",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Moonmantle",
+					"amount": 1
+				}, {
+					"name": "Reaverdown",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Broken Moonbeak",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}, {
+					"name": "Perfect Reaverdown",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Reaver_Plate",
+			"icon_url": "https://www.nireon.me/armour/chestplate/moonreaver.png"
+		}, {
+			"name": "Reaver Gauntlets",
+			"cellslot": "Mobility <:mobility:459813422566211585>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Conditioning": 1,
+				"Evasion": 1
+			},
+			"upgraded_bonus": {
+				"Conditioning": 2,
+				"Evasion": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}, {
+					"name": "Moonmantle",
+					"amount": 1
+				}, {
+					"name": "Reaverdown",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Reaverdown",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Reaverdown",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Perfect Reaverdown",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}, {
+					"name": "Pristine Moonbeak",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pristine Moonfeather",
+					"amount": 1
+				}, {
+					"name": "Pristine Moonbeak",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Reaver_Gauntlets",
+			"icon_url": "https://www.nireon.me/armour/gauntlets/moonreaver.png"
+		}, {
+			"name": "Reaver Boots",
+			"cellslot": "Mobility <:mobility:459813422566211585>",
+			"element": "None",
+			"weakness": "None",
+			"bonuses": {
+				"Evasion": 1,
+				"Weighted Strikes": 1
+			},
+			"upgraded_bonus": {
+				"Evasion": 2,
+				"Weighted Strikes": 1
+			},
+			"recipe_cost": [
+				[{
+					"name": "Notes",
+					"amount": 120
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}, {
+					"name": "Pristine Reaverdown",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 125
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 130
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 135
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}],
+				[{
+					"name": "Notes",
+					"amount": 140
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pristine Moonfeather",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 145
+				}, {
+					"name": "Infused Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 150
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 4
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 2
+				}, {
+					"name": "Broken Moonbeak",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 155
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 6
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 1
+				}, {
+					"name": "Reaverdown",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 160
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 8
+				}, {
+					"name": "Moonmantle",
+					"amount": 1
+				}, {
+					"name": "Pristine Reaverdown",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 165
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Pure Infused Armour Archonite",
+					"amount": 2
+				}, {
+					"name": "Moonmantle",
+					"amount": 1
+				}],
+				[{
+					"name": "Notes",
+					"amount": 170
+				}, {
+					"name": "Charged Armour Archonite",
+					"amount": 10
+				}, {
+					"name": "Torn Moonfeather",
+					"amount": 1
+				}, {
+					"name": "Perfect Moonmantle",
+					"amount": 1
+				}]
+			],
+			"wiki_url": "https://dauntless.gamepedia.com/Reaver_Boots",
+			"icon_url": "https://www.nireon.me/armour/greaves/moonreaver.png"
+		}]
+	}, {
 		"boss": "rezakiri",
 		"itemnames": ["Reza Helm", "Reza Scales", "Reza Grips", "Reza Greaves"],
 		"items": [{
