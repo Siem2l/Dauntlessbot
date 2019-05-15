@@ -15950,7 +15950,7 @@
 		"img": "recruit.png",
 		"bonuses": "None",
 		"cellslot": "None",
-		"instant": "None",
+		"instant": "Grants a 50 hit point shield (doesn't stack).",
 		"hold": "Disperses aether that allows the Slayer to track the Behemoth."
 	}, {
 		"behemoth": "Drask",
@@ -15985,6 +15985,14 @@
 		"instant": "Move 40% faster for 6 seconds.",
 		"hold": "Creates an aura that grants nearby slayers 15% increased movespeed and attack speed for 15 seconds."
 	}, {
+		"behemoth": "Koshai",
+		"name": "Koshai's Bloom",
+		"img": "recruit.png",
+		"bonuses": "None",
+		"cellslot": "Utility <:utility:459813423476113419>",
+		"instant": "10% of damage dealt will heal you for 8 seconds.",
+		"hold": "Dash in a direction, deal 650 damage to nearby behemoths upon arrival."
+	},{
 		"behemoth": "Skarn",
 		"name": "Skarn's Defiance",
 		"img": "recruit.png",
