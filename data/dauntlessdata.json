@@ -9,9 +9,9 @@
 		"weakness": ["None"],
 		"interupting": "The Gnasher can be Interrupted during its charge where it angrily bites anything in its path. This attack is telegraphed by a short jump, followed by the dash immediately after it touches the ground.",
 		"droptable": {
-			"Head": ["• Gnasher Hide "],
-			"Limbs": ["• Gnasher Hide"],
-			"Tail": ["• Gnasher Hide"]
+			"Head": ["• Gnasher Hide \n •Ragetooth"],
+			"Limbs": ["• Gnasher Hide \n •Gnasher Shinplate"],
+			"Tail": ["• Gnasher Hide \n •Sharpened Slapper"]
 		},
 		"icon_url": "https://www.nireon.me/behemoths/gnasher.png"
 	}, {
