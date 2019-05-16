@@ -286,7 +286,7 @@
           "element": "None",
           "bonuses": "None",
           "specials": {
-            "special01": "+30 Part Damage on Next Hit After a Dodge"
+            "special01": "+100 part damage on next hit after a dodge"
           },
           "recipe_cost": [
             [
