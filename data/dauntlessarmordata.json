@@ -65,7 +65,7 @@
       "items": [
         {
           "type": "Axes",
-          "name": "Gnashaxe",
+          "name": "RagingBite",
           "cellslot01": "Power <:power:459813422796636171>",
           "cellslot02": "Utility <:utility:459813423476113419>",
           "element": "None",
@@ -114,7 +114,7 @@
         },
         {
           "type": "Chain Blades",
-          "name": "Gnashblades",
+          "name": "RagingTeeth",
           "cellslot01": "Technique <:technique:459813422830190593>",
           "cellslot02": "Utility <:utility:459813423476113419>",
           "element": "None",
@@ -163,7 +163,7 @@
         },
         {
           "type": "Hammers",
-          "name": "Gnashmasher",
+          "name": "RagingCrash",
           "cellslot01": "Power <:power:459813422796636171>",
           "cellslot02": "Mobility <:mobility:459813422566211585>",
           "element": "None",
@@ -177,7 +177,7 @@
         },
         {
           "type": "Swords",
-          "name": "Gnashsaber",
+          "name": "RagingBlade",
           "cellslot01": "Utility <:utility:459813423476113419>",
           "cellslot02": "Defence <:defence:459813422545108995>",
           "element": "None",
@@ -226,7 +226,7 @@
         },
         {
           "type": "War Pikes",
-          "name": "Gnashpike",
+          "name": "RagingCruelty",
           "cellslot01": "Technique <:technique:459813422830190593>",
           "cellslot02": "Utility <:utility:459813423476113419>",
           "element": "None",
