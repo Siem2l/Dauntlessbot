@@ -65,12 +65,12 @@
       "items": [
         {
           "type": "Axes",
-          "name": "RagingBite",
+          "name": "Raging Bite",
           "cellslot01": "Power <:power:459813422796636171>",
           "cellslot02": "Utility <:utility:459813423476113419>",
           "element": "None",
           "bonuses": {
-            "Ragehunter": 2
+            "Ragehunter": 3
           },
           "specials": "None",
           "recipe_cost": [
@@ -114,12 +114,12 @@
         },
         {
           "type": "Chain Blades",
-          "name": "RagingTeeth",
+          "name": "Raging Teeth",
           "cellslot01": "Technique <:technique:459813422830190593>",
           "cellslot02": "Utility <:utility:459813423476113419>",
           "element": "None",
           "bonuses": {
-            "Ragehunter": 2
+            "Ragehunter": 3
           },
           "specials": "None",
           "recipe_cost": [
@@ -163,12 +163,12 @@
         },
         {
           "type": "Hammers",
-          "name": "RagingCrash",
+          "name": "Raging Crash",
           "cellslot01": "Power <:power:459813422796636171>",
           "cellslot02": "Mobility <:mobility:459813422566211585>",
           "element": "None",
           "bonuses": {
-            "Ragehunter": 2
+            "Ragehunter": 3
           },
           "specials": "None",
           "recipe_cost": [[{"name": "Rams", "amount": 30}, {"name": "Gnasher Hide", "amount": 2}], [{"name": "Rams", "amount": 30}, {"name": "Weapon Archonite", "amount": 4}], [{"name": "Rams", "amount": 30}, {"name": "Weapon Archonite", "amount": 4}, {"name": "Gnasher Hide", "amount": 1}]],
@@ -177,12 +177,12 @@
         },
         {
           "type": "Swords",
-          "name": "RagingBlade",
+          "name": "Raging Blade",
           "cellslot01": "Utility <:utility:459813423476113419>",
           "cellslot02": "Defence <:defence:459813422545108995>",
           "element": "None",
           "bonuses": {
-            "Ragehunter": 2
+            "Ragehunter": 3
           },
           "specials": "None",
           "recipe_cost": [
@@ -226,12 +226,12 @@
         },
         {
           "type": "War Pikes",
-          "name": "RagingCruelty",
+          "name": "Raging Cruelty",
           "cellslot01": "Technique <:technique:459813422830190593>",
           "cellslot02": "Utility <:utility:459813423476113419>",
           "element": "None",
           "bonuses": {
-            "Ragehunter": 2
+            "Ragehunter": 3
           },
           "specials": "None",
           "recipe_cost": [
@@ -280,11 +280,13 @@
       "items": [
         {
           "type": "Axes",
-          "name": "Shrike Axe",
+          "name": "Song of the Shrike",
           "cellslot01": "Power <:power:459813422796636171>",
           "cellslot02": "Mobility <:mobility:459813422566211585>",
           "element": "None",
-          "bonuses": "None",
+          "bonuses": {
+            "Conditioning": 3
+          },
           "specials": {
             "special01": "+100 part damage on next hit after a dodge"
           },
@@ -329,13 +331,15 @@
         },
         {
           "type": "Chain Blades",
-          "name": "Shrikeblades",
+          "name": "Flight of the Shrike",
           "cellslot01": "Technique <:technique:459813422830190593>",
           "cellslot02": "Mobility <:mobility:459813422566211585>",
           "element": "None",
-          "bonuses": "None",
+          "bonuses": {
+            "Conditioning": 3
+          },
           "specials": {
-            "special01": "+30 Part Damage on Next Hit After a Dodge"
+            "special01": "+100 part damage on next hit after a dodge"
           },
           "recipe_cost": [
             [
@@ -378,13 +382,15 @@
         },
         {
           "type": "Hammers",
-          "name": "Shrikesmasher",
+          "name": "Fall of the Shrike",
           "cellslot01": "Power <:power:459813422796636171>",
           "cellslot02": "Mobility <:mobility:459813422566211585>",
           "element": "None",
-          "bonuses": "None",
+          "bonuses": {
+            "Conditioning": 3
+          },
           "specials": {
-            "special01": "+30 Part Damage on Next Hit After a Dodge"
+            "special01": "+100 part damage on next hit after a dodge"
           },
           "recipe_cost": [
             [
@@ -427,13 +433,15 @@
         },
         {
           "type": "Swords",
-          "name": "Shrikesaber",
+          "name": "Cry of the Shrike",
           "cellslot01": "Mobility <:mobility:459813422566211585>",
           "cellslot02": "Mobility <:mobility:459813422566211585>",
           "element": "None",
-          "bonuses": "None",
+          "bonuses": {
+            "Conditioning": 3
+          },
           "specials": {
-            "special01": "+30 Part Damage on Next Hit After a Dodge"
+            "special01": "+100 part damage on next hit after a dodge"
           },
           "recipe_cost": [
             [
@@ -476,13 +484,15 @@
         },
         {
           "type": "War Pikes",
-          "name": "Shrike's Talon",
+          "name": "Scream of the Shrike",
           "cellslot01": "Technique <:technique:459813422830190593>",
           "cellslot02": "Mobility <:mobility:459813422566211585>",
           "element": "None",
-          "bonuses": "None",
+          "bonuses": {
+            "Conditioning": 3
+          },
           "specials": {
-            "special01": "+30 Part Damage on Next Hit After a Dodge"
+            "special01": "+100 part damage on next hit after a dodge"
           },
           "recipe_cost": [
             [
@@ -530,12 +540,12 @@
       "items": [
         {
           "type": "Axes",
-          "name": "Quillcutter",
+          "name": "Quillshot's Fury",
           "cellslot01": "Power <:power:459813422796636171>",
           "cellslot02": "Defence <:defence:459813422545108995>",
           "element": "None",
           "bonuses": {
-            "Sharpened": 2
+            "Acidic": 3
           },
           "specials": "None",
           "recipe_cost": [
@@ -579,12 +589,12 @@
         },
         {
           "type": "Chain Blades",
-          "name": "Quillblades",
+          "name": "Quillshot's Bonehooks",
           "cellslot01": "Technique <:technique:459813422830190593>",
           "cellslot02": "Defence <:defence:459813422545108995>",
           "element": "None",
           "bonuses": {
-            "Bladestorm": 2
+            "Acidic": 3
           },
           "specials": "None",
           "recipe_cost": [
@@ -628,12 +638,12 @@
         },
         {
           "type": "Hammers",
-          "name": "Quillhammer",
+          "name": "Quillshot's Roar",
           "cellslot01": "Power <:power:459813422796636171>",
           "cellslot02": "Defence <:defence:459813422545108995>",
           "element": "None",
           "bonuses": {
-            "Sharpened": 2
+            "Acidic": 3
           },
           "specials": "None",
           "recipe_cost": [
@@ -677,12 +687,12 @@
         },
         {
           "type": "Swords",
-          "name": "Quillripper",
+          "name": "Quillshot's Tusk",
           "cellslot01": "Technique <:technique:459813422830190593>",
           "cellslot02": "Defence <:defence:459813422545108995>",
           "element": "None",
           "bonuses": {
-            "Bladestorm": 2
+            "Acidic": 3
           },
           "specials": "None",
           "recipe_cost": [],
@@ -691,12 +701,12 @@
         },
         {
           "type": "War Pikes",
-          "name": "Quillpike",
+          "name": "Quillshot's Javelin",
           "cellslot01": "Technique <:technique:459813422830190593>",
           "cellslot02": "Defence <:defence:459813422545108995>",
           "element": "None",
           "bonuses": {
-            "Bladestorm": 2
+            "Acidic": 3
           },
           "specials": "None",
           "recipe_cost": [
@@ -745,14 +755,16 @@
       "items": [
         {
           "type": "Axes",
-          "name": "Skarnchopper",
+          "name": "Skarn's Judgment",
           "cellslot01": "Power <:power:459813422796636171>",
           "cellslot02": "Defence <:defence:459813422545108995>",
           "element": "None",
           "bonuses": {
-            "Knockout King": 2
+            "Knockout King": 3
           },
-          "specials": "None",
+          "specials": {
+            "special01": "Dealing damage has a chance (based on damage dealt) to grant a stacking,refreshing 40 health shield that lasts for 12s"
+          },
           "recipe_cost": [
             [
               {
@@ -804,14 +816,16 @@
         },
         {
           "type": "Chain Blades",
-          "name": "Skarnblades",
+          "name": "Skarn's Malice",
           "cellslot01": "Technique <:technique:459813422830190593>",
           "cellslot02": "Defence <:defence:459813422545108995>",
           "element": "None",
           "bonuses": {
-            "Weighted Strikes": 2
+            "Weighted Strikes": 3
           },
-          "specials": "None",
+          "specials": {
+            "special01": "Dealing damage has a chance (based on damage dealt) to grant a stacking,refreshing 40 health shield that lasts for 12s"
+          },
           "recipe_cost": [
             [
               {
@@ -863,14 +877,16 @@
         },
         {
           "type": "Hammers",
-          "name": "Skarnmaul",
+          "name": "Skarn's Vengeance",
           "cellslot01": "Power <:power:459813422796636171>",
           "cellslot02": "Defence <:defence:459813422545108995>",
           "element": "None",
           "bonuses": {
-            "Knockout King": 2
+            "Knockout King": 3
           },
-          "specials": "None",
+          "specials": {
+            "special01": "Dealing damage has a chance (based on damage dealt) to grant a stacking,refreshing 40 health shield that lasts for 12s"
+          },
           "recipe_cost": [
             [
               {
@@ -922,14 +938,16 @@
         },
         {
           "type": "Swords",
-          "name": "Skarnsaber",
-          "cellslot01": "Defence <:defence:459813422545108995>",
+          "name": "Skarn's Rancor",
+          "cellslot01": "Power <:power:459813422796636171>",
           "cellslot02": "Defence <:defence:459813422545108995>",
           "element": "None",
           "bonuses": {
-            "Weighted Strikes": 2
+            "Knockout King": 3
           },
-          "specials": "None",
+          "specials": {
+            "special01": "Dealing damage has a chance (based on damage dealt) to grant a stacking,refreshing 40 health shield that lasts for 12s"
+          },
           "recipe_cost": [
             [
               {
@@ -981,7 +999,7 @@
         },
         {
           "type": "War Pikes",
-          "name": "Skarnpike",
+          "name": "Skarn's Spite",
           "cellslot01": "Technique <:technique:459813422830190593>",
           "cellslot02": "Defence <:defence:459813422545108995>",
           "element": "None",
